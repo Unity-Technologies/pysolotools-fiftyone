@@ -1,0 +1,8 @@
+name: template
+channels:
+  - conda-forge
+dependencies:
+  # Specify python version here!
+  - python=3.8
+  # List system dependencies here!
+  - curl=7.80.0
