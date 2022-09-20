@@ -3,7 +3,6 @@ import numpy as np
 from pyquaternion import Quaternion
 
 
-
 class BBox3D:
     def __init__(self, solo_box):
         self.translation = solo_box.translation

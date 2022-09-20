@@ -1,5 +1,3 @@
-"""Module used to load solo data into voxel fiftyone."""
-
 import argparse
 import json
 import os
@@ -15,7 +13,7 @@ import numpy.random
 import PIL.Image
 from pyquaternion import Quaternion
 
-from pysolo_extensions.viewers.solo_fiftyone import BBox3D
+from pysolotools_fiftyone.bounding_box_3d import BBox3D
 from pysolotools.consumers.solo import Solo
 from pysolotools.core.models import (
     BoundingBox2DAnnotation,

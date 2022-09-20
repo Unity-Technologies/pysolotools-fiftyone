@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 """
-Installs pysolotools
+Installs pysolotools-fiftyone
 """
 
 import io
@@ -8,15 +8,15 @@ import json
 import os
 from os.path import dirname, realpath
 
-from setuptools import setup
+from setuptools import setup, find_packages
 
 # Package meta-data.
-NAME = "pysolotools"
-DESCRIPTION = "unity computer vision dataset toolchain"
-URL = "https://https://github.com/Unity-Technologies/pysolotools"
+NAME = "pysolotools-fiftyone"
+DESCRIPTION = "Voxel fiftyone integration for SOLO"
+URL = "https://https://github.com/Unity-Technologies/pysolotools-fiftyone"
 EMAIL = "computer-vision@unity3d.com"
 AUTHOR = "Unity Technologies"
-REQUIRES_PYTHON = ">=3.7"
+REQUIRES_PYTHON = ">=3.8"
 FALL_BACK_VERSION = "0.3.16"
 
 
@@ -42,7 +42,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 
 def _read_requirements():
-    requirements = f"{dirname(realpath(__file__))}/requirements/base.txt"
+    requirements = f"{dirname(realpath(__file__))}/requirements.txt"
     with open(requirements) as f:
         results = []
         for line in f:
@@ -73,13 +73,8 @@ setup(
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.8",
     ],
-    packages=[
-        "pysolotools",
-        "pysolotools.core",
-        "pysolotools.core.models",
-        "pysolotools.core.iterators",
-        "pysolotools.interfaces",
-        "pysolotools.consumers",
-        "pysolotools.clients",
-    ],
+    packages=find_packages(),
+    entry_points={
+        "console_scripts": ["pysolotools-fiftyone=pysolotools_fiftyone.solo_fiftyone:cli"]
+    },
 )
