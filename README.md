@@ -59,10 +59,10 @@ This will launch a new fiftyone viewer in your web browser.
 2D bounding boxes and label type for each visible labeled object in the image. Detailed information includes the amount
 of visible pixels of the object.
 <p align="center">
-    <<img src="docs/images/bb_51.png" align="center" />
-    <figcaption align="center">Fig. 2 - Bounding boxes in Voxel51</figcaption>
-    <img src="docs/images/bb_detail_51.png" align="center" />
-    <figcaption align="center">Fig. 3 - Bounding box detail information</figcaption>
+<img src="docs/images/bb_51.png" width="600"/>
+    <br><i>Bounding boxes in Voxel51</i>
+<img src="docs/images/bb_detail_51.png" width="300" />
+    <br><i>Bounding box detail information</i>
 </p>
 
 ### Semantic Segmentation
@@ -79,6 +79,7 @@ Each pixel of the image is labeled with the ID of the object that it represents.
 
 
 ### Keypoints
+
 <figure align="center">
     <img src="docs/images/overview_51.png" align="center" />
     <figcaption align="center">Fig. 6 - Screenshot of the example solo dataset displayed in Voxel51</figcaption>
