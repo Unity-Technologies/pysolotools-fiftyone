@@ -151,4 +151,6 @@ using the provided templates we will investigate as soon as possible.
 The data is still being imported in the background, and refreshing the browser will
 update the viewer will the current set of loaded scenes.
 - To properly see some heatmap overlays (for instance depth and occlusion) make sure that you have Voxel51 settings (gear icon at the top of the screen) fields ***Color by*** set to **label** and ***Label opacity*** to highest (all of the way to the right)
+<p align="center">
 <img src="docs/images/label_opacity_51.png"/>
+</p>
