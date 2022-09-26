@@ -54,10 +54,26 @@ pysolotools-solo_fiftyone ../examples/groceries
 
 This will launch a new fiftyone viewer in your web browser.
 
+The fiftyone will create an entry for each frame. Each entry will consist of a group with at least an RGB capture of the
+Unity game screen. If the dataset was created with Normals or Pixel Position labelers, the image group will also contain
+a PNG image for each one of them. These 3 types create the background of the frame, and the *labels* are drawn on to of
+them. The background image can be changed with the *group* dropdown located at the upper right of the screen.
+<p align="center">
+<img src="docs/images/groups_51.png"/>
+    <br><i>Group dropdown</i><br>
+</p>
+
+Labels are drawn on top of the background group image. These can be toggled on and off via the *Labels* selector left
+of the image.
+<p align="center">
+<img src="docs/images/label_selector_51.png"/>
+    <br><i>Label selector</i><br>
+</p>
+
 ## Annotation Types
 ### Bounding Boxes
 2D bounding boxes and label type for each visible labeled object in the image. Detailed information includes the amount
-of visible pixels of the object.
+of visible pixels of the object. 
 <p align="center">
 <img src="docs/images/bb_51.png"/>
     <br><i>Bounding boxes in Voxel51</i><br>
