@@ -61,7 +61,7 @@ of visible pixels of the object.
 <p align="center">
 <img src="docs/images/bb_51.png" width="600"/>
     <br><i>Bounding boxes in Voxel51</i>
-<br>
+<br><br>
 
 
 <img src="docs/images/bb_detail_51.png" width="300" />
