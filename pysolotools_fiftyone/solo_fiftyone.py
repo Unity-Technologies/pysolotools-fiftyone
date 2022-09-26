@@ -2,29 +2,32 @@ import argparse
 import json
 import os
 import os.path
+import pathlib
 import sys
 
-import OpenEXR as exr
 import fiftyone
 import fiftyone.utils.data
 import Imath
 import numpy as np
 import numpy.random
+import OpenEXR as exr
 import PIL.Image
+from exr_utils import convert_exr_to_png
 from pyquaternion import Quaternion
-
-from pysolotools_fiftyone.bounding_box_3d import BBox3D
 from pysolotools.consumers.solo import Solo
 from pysolotools.core.models import (
     BoundingBox2DAnnotation,
     BoundingBox3DAnnotation,
+    DepthAnnotation,
     InstanceSegmentationAnnotation,
-    # PixelPositionAnnotation,
     KeypointAnnotation,
+    NormalAnnotation,
+    PixelPositionAnnotation,
     RGBCameraCapture,
     SemanticSegmentationAnnotation,
-    DepthAnnotation,
 )
+
+from pysolotools_fiftyone.bounding_box_3d import BBox3D
 
 BBOX_KEY = "unity.solo.BoundingBox2DAnnotation"
 BBOX3D_KEY = "unity.solo.BoundingBox3DAnnotation"
@@ -35,11 +38,16 @@ RENDERED_OBJECT_INFO_KEY = "type.unity.com/unity.solo.RenderedObjectInfoMetric"
 SEMANTIC_KEY = "unity.solo.SemanticSegmentationAnnotation"
 PIXEL_POSITION_KEY = "unity.solo.PixelPositionAnnotation"
 DEPTH_KEY = "unity.solo.DepthAnnotation"
-OCCLUSION_KEY ="unity.solo.OcclusionMetric"
+OCCLUSION_KEY = "unity.solo.OcclusionMetric"
+NORMAL_KEY = "unity.solo.NormalAnnotation"
 
 
-class SoloDatasetImporter(fiftyone.utils.data.LabeledImageDatasetImporter):
+class SoloDatasetImporter(fiftyone.utils.data.GroupDatasetImporter):
     """Class used to import solo data into fiftyone."""
+
+    @property
+    def has_sample_field_schema(self):
+        return False
 
     def __init__(self, dataset_dir, shuffle=False, seed=None, max_samples=None):
         """Initializer.
@@ -89,6 +97,10 @@ class SoloDatasetImporter(fiftyone.utils.data.LabeledImageDatasetImporter):
             annotators, SEMANTIC_KEY
         )
         ann_map[DEPTH_KEY] = self._metadata_contains_annotator(annotators, DEPTH_KEY)
+        ann_map[PIXEL_POSITION_KEY] = self._metadata_contains_annotator(annotators, PIXEL_POSITION_KEY)
+        ann_map[NORMAL_KEY] = self._metadata_contains_annotator(annotators, NORMAL_KEY)
+
+
         # TODO: This is checking for the name of the labeler, but it should be checking the type. The type isn't provided!
         ann_map[METADATA_KEY] = "metadata" in solo.metadata.metricCollectors
 
@@ -151,14 +163,12 @@ class SoloDatasetImporter(fiftyone.utils.data.LabeledImageDatasetImporter):
         return True
 
     def _to_fiftyone_instance_segmentation(self, rgb, annotation, sequence, step):
-        return self._to_fiftyone_segmentation(
-            f"{self.dataset_dir}/sequence.{sequence}/step{step}.{rgb.id}.{annotation.id}.png",
-        )
+        path = f"{self.dataset_dir}/sequence.{sequence}/step{step}.{rgb.id}.{annotation.id}.png"
+        return self._to_fiftyone_segmentation(path), path
 
     def _to_fiftyone_semantic_segmentation(self, rgb, annotation, sequence, step):
-        return self._to_fiftyone_segmentation(
-            f"{self.dataset_dir}/sequence.{sequence}/step{step}.{rgb.id}.{annotation.id}.png",
-        )
+        path = f"{self.dataset_dir}/sequence.{sequence}/step{step}.{rgb.id}.{annotation.id}.png"
+        return self._to_fiftyone_segmentation(path), path
 
     @staticmethod
     def _to_fiftyone_segmentation(path):
@@ -211,7 +221,10 @@ class SoloDatasetImporter(fiftyone.utils.data.LabeledImageDatasetImporter):
         return None
 
     def _instances_to_palette(self, instance_annotation: InstanceSegmentationAnnotation):
+
         palette_data = np.full(256 * 3, 0, dtype=np.uint8)
+        id_to_index_map = {}
+        curr = 0
 
         instances = instance_annotation.instances
 
@@ -220,28 +233,25 @@ class SoloDatasetImporter(fiftyone.utils.data.LabeledImageDatasetImporter):
             return palette_data
 
         for i in instances:
-            idx = i.instanceId * 3
-            palette_data[idx : idx + 3] = i.color[0:3]
+            id_to_index_map[i.instanceId] = curr
+            idx = curr * 3
 
-        return palette_data
+            palette_data[idx: idx + 3] = i.color[0:3]
+            curr += 1
+
+        return palette_data, id_to_index_map
 
     def _create_palettized_image(self, palette):
         p_img = PIL.Image.new('P', (16, 16))
         p_img.putpalette(palette)
         return p_img
 
-    def _get_occlusion_map(self, occlusion_metric):
-
-        occlusion_map = np.empty(31, dtype=float)
-
+    def _get_occlusion_map(self, occlusion_metric, id_to_index_map):
         values = occlusion_metric["values"]
-
-        if len(values) > 32:
-            print(f"Occlusion heatmap only supports up to 32 unique instances, received: {len(values)}")
-            return occlusion_map
+        occlusion_map = np.zeros(len(values) + 1, dtype=float)
 
         for v in values:
-            idx = v["instanceId"]
+            idx = id_to_index_map[v["instanceId"]]
             value = v["percentVisible"]
             occlusion_map[idx] = value
 
@@ -253,7 +263,8 @@ class SoloDatasetImporter(fiftyone.utils.data.LabeledImageDatasetImporter):
         instance_path = f"{self.dataset_dir}/sequence.{sequence}/step{step}.{rgb.id}.{annotation.id}.png"
         instance_img = PIL.Image.open(instance_path)
 
-        palette = self._instances_to_palette(annotation)
+        palette, id_to_index_map = self._instances_to_palette(annotation)
+
         pal_img = self._create_palettized_image(palette)
 
         instance_img.load()
@@ -261,12 +272,37 @@ class SoloDatasetImporter(fiftyone.utils.data.LabeledImageDatasetImporter):
         new_img = instance_img.im.convert("P", 0, pal_img.im)
         new_img_array = np.asarray(new_img)
 
-        occlusion_map = self._get_occlusion_map(occlusion_metric)
+        occlusion_map = self._get_occlusion_map(occlusion_metric, id_to_index_map)
 
-        heatmap = np.choose(new_img_array, occlusion_map)
+        heatmap = occlusion_map[new_img_array]
+
         heatmap = heatmap.reshape(instance_img.height, instance_img.width)
 
         return fiftyone.Heatmap(map=heatmap)
+
+    def _normal_or_pixel_position_to_group(self, frame, metadata):
+        path = f"{self.dataset_dir}/sequence.{frame.sequence}/{metadata.filename}"
+        exr_path = pathlib.Path(path)
+
+        dir_name = exr_path.parent
+        stem = exr_path.stem
+
+        png_path = pathlib.Path(f"{self.dataset_dir}/fiftyone_images/sequence.{frame.sequence}/")
+
+        png_path.mkdir(parents=True, exist_ok=True)
+
+        png_path = png_path / f'{stem}.png'
+
+        # check if we already have a cached converted png version
+        cached_png = pathlib.Path.exists(png_path)
+
+        if not cached_png:
+            print(f'no cached png')
+            convert_exr_to_png(str(exr_path), str(png_path))
+        else:
+            print(f'found cached png: {png_path}')
+
+        return str(png_path)
 
     def _depth_to_fifytone_heatmap(self, frame, metadata):
 
@@ -280,7 +316,7 @@ class SoloDatasetImporter(fiftyone.utils.data.LabeledImageDatasetImporter):
 
         for c in header['channels']:
             channel = exrfile.channel(c, Imath.PixelType(Imath.PixelType.FLOAT))
-            channel = np.fromstring(channel, dtype=np.float32)
+            channel = np.frombuffer(channel, dtype=np.float32)
             channel = np.reshape(channel, isize)
 
             channelData[c] = channel
@@ -397,63 +433,19 @@ class SoloDatasetImporter(fiftyone.utils.data.LabeledImageDatasetImporter):
 
         detections = {}
 
+        group = fiftyone.Group()
+
         for sensor in curr.captures:
+
             # for right now only support the first RGB camera
             if isinstance(sensor, RGBCameraCapture):
                 sensor_id = sensor.id
                 img_path = f"{self.dataset_dir}/sequence.{curr.sequence}/step{curr.step}.{sensor_id}.png"
                 metadata = fiftyone.ImageMetadata.build_for(img_path)
+                normal_path = None
+                pixel_position_path = None
 
                 detections2d = {}
-
-                for annotation in sensor.annotations:
-
-                    if self._active_annotations[SEMANTIC_KEY] and isinstance(
-                        annotation, SemanticSegmentationAnnotation
-                    ):
-                        detections["semantic"] = fiftyone.Segmentation(
-                            mask=self._to_fiftyone_semantic_segmentation(
-                                sensor, annotation, curr.sequence, curr.step
-                            )
-                        )
-
-                    if self._active_annotations[INSTANCE_KEY] and isinstance(
-                        annotation, InstanceSegmentationAnnotation
-                    ):
-                        mask = self._to_fiftyone_instance_segmentation(
-                                sensor, annotation, curr.sequence, curr.step
-                        )
-
-                        detections["instance"] = fiftyone.Segmentation(mask=mask)
-
-
-                    if self._active_annotations[BBOX_KEY] and isinstance(
-                        annotation, BoundingBox2DAnnotation
-                    ):
-                        detections["bbox"] = fiftyone.Detections(
-                            detections=self._to_fiftyone_bbox(sensor, annotation, detections2d)
-                        )
-
-                    if self._active_annotations[KEYPOINT_KEY] and isinstance(
-                        annotation, KeypointAnnotation
-                    ):
-                        pts, skeleton = self._to_fiftyone_keypoints(sensor, annotation)
-                        d = fiftyone.Keypoints(keypoints=pts)
-                        detections["keypoints"] = d
-                        e = fiftyone.Polylines(polylines=skeleton)
-                        detections["skeleton"] = e
-
-                    if self._active_annotations[DEPTH_KEY] and isinstance(annotation, DepthAnnotation):
-                        detections["depth"] = self._depth_to_fifytone_heatmap(curr, annotation)
-
-                    if self._active_annotations[BBOX3D_KEY] and isinstance(annotation, BoundingBox3DAnnotation):
-                        detections["bbox3D"] = self._to_fiftyone_bbox3d(sensor, annotation)
-
-                    if self._active_annotations[INSTANCE_KEY] and isinstance(annotation, InstanceSegmentationAnnotation):
-                        metric = self._get_metric_for_capture(curr, OCCLUSION_KEY, sensor_id)
-
-                        if metric:
-                            detections["occlusion"] = self._occlusion_to_fiftyone_heatmap(metric, sensor, annotation, curr.sequence, curr.step)
 
                 for metric in curr.metrics:
                     if metric["sensorId"] != '' and metric["sensorId"] != sensor_id:
@@ -465,10 +457,81 @@ class SoloDatasetImporter(fiftyone.utils.data.LabeledImageDatasetImporter):
                     if metric["@type"] == RENDERED_OBJECT_INFO_KEY:
                         self._read_rendered_object_info(metric, metadata, detections2d)
 
+                for annotation in sensor.annotations:
+
+                    if self._active_annotations[SEMANTIC_KEY] and isinstance(
+                            annotation, SemanticSegmentationAnnotation
+                    ):
+                        mask, _ = self._to_fiftyone_semantic_segmentation(
+                                sensor, annotation, curr.sequence, curr.step
+                            )
+
+                        detections["semantic"] = fiftyone.Segmentation(mask=mask)
+
+                    if self._active_annotations[INSTANCE_KEY] and isinstance(
+                            annotation, InstanceSegmentationAnnotation
+                    ):
+                        mask, _ = self._to_fiftyone_instance_segmentation(
+                            sensor, annotation, curr.sequence, curr.step
+                        )
+
+                        detections["instance"] = fiftyone.Segmentation(mask=mask)
+
+                    if self._active_annotations[BBOX_KEY] and isinstance(
+                            annotation, BoundingBox2DAnnotation
+                    ):
+                        detections["bbox"] = fiftyone.Detections(
+                            detections=self._to_fiftyone_bbox(sensor, annotation, detections2d)
+                        )
+
+                    if self._active_annotations[KEYPOINT_KEY] and isinstance(
+                            annotation, KeypointAnnotation
+                    ):
+                        pts, skeleton = self._to_fiftyone_keypoints(sensor, annotation)
+                        d = fiftyone.Keypoints(keypoints=pts)
+                        detections["keypoints"] = d
+                        e = fiftyone.Polylines(polylines=skeleton)
+                        detections["skeleton"] = e
+
+                    if self._active_annotations[DEPTH_KEY] and isinstance(annotation, DepthAnnotation):
+                        detections["depth"] = self._depth_to_fifytone_heatmap(curr, annotation)
+                        pass
+
+                    if self._active_annotations[NORMAL_KEY] and isinstance(annotation, NormalAnnotation):
+                        normal_path = self._normal_or_pixel_position_to_group(curr, annotation)
+
+                    if self._active_annotations[PIXEL_POSITION_KEY] and isinstance(annotation, PixelPositionAnnotation):
+                        pixel_position_path = self._normal_or_pixel_position_to_group(curr, annotation)
+
+                    if self._active_annotations[BBOX3D_KEY] and isinstance(annotation, BoundingBox3DAnnotation):
+                        detections["bbox3D"] = self._to_fiftyone_bbox3d(sensor, annotation)
+
+                    if self._active_annotations[INSTANCE_KEY] and isinstance(annotation,
+                                                                             InstanceSegmentationAnnotation):
+                        metric = self._get_metric_for_capture(curr, OCCLUSION_KEY, sensor_id)
+
+                        if metric:
+                            detections["occlusion"] = self._occlusion_to_fiftyone_heatmap(metric, sensor, annotation,
+                                                                                          curr.sequence, curr.step)
+
+        sample = fiftyone.Sample(filepath=img_path, group=group.element("rgb"), metadata=metadata)
+        sample.add_labels(detections)
+
+        groups = {"rgb": sample}
+
+        if normal_path is not None:
+            s = fiftyone.Sample(filepath=normal_path, group=group.element("normals"))
+            s.add_labels(detections)
+            groups["normals"] = s
+
+        if pixel_position_path is not None:
+            s = fiftyone.Sample(filepath=pixel_position_path, group=group.element("pixel position"))
+            s.add_labels(detections)
+            groups["pixel position"] = s
 
 
-
-        return img_path, metadata, detections
+        return groups
+        # return img_path, metadata, detections
 
     def setup(self):
         pass
@@ -483,7 +546,8 @@ def run_in_notebook(solo):
 
     with importer:
         for image_path, image_metadata, labels in importer:
-            sample = fiftyone.Sample(filepath=image_path)
+            group = fiftyone.Group()
+            sample = fiftyone.Sample(filepath=image_path, group=group.element("rgb"))
             for label in labels:
                 sample[label] = labels[label]
 
@@ -502,11 +566,12 @@ class SessionManager:
         if fiftyone.dataset_exists(name):
             fiftyone.delete_dataset(name)
 
-        fiftyone.app_config.colorscale = "Blues"
-
         dataset = fiftyone.Dataset()
         dataset.name = name
         dataset.persistent = True
+
+        dataset.add_group_field("group", default="rgb")
+        print(f'dataset app config: {dataset.app_config}')
 
         # look into configuring app
         # app_config = fiftyone.AppConfig()
@@ -514,19 +579,19 @@ class SessionManager:
         # app_config.color_by = "label"
         # app_config.colorscale = "Greys"
 
+        app_config = fiftyone.app_config.copy()
+        app_config.color_by = "label"
+        app_config.colorscale = "Reds"
 
-        # self._session = fiftyone.launch_app(dataset, config=app_config, auto=False)
-        self._session = fiftyone.launch_app(dataset, auto=False)
+        self._session = fiftyone.launch_app(dataset, config=app_config, auto=False)
+        # self._session = fiftyone.launch_app(dataset, auto=False)
+        print(f'config1: {self._session.config}')
 
         importer = SoloDatasetImporter(self._solo, max_samples=5)
         print(importer.get_dataset_info())
         dataset.add_importer(importer)
 
-        # self._session.config.colorscale = "Blues"
-        # self._session.refresh()
-
-        print(f'config: {fiftyone.app_config}')
-        print(f'session config: {self._session.config}')
+        print(f'session config3: {self._session.config}')
 
         self._session.wait()
 

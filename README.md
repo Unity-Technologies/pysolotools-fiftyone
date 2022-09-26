@@ -8,6 +8,10 @@
 </p>
 </div>
 
+<p align="center">
+    <img src="docs/images/overview_51.png" align="center" />
+</p>
+
 ## Introduction
 
 pysolotools-fiftyone is a python package for viewing and interacting with solo datasets using the [Voxel51](https://voxel51.com/) viewer.
