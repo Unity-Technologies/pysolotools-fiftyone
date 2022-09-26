@@ -555,27 +555,11 @@ class SessionManager:
         dataset.persistent = True
 
         dataset.add_group_field("group", default="rgb")
-        print(f'dataset app config: {dataset.app_config}')
 
-        # look into configuring app
-        # app_config = fiftyone.AppConfig()
-        # app_config.show_confidence = False
-        # app_config.color_by = "label"
-        # app_config.colorscale = "Greys"
-
-        app_config = fiftyone.app_config.copy()
-        app_config.color_by = "label"
-        app_config.colorscale = "Reds"
-
-        self._session = fiftyone.launch_app(dataset, config=app_config, auto=False)
-        # self._session = fiftyone.launch_app(dataset, auto=False)
-        print(f'config1: {self._session.config}')
+        self._session = fiftyone.launch_app(dataset, auto=False)
 
         importer = SoloDatasetImporter(self._solo, max_samples=5)
-        print(importer.get_dataset_info())
         dataset.add_importer(importer)
-
-        print(f'session config3: {self._session.config}')
 
     def start(self):
         self._start_internal()
