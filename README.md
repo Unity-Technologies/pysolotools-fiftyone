@@ -49,7 +49,7 @@ pip install pysolotools-fiftyone --index-url=https://artifactory.prd.it.unity3d.
 ## Execution
 The Solo Fiftyone viewer is executed on the command line with the following command line:
 ```shell
-pysolotools-solo_fiftyone ../examples/solo_10_all_labelers
+pysolotools-solo_fiftyone ../examples/groceries
 ```
 
 This will launch a new fiftyone viewer in your web browser.
