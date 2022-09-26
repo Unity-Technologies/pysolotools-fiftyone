@@ -65,67 +65,64 @@ of visible pixels of the object.
 
 ### Semantic Segmentation
 Semantic segmentation labels each pixel of an image with a label type.
-<figure align="center">
-    <img src="docs/images/semantic_51.png" align="center" />
-    <figcaption align="center">Fig. 4 - Semantic segmentation in Voxel51</figcaption>
-</figure>
+<p align="center">
+<img src="docs/images/semantic_51.png"/>
+    <br><i>Semantic segmentation in Voxel51</i><br>
+</p>
 
 ### Instance Segmentation
-<img align="left" width="40%" src="docs/images/instance_51.png" />
-
 Each pixel of the image is labeled with the ID of the object that it represents.  
-
+<p align="center">
+<img src="docs/images/instance_51.png"/>
+    <br><i>Instance segmentation in Voxel51</i><br>
+</p>
 
 ### Keypoints
 
-<figure align="center">
-    <img src="docs/images/overview_51.png" align="center" />
-    <figcaption align="center">Fig. 6 - Screenshot of the example solo dataset displayed in Voxel51</figcaption>
-</figure>
+<p align="center">
+<img src="docs/images/instance_51.png"/>
+    <br><i>Instance segmentation in Voxel51</i><br>
+</p>
 
 ### 3D Bounding Boxes
 3D volume of object in the scene.
-<figure align="center">
-    <img src="docs/images/bb3d_51.png" align="center" />
-    <figcaption align="center">Fig. 7 - 3D bounding boxes in Voxel51</figcaption>
-</figure>
+<p align="center">
+<img src="docs/images/bb3d_51.png"/>
+    <br><i>3D Bounding Boxes in Voxel51</i><br>
+</p>
 
 ### Depth
 Pixel distance from the camera in the scene displayed in [Plotly's virdis scale](https://plotly.com/python/builtin-colorscales/). The color scale goes from purple to 
 yellow, with purple representing objects closer to the camera.
-<figure align="center">
-    <img src="docs/images/depth_51.png" align="center" />
-    <figcaption align="center">Fig. 8 - Depth image in Voxel51, purple pixels are closer to the camera, yellow pixels are farthest away</figcaption>
-</figure>
+<p align="center">
+<img src="docs/images/depth_51.png"/>
+    <br><i>Depth image in Voxel51, purple pixels are closer to the camera, yellow pixels are farthest away</i><br>
+</p>
 
 ### Occlusion
 Object occlusion, or the amount of the object you can see, displayed in [Plotly's virdis scale](https://plotly.com/python/builtin-colorscales/). The scale goes from yellow (fully visible) to purple (fully occluded). 
 Hovering over a pixel will give you the exact occlusion value.
-<figure align="center">
-    <img src="docs/images/occlusion_51.png" align="center" />
-    <figcaption align="center">Fig. 9 - Occlusion in Voxel51, yellow is fully visible, purple is fully occluded</figcaption>
-</figure>
-<figure align="center">
-    <img src="docs/images/occlusion_detail_51.png" align="center" />
-    <figcaption align="center">Fig. 10 - Exact occlusion value for an object</figcaption>
-</figure>
+<p align="center">
+<img src="docs/images/occlusion_51.png"/>
+    <br><i>Occlusion in Voxel51, yellow is fully visible, purple is fully occluded</i><br>
+</p>
 
 ### Normals
 The normals image displays an object's surface normal in a 3 channel image. The red channel represents the normal's x value,
 the green channel represents the y channel, and the blue channel represents the normal's z value.
-<figure align="center">
-    <img src="docs/images/normals_51.png" align="center" />
-    <figcaption align="center">Fig. 11 - Normals in Voxel51</figcaption>
-</figure>
+<p align="center">
+<img src="docs/images/normals_51.png"/>
+    <br><i>Normals in Voxel51</i><br>
+</p>
 
 ### Pixel Position
 The pixel position image displays a pixels cartesian coordinate in the camera's space. The red channel represents the pixel position's x value,
 the green channel represents the y channel, and the blue channel represents the z value. The image displayed is a 8bit per channel representation
 of a 32bit per channel file format, so some accuracy is lost in the display.
-<figure align="center">
-    <img src="docs/images/pixel_position_51.png" align="center" />
-    <figcaption align="center">Fig. 12 - Pixel position in Voxel51</figcaption>
-</figure>
+<p align="center">
+<img src="docs/images/pixel_position_51.png"/>
+    <br><i>Pixel Position in Voxel51</i><br>
+</p>
 
 
 ## Additional Resources
