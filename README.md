@@ -8,10 +8,10 @@
 </p>
 </div>
 
-<figure align="center">
-    <img src="docs/images/overview_51.png" align="center" />
-    <figcaption align="center">Fig. 1 - Screenshot of the example solo dataset displayed in Voxel51</figcaption>
-</figure>
+<p align="center">
+<img src="docs/images/overview_51.png"/>
+    <br><i>Screenshot of the example solo dataset displayed in Voxel51</i><br>
+</p>
 
 ## Introduction
 
