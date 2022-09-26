@@ -160,12 +160,6 @@ Inside the `examples` directory there are two sample datasets
 - groceries: A dataset of grocery items that have all supported labels except keypoints
 - keypoints: A simple dataset that has keypoint annotations
 
-# Community and Feedback
-
-The Unity Computer Vision demos are open-source and we encourage and welcome contributions.
-If you wish to contribute, be sure to review our [contribution guidelines](CONTRIBUTING.md)
-and [code of conduct](CODE_OF_CONDUCT.md).
-
 # Support
 
 For feature requests, bugs, or other issues, please file a
