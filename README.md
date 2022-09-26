@@ -73,9 +73,10 @@ Semantic segmentation labels each pixel of an image with a label type.
 </figure>
 
 ### Instance Segmentation
-<img align="left" width="50%" src="docs/images/instance_51.png" />
+<img align="left" width="40%" src="docs/images/instance_51.png" />
 
 Each pixel of the image is labeled with the ID of the object that it represents.  
+
 
 ### Keypoints
 <figure align="center">
