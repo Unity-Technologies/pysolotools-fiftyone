@@ -12,7 +12,7 @@ import numpy as np
 import numpy.random
 import OpenEXR as exr
 import PIL.Image
-from exr_utils import convert_exr_to_png
+from pysolotools_fiftyone.exr_utils import convert_exr_to_png
 from pyquaternion import Quaternion
 from pysolotools.consumers.solo import Solo
 from pysolotools.core.models import (
@@ -540,28 +540,12 @@ class SoloDatasetImporter(fiftyone.utils.data.GroupDatasetImporter):
         pass
 
 
-def run_in_notebook(solo):
-    dataset = fiftyone.Dataset()
-    importer = SoloDatasetImporter(solo, max_samples=5)
-
-    with importer:
-        for image_path, image_metadata, labels in importer:
-            group = fiftyone.Group()
-            sample = fiftyone.Sample(filepath=image_path, group=group.element("rgb"))
-            for label in labels:
-                sample[label] = labels[label]
-
-            dataset.add_sample(sample)
-
-    fiftyone.launch_app(dataset)
-
-
 class SessionManager:
     def __init__(self, solo):
         self._session = None
         self._solo = solo
 
-    def start(self):
+    def _start_internal(self):
         name = "solo_dataset"
         if fiftyone.dataset_exists(name):
             fiftyone.delete_dataset(name)
@@ -593,7 +577,18 @@ class SessionManager:
 
         print(f'session config3: {self._session.config}')
 
+    def start(self):
+        self._start_internal()
         self._session.wait()
+
+    def start_in_notebook(self):
+        self._start_internal()
+        self._session.show()
+
+
+def run_in_notebook(solo):
+    session = SessionManager(solo)
+    session.start_in_notebook()
 
 
 def main(args):

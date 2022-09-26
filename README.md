@@ -13,7 +13,7 @@
     <br><i>Screenshot of the example solo dataset displayed in Voxel51</i><br>
 </p>
 
-## Introduction
+# Introduction
 
 pysolotools-fiftyone is a python package for viewing and interacting with solo datasets using the [Voxel51](https://voxel51.com/) viewer.
 
@@ -32,13 +32,13 @@ It supports the displaying of the following annotations:
 - Normals
 - Pixel Position
 
-## Pre-Requisites
+# Pre-Requisites
 - Install [Anaconda](https://docs.anaconda.com/anaconda/install/) or [Miniconda](https://docs.conda.io/en/latest/miniconda.html) (recommended). 
 - Install [pre-commit](https://pre-commit.com/).
 - Install [OpenEXR](https://www.openexr.com/).
 - Make sure `pip` is installed
 
-## Installation
+# Installation
 
 ```shell
 pip install pysolotools-fiftyone --index-url=https://artifactory.prd.it.unity3d.com/artifactory/api/pypi/pypi/simple
@@ -46,13 +46,28 @@ pip install pysolotools-fiftyone --index-url=https://artifactory.prd.it.unity3d.
 
 ** The package lives in the internal Unity PyPi repo for now.
 
-## Execution
+# Execution
+
+## CLI
 The Solo Fiftyone viewer is executed on the command line with the following command line:
 ```shell
 pysolotools-solo_fiftyone ../examples/groceries
 ```
 
 This will launch a new fiftyone viewer in your web browser.
+
+## Notebooks
+SOLO FiftyOne can be executed in [Jupyter Notebooks](https://jupyter.org/).
+
+To use in a notebook:
+```shell
+from pysolotools_fiftyone.solo_fiftyone import run_in_notebook
+
+path="./groceries"
+run_in_notebook(path)
+```
+
+An [example notebook](examples/groceries_notebook.ipynb) has been included in the repository for your convenience.
 
 The fiftyone will create an entry for each frame. Each entry will consist of a group with at least an RGB capture of the
 Unity game screen. If the dataset was created with Normals or Pixel Position labelers, the image group will also contain
@@ -70,8 +85,8 @@ of the image.
     <br><i>Label selector</i><br>
 </p>
 
-## Annotation Types
-### Bounding Boxes
+# Annotation Types
+## Bounding Boxes
 2D bounding boxes and label type for each visible labeled object in the image. Detailed information includes the amount
 of visible pixels of the object. 
 <p align="center">
@@ -79,35 +94,35 @@ of visible pixels of the object.
     <br><i>Bounding boxes in Voxel51</i><br>
 </p>
 
-### Semantic Segmentation
+## Semantic Segmentation
 Semantic segmentation labels each pixel of an image with a label type.
 <p align="center">
 <img src="docs/images/semantic_51.png"/>
     <br><i>Semantic segmentation in Voxel51</i><br>
 </p>
 
-### Instance Segmentation
+## Instance Segmentation
 Each pixel of the image is labeled with the ID of the object that it represents.  
 <p align="center">
 <img src="docs/images/instance_51.png"/>
     <br><i>Instance segmentation in Voxel51</i><br>
 </p>
 
-### Keypoints
+## Keypoints
 Display keypoint (generally, but not limited to, a human skeleton) information.
 <p align="center">
 <img src="docs/images/keypoints_51.png"/>
     <br><i>Keypoints in Voxel51</i><br>
 </p>
 
-### 3D Bounding Boxes
+## 3D Bounding Boxes
 3D volume of object in the scene.
 <p align="center">
 <img src="docs/images/bb3d_51.png"/>
     <br><i>3D Bounding Boxes in Voxel51</i><br>
 </p>
 
-### Depth
+## Depth
 Pixel distance from the camera in the scene displayed in [Plotly's virdis scale](https://plotly.com/python/builtin-colorscales/). The color scale goes from purple to 
 yellow, with purple representing objects closer to the camera.
 <p align="center">
@@ -115,7 +130,7 @@ yellow, with purple representing objects closer to the camera.
     <br><i>Depth image in Voxel51, purple pixels are closer to the camera, yellow pixels are farthest away</i><br>
 </p>
 
-### Occlusion
+## Occlusion
 Object occlusion, or the amount of the object you can see, displayed in [Plotly's virdis scale](https://plotly.com/python/builtin-colorscales/). The scale goes from yellow (fully visible) to purple (fully occluded). 
 Hovering over a pixel will give you the exact occlusion value.
 <p align="center">
@@ -123,7 +138,7 @@ Hovering over a pixel will give you the exact occlusion value.
     <br><i>Occlusion in Voxel51, yellow is fully visible, purple is fully occluded</i><br>
 </p>
 
-### Normals
+## Normals
 The normals image displays an object's surface normal in a 3 channel image. The red channel represents the normal's x value,
 the green channel represents the y channel, and the blue channel represents the normal's z value.
 <p align="center">
@@ -131,7 +146,7 @@ the green channel represents the y channel, and the blue channel represents the 
     <br><i>Normals in Voxel51</i><br>
 </p>
 
-### Pixel Position
+## Pixel Position
 The pixel position image displays a pixels cartesian coordinate in the camera's space. The red channel represents the pixel position's x value,
 the green channel represents the y channel, and the blue channel represents the z value. The image displayed is a 8bit per channel representation
 of a 32bit per channel file format, so some accuracy is lost in the display.
@@ -140,29 +155,27 @@ of a 32bit per channel file format, so some accuracy is lost in the display.
     <br><i>Pixel Position in Voxel51</i><br>
 </p>
 
-## Sample SOLO Datasets
+# Sample SOLO Datasets
 Inside the `examples` directory there are two sample datasets
 - groceries: A dataset of grocery items that have all supported labels except keypoints
 - keypoints: A simple dataset that has keypoint annotations
 
-## Additional Resources
-
-## Community and Feedback
+# Community and Feedback
 
 The Unity Computer Vision demos are open-source and we encourage and welcome contributions.
 If you wish to contribute, be sure to review our [contribution guidelines](CONTRIBUTING.md)
 and [code of conduct](CODE_OF_CONDUCT.md).
 
-## Support
+# Support
 
 For feature requests, bugs, or other issues, please file a
 [GitHub issue](https://github.com/Unity-Technologies/Unity-Vision-Hub/issues)
 using the provided templates we will investigate as soon as possible.
 
-## License
+# License
 [Apache License 2.0](LICENSE)
 
-## Know Issues
+# Know Issues
 - When running with a web browser, it will open with a subset of your frames visible.
 The data is still being imported in the background, and refreshing the browser will
 update the viewer will the current set of loaded scenes.
