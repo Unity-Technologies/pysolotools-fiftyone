@@ -64,14 +64,14 @@ of visible pixels of the object.
 </figure>
 
 <figure align="center">
-    <img src="docs/images/bb_detail_51.png.png" align="center" />
+    <img src="docs/images/bb_detail_51.png" align="center" />
     <figcaption align="center">Fig. 3 - Bounding box detail information</figcaption>
 </figure>
 
 ### Semantic Segmentation
 Semantic segmentation labels each pixel of an image with a label type.
 <figure align="center">
-    <img src="docs/images/semantic_51.png.png" align="center" />
+    <img src="docs/images/semantic_51.png" align="center" />
     <figcaption align="center">Fig. 4 - Semantic segmentation in Voxel51</figcaption>
 </figure>
 
@@ -91,7 +91,7 @@ Each pixel of the image is labeled with the ID of the object that it represents
 ### 3D Bounding Boxes
 3D volume of object in the scene.
 <figure align="center">
-    <img src="docs/images/bb3d_51.png.png" align="center" />
+    <img src="docs/images/bb3d_51.png" align="center" />
     <figcaption align="center">Fig. 7 - 3D bounding boxes in Voxel51</figcaption>
 </figure>
 
