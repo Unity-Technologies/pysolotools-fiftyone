@@ -147,6 +147,8 @@ using the provided templates we will investigate as soon as possible.
 [Apache License 2.0](LICENSE)
 
 ## Know Issues
-When running with a web browser, it will open with a subset of your frames visible.
+- When running with a web browser, it will open with a subset of your frames visible.
 The data is still being imported in the background, and refreshing the browser will
 update the viewer will the current set of loaded scenes.
+- To properly see some heatmap overlays (for instance depth and occlusion) make sure that you have Voxel51 settings (gear icon at the top of the screen) fields ***Color by*** set to **label** and ***Label opacity*** to highest (all of the way to the right)
+<img src="docs/images/label_opacity_51.png"/>
