@@ -1,0 +1,50 @@
+{
+  "unityVersion": "2020.3.37f1",
+  "perceptionVersion": "0.12.0-preview.1",
+  "renderPipeline": "HDRP",
+  "simulationStartTime": "9/23/2022 10:12:34 AM",
+  "scenarioRandomSeed": 539662031,
+  "scenarioActiveRandomizers": [],
+  "totalFrames": 10,
+  "totalSequences": 10,
+  "sensors": [
+    "camera"
+  ],
+  "metricCollectors": [
+    "Occlusion",
+    "RenderedObjectInfo",
+    "scenario_iteration",
+    "random-seed"
+  ],
+  "simulationEndTime": "9/23/2022 10:16:05 AM",
+  "annotators": [
+    {
+      "name": "BoundingBox",
+      "type": "type.unity.com/unity.solo.BoundingBox2DAnnotation"
+    },
+    {
+      "name": "InstanceSegmentation",
+      "type": "type.unity.com/unity.solo.InstanceSegmentationAnnotation"
+    },
+    {
+      "name": "BoundingBox3D",
+      "type": "type.unity.com/unity.solo.BoundingBox3DAnnotation"
+    },
+    {
+      "name": "Depth",
+      "type": "type.unity.com/unity.solo.DepthAnnotation"
+    },
+    {
+      "name": "Normal",
+      "type": "type.unity.com/unity.solo.NormalAnnotation"
+    },
+    {
+      "name": "PixelPosition",
+      "type": "type.unity.com/unity.solo.PixelPositionAnnotation"
+    },
+    {
+      "name": "SemanticSegmentation",
+      "type": "type.unity.com/unity.solo.SemanticSegmentationAnnotation"
+    }
+  ]
+}

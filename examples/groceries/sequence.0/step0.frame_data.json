@@ -1,0 +1,6955 @@
+{
+  "frame": 2,
+  "sequence": 0,
+  "step": 0,
+  "captures": [
+    {
+      "@type": "type.unity.com/unity.solo.RGBCamera",
+      "id": "camera",
+      "description": "",
+      "position": [
+        1.056191,
+        0.5678545,
+        0.919677556
+      ],
+      "rotation": [
+        0.009084303,
+        0.958999038,
+        0.0309403446,
+        -0.281568855
+      ],
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "acceleration": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "filename": "step0.camera.png",
+      "imageFormat": "Png",
+      "dimension": [
+        1024.0,
+        768.0
+      ],
+      "projection": "Perspective",
+      "matrix": [
+        1.299038,
+        0.0,
+        0.0,
+        0.0,
+        1.73205078,
+        0.0,
+        0.0,
+        0.0,
+        -1.0006001
+      ],
+      "annotations": [
+        {
+          "@type": "type.unity.com/unity.solo.BoundingBox2DAnnotation",
+          "id": "BoundingBox",
+          "sensorId": "camera",
+          "description": "Produces 2D bounding box annotations for all visible objects that bear a label defined in this labeler's associated label configuration.",
+          "values": [
+            {
+              "instanceId": 346,
+              "labelId": 48,
+              "labelName": "cereal_cheerios_honeynut(Clone)(Clone)",
+              "origin": [
+                897.0,
+                0.0
+              ],
+              "dimension": [
+                24.0,
+                16.0
+              ]
+            },
+            {
+              "instanceId": 93,
+              "labelId": 19,
+              "labelName": "soup_chickenenchilada_progresso(Clone)(Clone)",
+              "origin": [
+                349.0,
+                0.0
+              ],
+              "dimension": [
+                18.0,
+                26.0
+              ]
+            },
+            {
+              "instanceId": 366,
+              "labelId": 36,
+              "labelName": "snack_granolabar_quaker(Clone)(Clone)",
+              "origin": [
+                273.0,
+                0.0
+              ],
+              "dimension": [
+                77.0,
+                26.0
+              ]
+            },
+            {
+              "instanceId": 96,
+              "labelId": 19,
+              "labelName": "soup_chickenenchilada_progresso(Clone)(Clone)",
+              "origin": [
+                350.0,
+                3.0
+              ],
+              "dimension": [
+                23.0,
+                31.0
+              ]
+            },
+            {
+              "instanceId": 348,
+              "labelId": 48,
+              "labelName": "cereal_cheerios_honeynut(Clone)(Clone)",
+              "origin": [
+                920.0,
+                0.0
+              ],
+              "dimension": [
+                52.0,
+                49.0
+              ]
+            },
+            {
+              "instanceId": 97,
+              "labelId": 19,
+              "labelName": "soup_chickenenchilada_progresso(Clone)(Clone)",
+              "origin": [
+                373.0,
+                0.0
+              ],
+              "dimension": [
+                70.0,
+                57.0
+              ]
+            },
+            {
+              "instanceId": 102,
+              "labelId": 19,
+              "labelName": "soup_chickenenchilada_progresso(Clone)(Clone)",
+              "origin": [
+                443.0,
+                0.0
+              ],
+              "dimension": [
+                59.0,
+                77.0
+              ]
+            },
+            {
+              "instanceId": 231,
+              "labelId": 13,
+              "labelName": "craft_yarn_caron_01(Clone)(Clone)",
+              "origin": [
+                1023.0,
+                80.0
+              ],
+              "dimension": [
+                1.0,
+                3.0
+              ]
+            },
+            {
+              "instanceId": 28,
+              "labelId": 13,
+              "labelName": "craft_yarn_caron_01(Clone)(Clone)",
+              "origin": [
+                971.0,
+                33.0
+              ],
+              "dimension": [
+                53.0,
+                50.0
+              ]
+            },
+            {
+              "instanceId": 106,
+              "labelId": 25,
+              "labelName": "cracker_zwieback_brandt(Clone)(Clone)",
+              "origin": [
+                502.0,
+                0.0
+              ],
+              "dimension": [
+                113.0,
+                115.0
+              ]
+            },
+            {
+              "instanceId": 114,
+              "labelId": 6,
+              "labelName": "seasoning_canesugar_candh(Clone)(Clone)",
+              "origin": [
+                614.0,
+                39.0
+              ],
+              "dimension": [
+                12.0,
+                79.0
+              ]
+            },
+            {
+              "instanceId": 461,
+              "labelId": 35,
+              "labelName": "snack_cookie_waffeletten(Clone)(Clone)",
+              "origin": [
+                730.0,
+                73.0
+              ],
+              "dimension": [
+                67.0,
+                56.0
+              ]
+            },
+            {
+              "instanceId": 127,
+              "labelId": 26,
+              "labelName": "cleaning_snuggle_henkel(Clone)(Clone)",
+              "origin": [
+                879.0,
+                138.0
+              ],
+              "dimension": [
+                1.0,
+                2.0
+              ]
+            },
+            {
+              "instanceId": 115,
+              "labelId": 6,
+              "labelName": "seasoning_canesugar_candh(Clone)(Clone)",
+              "origin": [
+                625.0,
+                25.0
+              ],
+              "dimension": [
+                65.0,
+                115.0
+              ]
+            },
+            {
+              "instanceId": 124,
+              "labelId": 6,
+              "labelName": "seasoning_canesugar_candh(Clone)(Clone)",
+              "origin": [
+                688.0,
+                45.0
+              ],
+              "dimension": [
+                43.0,
+                108.0
+              ]
+            },
+            {
+              "instanceId": 464,
+              "labelId": 35,
+              "labelName": "snack_cookie_waffeletten(Clone)(Clone)",
+              "origin": [
+                730.0,
+                105.0
+              ],
+              "dimension": [
+                97.0,
+                80.0
+              ]
+            },
+            {
+              "instanceId": 146,
+              "labelId": 27,
+              "labelName": "snack_breadsticks_nutella(Clone)(Clone)",
+              "origin": [
+                1005.0,
+                166.0
+              ],
+              "dimension": [
+                19.0,
+                28.0
+              ]
+            },
+            {
+              "instanceId": 147,
+              "labelId": 27,
+              "labelName": "snack_breadsticks_nutella(Clone)(Clone)",
+              "origin": [
+                1023.0,
+                199.0
+              ],
+              "dimension": [
+                1.0,
+                2.0
+              ]
+            },
+            {
+              "instanceId": 125,
+              "labelId": 12,
+              "labelName": "hygiene_poise_pads_02(Clone)(Clone)",
+              "origin": [
+                760.0,
+                47.0
+              ],
+              "dimension": [
+                121.0,
+                156.0
+              ]
+            },
+            {
+              "instanceId": 476,
+              "labelId": 20,
+              "labelName": "utensil_trashbag_valuecorner(Clone)(Clone)",
+              "origin": [
+                878.0,
+                119.0
+              ],
+              "dimension": [
+                30.0,
+                94.0
+              ]
+            },
+            {
+              "instanceId": 477,
+              "labelId": 20,
+              "labelName": "utensil_trashbag_valuecorner(Clone)(Clone)",
+              "origin": [
+                886.0,
+                127.0
+              ],
+              "dimension": [
+                41.0,
+                92.0
+              ]
+            },
+            {
+              "instanceId": 132,
+              "labelId": 27,
+              "labelName": "snack_breadsticks_nutella(Clone)(Clone)",
+              "origin": [
+                1003.0,
+                189.0
+              ],
+              "dimension": [
+                21.0,
+                36.0
+              ]
+            },
+            {
+              "instanceId": 250,
+              "labelId": 26,
+              "labelName": "cleaning_snuggle_henkel(Clone)(Clone)",
+              "origin": [
+                915.0,
+                121.0
+              ],
+              "dimension": [
+                53.0,
+                112.0
+              ]
+            },
+            {
+              "instanceId": 129,
+              "labelId": 7,
+              "labelName": "utensil_candle_decorators(Clone)(Clone)",
+              "origin": [
+                966.0,
+                185.0
+              ],
+              "dimension": [
+                40.0,
+                60.0
+              ]
+            },
+            {
+              "instanceId": 133,
+              "labelId": 27,
+              "labelName": "snack_breadsticks_nutella(Clone)(Clone)",
+              "origin": [
+                1005.0,
+                221.0
+              ],
+              "dimension": [
+                19.0,
+                30.0
+              ]
+            },
+            {
+              "instanceId": 48,
+              "labelId": 17,
+              "labelName": "storage_ziploc_sandwich(Clone)(Clone)",
+              "origin": [
+                0.0,
+                183.0
+              ],
+              "dimension": [
+                189.0,
+                113.0
+              ]
+            },
+            {
+              "instanceId": 482,
+              "labelId": 17,
+              "labelName": "storage_ziploc_sandwich(Clone)(Clone)",
+              "origin": [
+                186.0,
+                213.0
+              ],
+              "dimension": [
+                182.0,
+                100.0
+              ]
+            },
+            {
+              "instanceId": 52,
+              "labelId": 18,
+              "labelName": "snack_granolabar_naturevalley(Clone)(Clone)",
+              "origin": [
+                367.0,
+                304.0
+              ],
+              "dimension": [
+                13.0,
+                10.0
+              ]
+            },
+            {
+              "instanceId": 440,
+              "labelId": 53,
+              "labelName": "utensil_papertowels_valuecorner_01(Clone)(Clone)",
+              "origin": [
+                647.0,
+                259.0
+              ],
+              "dimension": [
+                51.0,
+                79.0
+              ]
+            },
+            {
+              "instanceId": 76,
+              "labelId": 22,
+              "labelName": "pest_antbaits_terro(Clone)(Clone)",
+              "origin": [
+                918.0,
+                356.0
+              ],
+              "dimension": [
+                7.0,
+                10.0
+              ]
+            },
+            {
+              "instanceId": 72,
+              "labelId": 21,
+              "labelName": "pasta_lasagne_barilla(Clone)(Clone)",
+              "origin": [
+                924.0,
+                330.0
+              ],
+              "dimension": [
+                31.0,
+                39.0
+              ]
+            },
+            {
+              "instanceId": 74,
+              "labelId": 21,
+              "labelName": "pasta_lasagne_barilla(Clone)(Clone)",
+              "origin": [
+                953.0,
+                326.0
+              ],
+              "dimension": [
+                71.0,
+                49.0
+              ]
+            },
+            {
+              "instanceId": 479,
+              "labelId": 17,
+              "labelName": "storage_ziploc_sandwich(Clone)(Clone)",
+              "origin": [
+                0.0,
+                278.0
+              ],
+              "dimension": [
+                196.0,
+                125.0
+              ]
+            },
+            {
+              "instanceId": 54,
+              "labelId": 18,
+              "labelName": "snack_granolabar_naturevalley(Clone)(Clone)",
+              "origin": [
+                393.0,
+                291.0
+              ],
+              "dimension": [
+                18.0,
+                116.0
+              ]
+            },
+            {
+              "instanceId": 53,
+              "labelId": 18,
+              "labelName": "snack_granolabar_naturevalley(Clone)(Clone)",
+              "origin": [
+                379.0,
+                298.0
+              ],
+              "dimension": [
+                15.0,
+                109.0
+              ]
+            },
+            {
+              "instanceId": 484,
+              "labelId": 17,
+              "labelName": "storage_ziploc_sandwich(Clone)(Clone)",
+              "origin": [
+                193.0,
+                297.0
+              ],
+              "dimension": [
+                199.0,
+                110.0
+              ]
+            },
+            {
+              "instanceId": 55,
+              "labelId": 18,
+              "labelName": "snack_granolabar_naturevalley(Clone)(Clone)",
+              "origin": [
+                410.0,
+                283.0
+              ],
+              "dimension": [
+                133.0,
+                126.0
+              ]
+            },
+            {
+              "instanceId": 62,
+              "labelId": 18,
+              "labelName": "snack_granolabar_naturevalley(Clone)(Clone)",
+              "origin": [
+                542.0,
+                298.0
+              ],
+              "dimension": [
+                95.0,
+                113.0
+              ]
+            },
+            {
+              "instanceId": 65,
+              "labelId": 19,
+              "labelName": "soup_chickenenchilada_progresso(Clone)(Clone)",
+              "origin": [
+                636.0,
+                333.0
+              ],
+              "dimension": [
+                47.0,
+                79.0
+              ]
+            },
+            {
+              "instanceId": 441,
+              "labelId": 53,
+              "labelName": "utensil_papertowels_valuecorner_01(Clone)(Clone)",
+              "origin": [
+                696.0,
+                244.0
+              ],
+              "dimension": [
+                78.0,
+                169.0
+              ]
+            },
+            {
+              "instanceId": 66,
+              "labelId": 19,
+              "labelName": "soup_chickenenchilada_progresso(Clone)(Clone)",
+              "origin": [
+                682.0,
+                338.0
+              ],
+              "dimension": [
+                39.0,
+                75.0
+              ]
+            },
+            {
+              "instanceId": 442,
+              "labelId": 53,
+              "labelName": "utensil_papertowels_valuecorner_01(Clone)(Clone)",
+              "origin": [
+                770.0,
+                254.0
+              ],
+              "dimension": [
+                47.0,
+                160.0
+              ]
+            },
+            {
+              "instanceId": 229,
+              "labelId": 16,
+              "labelName": "snack_chips_pringles(Clone)(Clone)",
+              "origin": [
+                815.0,
+                301.0
+              ],
+              "dimension": [
+                40.0,
+                114.0
+              ]
+            },
+            {
+              "instanceId": 68,
+              "labelId": 20,
+              "labelName": "utensil_trashbag_valuecorner(Clone)(Clone)",
+              "origin": [
+                814.0,
+                292.0
+              ],
+              "dimension": [
+                47.0,
+                123.0
+              ]
+            },
+            {
+              "instanceId": 230,
+              "labelId": 16,
+              "labelName": "snack_chips_pringles(Clone)(Clone)",
+              "origin": [
+                851.0,
+                295.0
+              ],
+              "dimension": [
+                48.0,
+                121.0
+              ]
+            },
+            {
+              "instanceId": 69,
+              "labelId": 21,
+              "labelName": "pasta_lasagne_barilla(Clone)(Clone)",
+              "origin": [
+                897.0,
+                366.0
+              ],
+              "dimension": [
+                92.0,
+                51.0
+              ]
+            },
+            {
+              "instanceId": 75,
+              "labelId": 21,
+              "labelName": "pasta_lasagne_barilla(Clone)(Clone)",
+              "origin": [
+                987.0,
+                372.0
+              ],
+              "dimension": [
+                37.0,
+                46.0
+              ]
+            },
+            {
+              "instanceId": 343,
+              "labelId": 38,
+              "labelName": "cereal_corn_flakes(Clone)(Clone)",
+              "origin": [
+                1011.0,
+                454.0
+              ],
+              "dimension": [
+                13.0,
+                3.0
+              ]
+            },
+            {
+              "instanceId": 342,
+              "labelId": 38,
+              "labelName": "cereal_corn_flakes(Clone)(Clone)",
+              "origin": [
+                974.0,
+                452.0
+              ],
+              "dimension": [
+                50.0,
+                7.0
+              ]
+            },
+            {
+              "instanceId": 426,
+              "labelId": 47,
+              "labelName": "cereal_rice_krispies(Clone)(Clone)",
+              "origin": [
+                917.0,
+                458.0
+              ],
+              "dimension": [
+                58.0,
+                61.0
+              ]
+            },
+            {
+              "instanceId": 182,
+              "labelId": 32,
+              "labelName": "lotion_vanilla_nivea(Clone)(Clone)",
+              "origin": [
+                915.0,
+                505.0
+              ],
+              "dimension": [
+                26.0,
+                37.0
+              ]
+            },
+            {
+              "instanceId": 167,
+              "labelId": 31,
+              "labelName": "cereal_cracklinoatbran_kelloggs(Clone)(Clone)",
+              "origin": [
+                483.0,
+                523.0
+              ],
+              "dimension": [
+                108.0,
+                19.0
+              ]
+            },
+            {
+              "instanceId": 168,
+              "labelId": 31,
+              "labelName": "cereal_cracklinoatbran_kelloggs(Clone)(Clone)",
+              "origin": [
+                499.0,
+                526.0
+              ],
+              "dimension": [
+                112.0,
+                18.0
+              ]
+            },
+            {
+              "instanceId": 166,
+              "labelId": 31,
+              "labelName": "cereal_cracklinoatbran_kelloggs(Clone)(Clone)",
+              "origin": [
+                468.0,
+                519.0
+              ],
+              "dimension": [
+                106.0,
+                25.0
+              ]
+            },
+            {
+              "instanceId": 178,
+              "labelId": 24,
+              "labelName": "drink_greentea_itoen(Clone)(Clone)",
+              "origin": [
+                830.0,
+                514.0
+              ],
+              "dimension": [
+                24.0,
+                32.0
+              ]
+            },
+            {
+              "instanceId": 180,
+              "labelId": 24,
+              "labelName": "drink_greentea_itoen(Clone)(Clone)",
+              "origin": [
+                887.0,
+                520.0
+              ],
+              "dimension": [
+                17.0,
+                28.0
+              ]
+            },
+            {
+              "instanceId": 179,
+              "labelId": 24,
+              "labelName": "drink_greentea_itoen(Clone)(Clone)",
+              "origin": [
+                852.0,
+                517.0
+              ],
+              "dimension": [
+                23.0,
+                31.0
+              ]
+            },
+            {
+              "instanceId": 286,
+              "labelId": 6,
+              "labelName": "seasoning_canesugar_candh(Clone)(Clone)",
+              "origin": [
+                832.0,
+                543.0
+              ],
+              "dimension": [
+                17.0,
+                6.0
+              ]
+            },
+            {
+              "instanceId": 169,
+              "labelId": 31,
+              "labelName": "cereal_cracklinoatbran_kelloggs(Clone)(Clone)",
+              "origin": [
+                516.0,
+                530.0
+              ],
+              "dimension": [
+                116.0,
+                19.0
+              ]
+            },
+            {
+              "instanceId": 176,
+              "labelId": 24,
+              "labelName": "drink_greentea_itoen(Clone)(Clone)",
+              "origin": [
+                864.0,
+                522.0
+              ],
+              "dimension": [
+                32.0,
+                30.0
+              ]
+            },
+            {
+              "instanceId": 287,
+              "labelId": 6,
+              "labelName": "seasoning_canesugar_candh(Clone)(Clone)",
+              "origin": [
+                832.0,
+                546.0
+              ],
+              "dimension": [
+                37.0,
+                7.0
+              ]
+            },
+            {
+              "instanceId": 283,
+              "labelId": 6,
+              "labelName": "seasoning_canesugar_candh(Clone)(Clone)",
+              "origin": [
+                832.0,
+                552.0
+              ],
+              "dimension": [
+                11.0,
+                3.0
+              ]
+            },
+            {
+              "instanceId": 172,
+              "labelId": 19,
+              "labelName": "soup_chickenenchilada_progresso(Clone)(Clone)",
+              "origin": [
+                740.0,
+                522.0
+              ],
+              "dimension": [
+                48.0,
+                33.0
+              ]
+            },
+            {
+              "instanceId": 170,
+              "labelId": 31,
+              "labelName": "cereal_cracklinoatbran_kelloggs(Clone)(Clone)",
+              "origin": [
+                535.0,
+                534.0
+              ],
+              "dimension": [
+                120.0,
+                21.0
+              ]
+            },
+            {
+              "instanceId": 288,
+              "labelId": 6,
+              "labelName": "seasoning_canesugar_candh(Clone)(Clone)",
+              "origin": [
+                844.0,
+                549.0
+              ],
+              "dimension": [
+                44.0,
+                8.0
+              ]
+            },
+            {
+              "instanceId": 487,
+              "labelId": 39,
+              "labelName": "cereal_oatmealsquares_quaker(Clone)(Clone)",
+              "origin": [
+                379.0,
+                540.0
+              ],
+              "dimension": [
+                139.0,
+                20.0
+              ]
+            },
+            {
+              "instanceId": 488,
+              "labelId": 39,
+              "labelName": "cereal_oatmealsquares_quaker(Clone)(Clone)",
+              "origin": [
+                393.0,
+                545.0
+              ],
+              "dimension": [
+                147.0,
+                22.0
+              ]
+            },
+            {
+              "instanceId": 174,
+              "labelId": 19,
+              "labelName": "soup_chickenenchilada_progresso(Clone)(Clone)",
+              "origin": [
+                779.0,
+                527.0
+              ],
+              "dimension": [
+                54.0,
+                75.0
+              ]
+            },
+            {
+              "instanceId": 428,
+              "labelId": 47,
+              "labelName": "cereal_rice_krispies(Clone)(Clone)",
+              "origin": [
+                988.0,
+                457.0
+              ],
+              "dimension": [
+                36.0,
+                149.0
+              ]
+            },
+            {
+              "instanceId": 427,
+              "labelId": 47,
+              "labelName": "cereal_rice_krispies(Clone)(Clone)",
+              "origin": [
+                944.0,
+                459.0
+              ],
+              "dimension": [
+                74.0,
+                160.0
+              ]
+            },
+            {
+              "instanceId": 183,
+              "labelId": 32,
+              "labelName": "lotion_vanilla_nivea(Clone)(Clone)",
+              "origin": [
+                938.0,
+                507.0
+              ],
+              "dimension": [
+                33.0,
+                117.0
+              ]
+            },
+            {
+              "instanceId": 162,
+              "labelId": 21,
+              "labelName": "pasta_lasagne_barilla(Clone)(Clone)",
+              "origin": [
+                0.0,
+                578.0
+              ],
+              "dimension": [
+                191.0,
+                46.0
+              ]
+            },
+            {
+              "instanceId": 181,
+              "labelId": 24,
+              "labelName": "drink_greentea_itoen(Clone)(Clone)",
+              "origin": [
+                917.0,
+                523.0
+              ],
+              "dimension": [
+                31.0,
+                107.0
+              ]
+            },
+            {
+              "instanceId": 177,
+              "labelId": 24,
+              "labelName": "drink_greentea_itoen(Clone)(Clone)",
+              "origin": [
+                895.0,
+                526.0
+              ],
+              "dimension": [
+                38.0,
+                110.0
+              ]
+            },
+            {
+              "instanceId": 289,
+              "labelId": 6,
+              "labelName": "seasoning_canesugar_candh(Clone)(Clone)",
+              "origin": [
+                866.0,
+                552.0
+              ],
+              "dimension": [
+                49.0,
+                98.0
+              ]
+            },
+            {
+              "instanceId": 284,
+              "labelId": 6,
+              "labelName": "seasoning_canesugar_candh(Clone)(Clone)",
+              "origin": [
+                832.0,
+                553.0
+              ],
+              "dimension": [
+                30.0,
+                100.0
+              ]
+            },
+            {
+              "instanceId": 285,
+              "labelId": 6,
+              "labelName": "seasoning_canesugar_candh(Clone)(Clone)",
+              "origin": [
+                836.0,
+                557.0
+              ],
+              "dimension": [
+                52.0,
+                102.0
+              ]
+            },
+            {
+              "instanceId": 175,
+              "labelId": 19,
+              "labelName": "soup_chickenenchilada_progresso(Clone)(Clone)",
+              "origin": [
+                806.0,
+                599.0
+              ],
+              "dimension": [
+                29.0,
+                71.0
+              ]
+            },
+            {
+              "instanceId": 324,
+              "labelId": 30,
+              "labelName": "cracker_triscuit_avocado(Clone)(Clone)",
+              "origin": [
+                724.0,
+                551.0
+              ],
+              "dimension": [
+                84.0,
+                141.0
+              ]
+            },
+            {
+              "instanceId": 431,
+              "labelId": 52,
+              "labelName": "snack_cookie_quadratini(Clone)(Clone)",
+              "origin": [
+                680.0,
+                569.0
+              ],
+              "dimension": [
+                71.0,
+                142.0
+              ]
+            },
+            {
+              "instanceId": 247,
+              "labelId": 39,
+              "labelName": "cereal_oatmealsquares_quaker(Clone)(Clone)",
+              "origin": [
+                204.0,
+                543.0
+              ],
+              "dimension": [
+                159.0,
+                175.0
+              ]
+            },
+            {
+              "instanceId": 248,
+              "labelId": 39,
+              "labelName": "cereal_oatmealsquares_quaker(Clone)(Clone)",
+              "origin": [
+                209.0,
+                548.0
+              ],
+              "dimension": [
+                168.0,
+                186.0
+              ]
+            },
+            {
+              "instanceId": 165,
+              "labelId": 21,
+              "labelName": "pasta_lasagne_barilla(Clone)(Clone)",
+              "origin": [
+                0.0,
+                599.0
+              ],
+              "dimension": [
+                207.0,
+                151.0
+              ]
+            },
+            {
+              "instanceId": 238,
+              "labelId": 21,
+              "labelName": "pasta_lasagne_barilla(Clone)(Clone)",
+              "origin": [
+                0.0,
+                708.0
+              ],
+              "dimension": [
+                203.0,
+                43.0
+              ]
+            },
+            {
+              "instanceId": 249,
+              "labelId": 39,
+              "labelName": "cereal_oatmealsquares_quaker(Clone)(Clone)",
+              "origin": [
+                216.0,
+                554.0
+              ],
+              "dimension": [
+                175.0,
+                198.0
+              ]
+            },
+            {
+              "instanceId": 171,
+              "labelId": 31,
+              "labelName": "cereal_cracklinoatbran_kelloggs(Clone)(Clone)",
+              "origin": [
+                556.0,
+                538.0
+              ],
+              "dimension": [
+                126.0,
+                215.0
+              ]
+            },
+            {
+              "instanceId": 489,
+              "labelId": 39,
+              "labelName": "cereal_oatmealsquares_quaker(Clone)(Clone)",
+              "origin": [
+                410.0,
+                551.0
+              ],
+              "dimension": [
+                153.0,
+                217.0
+              ]
+            },
+            {
+              "instanceId": 486,
+              "labelId": 39,
+              "labelName": "cereal_oatmealsquares_quaker(Clone)(Clone)",
+              "origin": [
+                232.0,
+                567.0
+              ],
+              "dimension": [
+                194.0,
+                201.0
+              ]
+            },
+            {
+              "instanceId": 485,
+              "labelId": 39,
+              "labelName": "cereal_oatmealsquares_quaker(Clone)(Clone)",
+              "origin": [
+                224.0,
+                560.0
+              ],
+              "dimension": [
+                183.0,
+                208.0
+              ]
+            },
+            {
+              "instanceId": 304,
+              "labelId": 21,
+              "labelName": "pasta_lasagne_barilla(Clone)(Clone)",
+              "origin": [
+                56.0,
+                732.0
+              ],
+              "dimension": [
+                170.0,
+                36.0
+              ]
+            },
+            {
+              "instanceId": 239,
+              "labelId": 21,
+              "labelName": "pasta_lasagne_barilla(Clone)(Clone)",
+              "origin": [
+                0.0,
+                708.0
+              ],
+              "dimension": [
+                214.0,
+                60.0
+              ]
+            }
+          ]
+        },
+        {
+          "@type": "type.unity.com/unity.solo.SemanticSegmentationAnnotation",
+          "id": "SemanticSegmentation",
+          "sensorId": "camera",
+          "description": "Generates a semantic segmentation image for each captured frame. Each object is rendered to the semantic segmentation image using the color associated with it based on this labeler's associated semantic segmentation label configuration. Semantic segmentation images are saved to the dataset in PNG format. Please note that only one SemanticSegmentationLabeler can render at once across all cameras.",
+          "imageFormat": "Png",
+          "dimension": [
+            1024.0,
+            768.0
+          ],
+          "filename": "step0.camera.SemanticSegmentation.png",
+          "instances": [
+            {
+              "labelName": "seasoning_canesugar_candh(Clone)(Clone)",
+              "pixelValue": [
+                0,
+                0,
+                255,
+                255
+              ]
+            },
+            {
+              "labelName": "utensil_candle_decorators(Clone)(Clone)",
+              "pixelValue": [
+                0,
+                255,
+                0,
+                255
+              ]
+            },
+            {
+              "labelName": "hygiene_poise_pads_02(Clone)(Clone)",
+              "pixelValue": [
+                112,
+                87,
+                255,
+                255
+              ]
+            },
+            {
+              "labelName": "craft_yarn_caron_01(Clone)(Clone)",
+              "pixelValue": [
+                117,
+                255,
+                141,
+                255
+              ]
+            },
+            {
+              "labelName": "snack_chips_pringles(Clone)(Clone)",
+              "pixelValue": [
+                45,
+                255,
+                173,
+                255
+              ]
+            },
+            {
+              "labelName": "storage_ziploc_sandwich(Clone)(Clone)",
+              "pixelValue": [
+                86,
+                255,
+                52,
+                255
+              ]
+            },
+            {
+              "labelName": "snack_granolabar_naturevalley(Clone)(Clone)",
+              "pixelValue": [
+                255,
+                4,
+                226,
+                255
+              ]
+            },
+            {
+              "labelName": "soup_chickenenchilada_progresso(Clone)(Clone)",
+              "pixelValue": [
+                122,
+                255,
+                121,
+                255
+              ]
+            },
+            {
+              "labelName": "utensil_trashbag_valuecorner(Clone)(Clone)",
+              "pixelValue": [
+                218,
+                255,
+                118,
+                255
+              ]
+            },
+            {
+              "labelName": "pasta_lasagne_barilla(Clone)(Clone)",
+              "pixelValue": [
+                223,
+                255,
+                7,
+                255
+              ]
+            },
+            {
+              "labelName": "pest_antbaits_terro(Clone)(Clone)",
+              "pixelValue": [
+                174,
+                255,
+                78,
+                255
+              ]
+            },
+            {
+              "labelName": "drink_greentea_itoen(Clone)(Clone)",
+              "pixelValue": [
+                255,
+                228,
+                89,
+                255
+              ]
+            },
+            {
+              "labelName": "cracker_zwieback_brandt(Clone)(Clone)",
+              "pixelValue": [
+                255,
+                84,
+                226,
+                255
+              ]
+            },
+            {
+              "labelName": "cleaning_snuggle_henkel(Clone)(Clone)",
+              "pixelValue": [
+                255,
+                97,
+                255,
+                255
+              ]
+            },
+            {
+              "labelName": "snack_breadsticks_nutella(Clone)(Clone)",
+              "pixelValue": [
+                35,
+                48,
+                255,
+                255
+              ]
+            },
+            {
+              "labelName": "cracker_triscuit_avocado(Clone)(Clone)",
+              "pixelValue": [
+                255,
+                18,
+                74,
+                255
+              ]
+            },
+            {
+              "labelName": "cereal_cracklinoatbran_kelloggs(Clone)(Clone)",
+              "pixelValue": [
+                200,
+                118,
+                255,
+                255
+              ]
+            },
+            {
+              "labelName": "lotion_vanilla_nivea(Clone)(Clone)",
+              "pixelValue": [
+                255,
+                127,
+                155,
+                255
+              ]
+            },
+            {
+              "labelName": "snack_cookie_waffeletten(Clone)(Clone)",
+              "pixelValue": [
+                101,
+                255,
+                116,
+                255
+              ]
+            },
+            {
+              "labelName": "snack_granolabar_quaker(Clone)(Clone)",
+              "pixelValue": [
+                113,
+                255,
+                120,
+                255
+              ]
+            },
+            {
+              "labelName": "cereal_corn_flakes(Clone)(Clone)",
+              "pixelValue": [
+                102,
+                255,
+                140,
+                255
+              ]
+            },
+            {
+              "labelName": "cereal_oatmealsquares_quaker(Clone)(Clone)",
+              "pixelValue": [
+                127,
+                255,
+                25,
+                255
+              ]
+            },
+            {
+              "labelName": "cereal_rice_krispies(Clone)(Clone)",
+              "pixelValue": [
+                100,
+                128,
+                255,
+                255
+              ]
+            },
+            {
+              "labelName": "cereal_cheerios_honeynut(Clone)(Clone)",
+              "pixelValue": [
+                255,
+                5,
+                29,
+                255
+              ]
+            },
+            {
+              "labelName": "snack_cookie_quadratini(Clone)(Clone)",
+              "pixelValue": [
+                255,
+                243,
+                36,
+                255
+              ]
+            },
+            {
+              "labelName": "utensil_papertowels_valuecorner_01(Clone)(Clone)",
+              "pixelValue": [
+                40,
+                186,
+                255,
+                255
+              ]
+            }
+          ]
+        },
+        {
+          "@type": "type.unity.com/unity.solo.BoundingBox3DAnnotation",
+          "id": "BoundingBox3D",
+          "sensorId": "camera",
+          "description": "Produces 3D bounding box ground truth data for all visible objects that bear a label defined in this labeler's associated label configuration.",
+          "values": [
+            {
+              "instanceId": 346,
+              "labelId": 48,
+              "labelName": "cereal_cheerios_honeynut(Clone)(Clone)",
+              "translation": [
+                0.7701592,
+                0.936661839,
+                1.41388309
+              ],
+              "size": [
+                0.238125,
+                0.328612536,
+                0.0619125441
+              ],
+              "rotation": [
+                -0.009084303,
+                -0.958999038,
+                -0.0309403446,
+                -0.281568855
+              ],
+              "velocity": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "acceleration": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "instanceId": 93,
+              "labelId": 19,
+              "labelName": "soup_chickenenchilada_progresso(Clone)(Clone)",
+              "translation": [
+                -0.266564369,
+                0.5326754,
+                1.04070735
+              ],
+              "size": [
+                0.0857250243,
+                0.114736944,
+                0.08572505
+              ],
+              "rotation": [
+                0.0283017009,
+                0.4790155,
+                0.0154545559,
+                0.877214
+              ],
+              "velocity": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "acceleration": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "instanceId": 366,
+              "labelId": 36,
+              "labelName": "snack_granolabar_quaker(Clone)(Clone)",
+              "translation": [
+                -0.2511188,
+                0.466520935,
+                0.713230848
+              ],
+              "size": [
+                0.148096591,
+                0.169959277,
+                0.0407017842
+              ],
+              "rotation": [
+                -0.009084303,
+                -0.958999038,
+                -0.0309403446,
+                -0.281568855
+              ],
+              "velocity": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "acceleration": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "instanceId": 96,
+              "labelId": 19,
+              "labelName": "soup_chickenenchilada_progresso(Clone)(Clone)",
+              "translation": [
+                -0.173876628,
+                0.427474469,
+                0.88937515
+              ],
+              "size": [
+                0.0857250243,
+                0.114736944,
+                0.08572505
+              ],
+              "rotation": [
+                0.0283017009,
+                0.4790155,
+                0.0154545559,
+                0.877214
+              ],
+              "velocity": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "acceleration": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "instanceId": 348,
+              "labelId": 48,
+              "labelName": "cereal_cheerios_honeynut(Clone)(Clone)",
+              "translation": [
+                0.9704873,
+                0.9283638,
+                1.54234827
+              ],
+              "size": [
+                0.238125,
+                0.328612536,
+                0.0619125441
+              ],
+              "rotation": [
+                0.0309403446,
+                -0.281568825,
+                -0.009084302,
+                0.958999038
+              ],
+              "velocity": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "acceleration": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "instanceId": 97,
+              "labelId": 19,
+              "labelName": "soup_chickenenchilada_progresso(Clone)(Clone)",
+              "translation": [
+                -0.127532765,
+                0.432123154,
+                0.817406952
+              ],
+              "size": [
+                0.085725,
+                0.114736944,
+                0.0857250243
+              ],
+              "rotation": [
+                -0.009084303,
+                -0.958999038,
+                -0.0309403446,
+                -0.281568855
+              ],
+              "velocity": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "acceleration": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "instanceId": 102,
+              "labelId": 19,
+              "labelName": "soup_chickenenchilada_progresso(Clone)(Clone)",
+              "translation": [
+                -0.05541464,
+                0.429135859,
+                0.863654435
+              ],
+              "size": [
+                0.085725,
+                0.114736944,
+                0.0857250243
+              ],
+              "rotation": [
+                0.0309403446,
+                -0.281568825,
+                -0.009084302,
+                0.958999038
+              ],
+              "velocity": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "acceleration": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "instanceId": 231,
+              "labelId": 13,
+              "labelName": "craft_yarn_caron_01(Clone)(Clone)",
+              "translation": [
+                1.48147619,
+                0.8049465,
+                1.90003645
+              ],
+              "size": [
+                0.311485171,
+                0.128403962,
+                0.123380944
+              ],
+              "rotation": [
+                -0.009084303,
+                -0.958999038,
+                -0.0309403446,
+                -0.281568855
+              ],
+              "velocity": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "acceleration": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "instanceId": 28,
+              "labelId": 13,
+              "labelName": "craft_yarn_caron_01(Clone)(Clone)",
+              "translation": [
+                1.21943223,
+                0.815800965,
+                1.73199451
+              ],
+              "size": [
+                0.311485171,
+                0.128403962,
+                0.123380944
+              ],
+              "rotation": [
+                -0.009084303,
+                -0.958999038,
+                -0.0309403446,
+                -0.281568855
+              ],
+              "velocity": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "acceleration": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "instanceId": 106,
+              "labelId": 25,
+              "labelName": "cracker_zwieback_brandt(Clone)(Clone)",
+              "translation": [
+                0.06557032,
+                0.4369449,
+                0.9363943
+              ],
+              "size": [
+                0.141287535,
+                0.139700025,
+                0.07620007
+              ],
+              "rotation": [
+                -0.009084303,
+                -0.958999038,
+                -0.0309403446,
+                -0.281568855
+              ],
+              "velocity": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "acceleration": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "instanceId": 114,
+              "labelId": 6,
+              "labelName": "seasoning_canesugar_candh(Clone)(Clone)",
+              "translation": [
+                0.200458378,
+                0.442206562,
+                1.05195951
+              ],
+              "size": [
+                0.09524998,
+                0.165100008,
+                0.04127507
+              ],
+              "rotation": [
+                0.0309403446,
+                -0.281568825,
+                -0.009084302,
+                0.958999038
+              ],
+              "velocity": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "acceleration": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "instanceId": 461,
+              "labelId": 35,
+              "labelName": "snack_cookie_waffeletten(Clone)(Clone)",
+              "translation": [
+                0.4335209,
+                0.496775,
+                1.21691048
+              ],
+              "size": [
+                0.24765,
+                0.0984250158,
+                0.0285750143
+              ],
+              "rotation": [
+                -0.009084303,
+                -0.958999038,
+                -0.0309403446,
+                -0.281568855
+              ],
+              "velocity": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "acceleration": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "instanceId": 127,
+              "labelId": 26,
+              "labelName": "cleaning_snuggle_henkel(Clone)(Clone)",
+              "translation": [
+                0.909655869,
+                0.461548954,
+                1.65187025
+              ],
+              "size": [
+                0.185149744,
+                0.281043828,
+                0.120735332
+              ],
+              "rotation": [
+                -0.009084303,
+                -0.958999038,
+                -0.0309403446,
+                -0.281568855
+              ],
+              "velocity": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "acceleration": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "instanceId": 115,
+              "labelId": 6,
+              "labelName": "seasoning_canesugar_candh(Clone)(Clone)",
+              "translation": [
+                0.222772121,
+                0.4444448,
+                1.01730812
+              ],
+              "size": [
+                0.09524998,
+                0.165100008,
+                0.04127507
+              ],
+              "rotation": [
+                0.0309403446,
+                -0.281568825,
+                -0.009084302,
+                0.958999038
+              ],
+              "velocity": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "acceleration": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "instanceId": 124,
+              "labelId": 6,
+              "labelName": "seasoning_canesugar_candh(Clone)(Clone)",
+              "translation": [
+                0.302903384,
+                0.4411256,
+                1.06869423
+              ],
+              "size": [
+                0.09524998,
+                0.165100008,
+                0.04127507
+              ],
+              "rotation": [
+                0.0309403446,
+                -0.281568825,
+                -0.009084302,
+                0.958999038
+              ],
+              "velocity": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "acceleration": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "instanceId": 464,
+              "labelId": 35,
+              "labelName": "snack_cookie_waffeletten(Clone)(Clone)",
+              "translation": [
+                0.4644168,
+                0.401653767,
+                1.16258729
+              ],
+              "size": [
+                0.24765,
+                0.0984250158,
+                0.0285750143
+              ],
+              "rotation": [
+                0.0309403446,
+                -0.281568825,
+                -0.009084302,
+                0.958999038
+              ],
+              "velocity": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "acceleration": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "instanceId": 146,
+              "labelId": 27,
+              "labelName": "snack_breadsticks_nutella(Clone)(Clone)",
+              "translation": [
+                1.328611,
+                0.518707752,
+                1.73511541
+              ],
+              "size": [
+                0.08164209,
+                0.0811710954,
+                0.04279594
+              ],
+              "rotation": [
+                -0.009084303,
+                -0.958999038,
+                -0.0309403446,
+                -0.281568855
+              ],
+              "velocity": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "acceleration": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "instanceId": 147,
+              "labelId": 27,
+              "labelName": "snack_breadsticks_nutella(Clone)(Clone)",
+              "translation": [
+                1.328611,
+                0.437705517,
+                1.72988307
+              ],
+              "size": [
+                0.08164209,
+                0.0811710954,
+                0.04279594
+              ],
+              "rotation": [
+                -0.009084303,
+                -0.958999038,
+                -0.0309403446,
+                -0.281568855
+              ],
+              "velocity": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "acceleration": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "instanceId": 125,
+              "labelId": 12,
+              "labelName": "hygiene_poise_pads_02(Clone)(Clone)",
+              "translation": [
+                0.6251017,
+                0.490287364,
+                1.35912192
+              ],
+              "size": [
+                0.202870131,
+                0.300660372,
+                0.175217
+              ],
+              "rotation": [
+                0.0309403446,
+                -0.281568825,
+                -0.009084302,
+                0.958999038
+              ],
+              "velocity": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "acceleration": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "instanceId": 476,
+              "labelId": 20,
+              "labelName": "utensil_trashbag_valuecorner(Clone)(Clone)",
+              "translation": [
+                0.7851992,
+                0.452786863,
+                1.40605128
+              ],
+              "size": [
+                0.07758376,
+                0.23186557,
+                0.0849799961
+              ],
+              "rotation": [
+                -0.009084303,
+                -0.958999038,
+                -0.0309403446,
+                -0.281568855
+              ],
+              "velocity": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "acceleration": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "instanceId": 477,
+              "labelId": 20,
+              "labelName": "utensil_trashbag_valuecorner(Clone)(Clone)",
+              "translation": [
+                0.8504684,
+                0.450083256,
+                1.44790673
+              ],
+              "size": [
+                0.07758376,
+                0.23186557,
+                0.0849799961
+              ],
+              "rotation": [
+                -0.009084303,
+                -0.958999038,
+                -0.0309403446,
+                -0.281568855
+              ],
+              "velocity": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "acceleration": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "instanceId": 132,
+              "labelId": 27,
+              "labelName": "snack_breadsticks_nutella(Clone)(Clone)",
+              "translation": [
+                1.25992763,
+                0.440550536,
+                1.68583834
+              ],
+              "size": [
+                0.08164209,
+                0.0811710954,
+                0.04279594
+              ],
+              "rotation": [
+                0.0309403446,
+                -0.281568825,
+                -0.009084302,
+                0.958999038
+              ],
+              "velocity": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "acceleration": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "instanceId": 250,
+              "labelId": 26,
+              "labelName": "cleaning_snuggle_henkel(Clone)(Clone)",
+              "translation": [
+                0.9749267,
+                0.468096167,
+                1.55051
+              ],
+              "size": [
+                0.185149744,
+                0.281043828,
+                0.120735332
+              ],
+              "rotation": [
+                0.0309403446,
+                -0.281568825,
+                -0.009084302,
+                0.958999038
+              ],
+              "velocity": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "acceleration": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "instanceId": 129,
+              "labelId": 7,
+              "labelName": "utensil_candle_decorators(Clone)(Clone)",
+              "translation": [
+                1.1463182,
+                0.3986853,
+                1.62725651
+              ],
+              "size": [
+                0.141713992,
+                0.152404815,
+                0.07185817
+              ],
+              "rotation": [
+                0.0309403446,
+                -0.281568825,
+                -0.009084302,
+                0.958999038
+              ],
+              "velocity": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "acceleration": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "instanceId": 133,
+              "labelId": 27,
+              "labelName": "snack_breadsticks_nutella(Clone)(Clone)",
+              "translation": [
+                1.25992763,
+                0.359548181,
+                1.68060613
+              ],
+              "size": [
+                0.08164209,
+                0.0811710954,
+                0.04279594
+              ],
+              "rotation": [
+                0.0309403446,
+                -0.281568825,
+                -0.009084302,
+                0.958999038
+              ],
+              "velocity": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "acceleration": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "instanceId": 48,
+              "labelId": 17,
+              "labelName": "storage_ziploc_sandwich(Clone)(Clone)",
+              "translation": [
+                -0.44629994,
+                0.132279143,
+                0.681401849
+              ],
+              "size": [
+                0.19881849,
+                0.10292083,
+                0.07818121
+              ],
+              "rotation": [
+                0.0309403446,
+                -0.281568825,
+                -0.009084302,
+                0.958999038
+              ],
+              "velocity": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "acceleration": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "instanceId": 482,
+              "labelId": 17,
+              "labelName": "storage_ziploc_sandwich(Clone)(Clone)",
+              "translation": [
+                -0.279039353,
+                0.125350848,
+                0.788661659
+              ],
+              "size": [
+                0.19881849,
+                0.10292083,
+                0.07818121
+              ],
+              "rotation": [
+                0.0309403446,
+                -0.281568825,
+                -0.009084302,
+                0.958999038
+              ],
+              "velocity": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "acceleration": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "instanceId": 52,
+              "labelId": 18,
+              "labelName": "snack_granolabar_naturevalley(Clone)(Clone)",
+              "translation": [
+                -0.124921739,
+                0.03266989,
+                0.955671966
+              ],
+              "size": [
+                0.162736192,
+                0.145316839,
+                0.0511968955
+              ],
+              "rotation": [
+                0.0309403446,
+                -0.281568825,
+                -0.009084302,
+                0.958999038
+              ],
+              "velocity": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "acceleration": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "instanceId": 440,
+              "labelId": 53,
+              "labelName": "utensil_papertowels_valuecorner_01(Clone)(Clone)",
+              "translation": [
+                0.316321939,
+                0.0814538449,
+                1.24654543
+              ],
+              "size": [
+                0.121389888,
+                0.2801807,
+                0.12151669
+              ],
+              "rotation": [
+                0.0309403446,
+                -0.281568825,
+                -0.009084302,
+                0.958999038
+              ],
+              "velocity": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "acceleration": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "instanceId": 76,
+              "labelId": 22,
+              "labelName": "pest_antbaits_terro(Clone)(Clone)",
+              "translation": [
+                1.24716771,
+                -0.0007049397,
+                1.95829511
+              ],
+              "size": [
+                0.146049991,
+                0.207962483,
+                0.0404379852
+              ],
+              "rotation": [
+                0.0309403446,
+                -0.281568825,
+                -0.009084302,
+                0.958999038
+              ],
+              "velocity": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "acceleration": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "instanceId": 72,
+              "labelId": 21,
+              "labelName": "pasta_lasagne_barilla(Clone)(Clone)",
+              "translation": [
+                1.1479677,
+                0.07033909,
+                1.68347037
+              ],
+              "size": [
+                0.27305,
+                0.104775019,
+                0.06667502
+              ],
+              "rotation": [
+                -0.009084303,
+                -0.958999038,
+                -0.0309403446,
+                -0.281568855
+              ],
+              "velocity": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "acceleration": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "instanceId": 74,
+              "labelId": 21,
+              "labelName": "pasta_lasagne_barilla(Clone)(Clone)",
+              "translation": [
+                1.184013,
+                0.07395473,
+                1.62749517
+              ],
+              "size": [
+                0.27305,
+                0.104775019,
+                0.06667502
+              ],
+              "rotation": [
+                0.0309403446,
+                -0.281568825,
+                -0.009084302,
+                0.958999038
+              ],
+              "velocity": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "acceleration": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "instanceId": 479,
+              "labelId": 17,
+              "labelName": "storage_ziploc_sandwich(Clone)(Clone)",
+              "translation": [
+                -0.404034317,
+                0.0338119529,
+                0.609132648
+              ],
+              "size": [
+                0.19881849,
+                0.10292083,
+                0.07818121
+              ],
+              "rotation": [
+                -0.009084303,
+                -0.958999038,
+                -0.0309403446,
+                -0.281568855
+              ],
+              "velocity": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "acceleration": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "instanceId": 54,
+              "labelId": 18,
+              "labelName": "snack_granolabar_naturevalley(Clone)(Clone)",
+              "translation": [
+                -0.0695665553,
+                0.03822248,
+                0.869709969
+              ],
+              "size": [
+                0.162736192,
+                0.145316839,
+                0.0511968955
+              ],
+              "rotation": [
+                -0.009084303,
+                -0.958999038,
+                -0.0309403446,
+                -0.281568855
+              ],
+              "velocity": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "acceleration": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "instanceId": 53,
+              "labelId": 18,
+              "labelName": "snack_granolabar_naturevalley(Clone)(Clone)",
+              "translation": [
+                -0.097244136,
+                0.03544619,
+                0.912690938
+              ],
+              "size": [
+                0.162736192,
+                0.145316839,
+                0.0511968955
+              ],
+              "rotation": [
+                0.0309403446,
+                -0.281568825,
+                -0.009084302,
+                0.958999038
+              ],
+              "velocity": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "acceleration": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "instanceId": 484,
+              "labelId": 17,
+              "labelName": "storage_ziploc_sandwich(Clone)(Clone)",
+              "translation": [
+                -0.236773729,
+                0.0268836543,
+                0.716392457
+              ],
+              "size": [
+                0.19881849,
+                0.10292083,
+                0.07818121
+              ],
+              "rotation": [
+                -0.009084303,
+                -0.958999038,
+                -0.0309403446,
+                -0.281568855
+              ],
+              "velocity": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "acceleration": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "instanceId": 55,
+              "labelId": 18,
+              "labelName": "snack_granolabar_naturevalley(Clone)(Clone)",
+              "translation": [
+                -0.04188898,
+                0.0409987755,
+                0.826729
+              ],
+              "size": [
+                0.162736192,
+                0.145316839,
+                0.0511968955
+              ],
+              "rotation": [
+                -0.009084303,
+                -0.958999038,
+                -0.0309403446,
+                -0.281568855
+              ],
+              "velocity": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "acceleration": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "instanceId": 62,
+              "labelId": 18,
+              "labelName": "snack_granolabar_naturevalley(Clone)(Clone)",
+              "translation": [
+                0.09501656,
+                0.03532785,
+                0.914522946
+              ],
+              "size": [
+                0.162736192,
+                0.145316839,
+                0.0511968955
+              ],
+              "rotation": [
+                -0.009084303,
+                -0.958999038,
+                -0.0309403446,
+                -0.281568855
+              ],
+              "velocity": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "acceleration": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "instanceId": 65,
+              "labelId": 19,
+              "labelName": "soup_chickenenchilada_progresso(Clone)(Clone)",
+              "translation": [
+                0.214361563,
+                0.0138034308,
+                1.01054883
+              ],
+              "size": [
+                0.0857250243,
+                0.114736944,
+                0.08572505
+              ],
+              "rotation": [
+                0.0283017009,
+                0.4790155,
+                0.0154545559,
+                0.877214
+              ],
+              "velocity": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "acceleration": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "instanceId": 441,
+              "labelId": 53,
+              "labelName": "utensil_papertowels_valuecorner_01(Clone)(Clone)",
+              "translation": [
+                0.382015169,
+                0.08804343,
+                1.14452934
+              ],
+              "size": [
+                0.121389888,
+                0.2801807,
+                0.12151669
+              ],
+              "rotation": [
+                0.0309403446,
+                -0.281568825,
+                -0.009084302,
+                0.958999038
+              ],
+              "velocity": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "acceleration": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "instanceId": 66,
+              "labelId": 19,
+              "labelName": "soup_chickenenchilada_progresso(Clone)(Clone)",
+              "translation": [
+                0.286479682,
+                0.010816141,
+                1.05679631
+              ],
+              "size": [
+                0.0857250243,
+                0.114736944,
+                0.08572505
+              ],
+              "rotation": [
+                0.0283017009,
+                0.4790155,
+                0.0154545559,
+                0.877214
+              ],
+              "velocity": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "acceleration": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "instanceId": 442,
+              "labelId": 53,
+              "labelName": "utensil_papertowels_valuecorner_01(Clone)(Clone)",
+              "translation": [
+                0.484137237,
+                0.08381332,
+                1.21001756
+              ],
+              "size": [
+                0.121389888,
+                0.2801807,
+                0.12151669
+              ],
+              "rotation": [
+                0.0309403446,
+                -0.281568825,
+                -0.009084302,
+                0.958999038
+              ],
+              "velocity": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "acceleration": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "instanceId": 229,
+              "labelId": 16,
+              "labelName": "snack_chips_pringles(Clone)(Clone)",
+              "translation": [
+                0.689382553,
+                0.05002191,
+                1.40856063
+              ],
+              "size": [
+                0.07882477,
+                0.238334268,
+                0.07882481
+              ],
+              "rotation": [
+                -0.009084303,
+                -0.958999038,
+                -0.0309403446,
+                -0.281568855
+              ],
+              "velocity": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "acceleration": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "instanceId": 68,
+              "labelId": 20,
+              "labelName": "utensil_trashbag_valuecorner(Clone)(Clone)",
+              "translation": [
+                0.6180653,
+                0.0555521958,
+                1.27276671
+              ],
+              "size": [
+                0.07758376,
+                0.23186557,
+                0.0849799961
+              ],
+              "rotation": [
+                0.0309403446,
+                -0.281568825,
+                -0.009084302,
+                0.958999038
+              ],
+              "velocity": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "acceleration": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "instanceId": 230,
+              "labelId": 16,
+              "labelName": "snack_chips_pringles(Clone)(Clone)",
+              "translation": [
+                0.731996059,
+                0.0542964041,
+                1.34238541
+              ],
+              "size": [
+                0.0788247958,
+                0.238334268,
+                0.07882483
+              ],
+              "rotation": [
+                0.0283017009,
+                0.4790155,
+                0.0154545559,
+                0.877214
+              ],
+              "velocity": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "acceleration": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "instanceId": 69,
+              "labelId": 21,
+              "labelName": "pasta_lasagne_barilla(Clone)(Clone)",
+              "translation": [
+                0.954303443,
+                -0.0210873187,
+                1.47343469
+              ],
+              "size": [
+                0.27305,
+                0.104775019,
+                0.06667502
+              ],
+              "rotation": [
+                -0.009084303,
+                -0.958999038,
+                -0.0309403446,
+                -0.281568855
+              ],
+              "velocity": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "acceleration": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "instanceId": 75,
+              "labelId": 21,
+              "labelName": "pasta_lasagne_barilla(Clone)(Clone)",
+              "translation": [
+                1.184013,
+                -0.0306023862,
+                1.62074137
+              ],
+              "size": [
+                0.27305,
+                0.104775019,
+                0.06667502
+              ],
+              "rotation": [
+                -0.009084303,
+                -0.958999038,
+                -0.0309403446,
+                -0.281568855
+              ],
+              "velocity": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "acceleration": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "instanceId": 343,
+              "labelId": 38,
+              "labelName": "cereal_corn_flakes(Clone)(Clone)",
+              "translation": [
+                1.41741288,
+                -0.356602579,
+                1.76185441
+              ],
+              "size": [
+                0.2011083,
+                0.346322715,
+                0.0866099745
+              ],
+              "rotation": [
+                0.0309403446,
+                -0.281568825,
+                -0.009084302,
+                0.958999038
+              ],
+              "velocity": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "acceleration": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "instanceId": 342,
+              "labelId": 38,
+              "labelName": "cereal_corn_flakes(Clone)(Clone)",
+              "translation": [
+                1.37059057,
+                -0.361299247,
+                1.8345654
+              ],
+              "size": [
+                0.2011083,
+                0.346322715,
+                0.0866099745
+              ],
+              "rotation": [
+                0.0309403446,
+                -0.281568825,
+                -0.009084302,
+                0.958999038
+              ],
+              "velocity": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "acceleration": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "instanceId": 426,
+              "labelId": 47,
+              "labelName": "cereal_rice_krispies(Clone)(Clone)",
+              "translation": [
+                1.04659355,
+                -0.348714083,
+                1.57842422
+              ],
+              "size": [
+                0.192281142,
+                0.338419348,
+                0.05956813
+              ],
+              "rotation": [
+                -0.009084303,
+                -0.958999038,
+                -0.0309403446,
+                -0.281568855
+              ],
+              "velocity": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "acceleration": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "instanceId": 182,
+              "labelId": 32,
+              "labelName": "lotion_vanilla_nivea(Clone)(Clone)",
+              "translation": [
+                0.9285977,
+                -0.3911833,
+                1.4787004
+              ],
+              "size": [
+                0.0831307247,
+                0.240801334,
+                0.047816366
+              ],
+              "rotation": [
+                0.0309403446,
+                -0.281568825,
+                -0.009084302,
+                0.958999038
+              ],
+              "velocity": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "acceleration": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "instanceId": 167,
+              "labelId": 31,
+              "labelName": "cereal_cracklinoatbran_kelloggs(Clone)(Clone)",
+              "translation": [
+                0.0447078571,
+                -0.3622549,
+                1.09007907
+              ],
+              "size": [
+                0.192221254,
+                0.248437345,
+                0.0492754281
+              ],
+              "rotation": [
+                0.0309403446,
+                -0.281568825,
+                -0.009084302,
+                0.958999038
+              ],
+              "velocity": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "acceleration": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "instanceId": 168,
+              "labelId": 31,
+              "labelName": "cereal_cracklinoatbran_kelloggs(Clone)(Clone)",
+              "translation": [
+                0.07134666,
+                -0.3595828,
+                1.0487113
+              ],
+              "size": [
+                0.192221254,
+                0.248437345,
+                0.0492754281
+              ],
+              "rotation": [
+                0.0309403446,
+                -0.281568825,
+                -0.009084302,
+                0.958999038
+              ],
+              "velocity": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "acceleration": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "instanceId": 166,
+              "labelId": 31,
+              "labelName": "cereal_cracklinoatbran_kelloggs(Clone)(Clone)",
+              "translation": [
+                0.0180690158,
+                -0.364927,
+                1.131447
+              ],
+              "size": [
+                0.192221254,
+                0.248437345,
+                0.0492754281
+              ],
+              "rotation": [
+                0.0309403446,
+                -0.281568825,
+                -0.009084302,
+                0.958999038
+              ],
+              "velocity": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "acceleration": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "instanceId": 178,
+              "labelId": 24,
+              "labelName": "drink_greentea_itoen(Clone)(Clone)",
+              "translation": [
+                0.7691032,
+                -0.4112055,
+                1.55399966
+              ],
+              "size": [
+                0.0635,
+                0.210547686,
+                0.06350005
+              ],
+              "rotation": [
+                -0.009084303,
+                -0.958999038,
+                -0.0309403446,
+                -0.281568855
+              ],
+              "velocity": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "acceleration": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "instanceId": 180,
+              "labelId": 24,
+              "labelName": "drink_greentea_itoen(Clone)(Clone)",
+              "translation": [
+                0.837760866,
+                -0.404318541,
+                1.44738019
+              ],
+              "size": [
+                0.06350002,
+                0.210547686,
+                0.06350006
+              ],
+              "rotation": [
+                0.0154545559,
+                -0.877214,
+                -0.0283017009,
+                0.4790155
+              ],
+              "velocity": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "acceleration": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "instanceId": 179,
+              "labelId": 24,
+              "labelName": "drink_greentea_itoen(Clone)(Clone)",
+              "translation": [
+                0.803432047,
+                -0.407762021,
+                1.50068986
+              ],
+              "size": [
+                0.0635,
+                0.210547686,
+                0.06350005
+              ],
+              "rotation": [
+                -0.009084303,
+                -0.958999038,
+                -0.0309403446,
+                -0.281568855
+              ],
+              "velocity": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "acceleration": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "instanceId": 286,
+              "labelId": 6,
+              "labelName": "seasoning_canesugar_candh(Clone)(Clone)",
+              "translation": [
+                0.664554834,
+                -0.4235913,
+                1.39321911
+              ],
+              "size": [
+                0.09524998,
+                0.165100008,
+                0.04127507
+              ],
+              "rotation": [
+                0.0309403446,
+                -0.281568825,
+                -0.009084302,
+                0.958999038
+              ],
+              "velocity": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "acceleration": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "instanceId": 169,
+              "labelId": 31,
+              "labelName": "cereal_cracklinoatbran_kelloggs(Clone)(Clone)",
+              "translation": [
+                0.0979855,
+                -0.3569107,
+                1.00734341
+              ],
+              "size": [
+                0.192221254,
+                0.248437345,
+                0.0492754281
+              ],
+              "rotation": [
+                -0.009084303,
+                -0.958999038,
+                -0.0309403446,
+                -0.281568855
+              ],
+              "velocity": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "acceleration": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "instanceId": 176,
+              "labelId": 24,
+              "labelName": "drink_greentea_itoen(Clone)(Clone)",
+              "translation": [
+                0.7843401,
+                -0.402105749,
+                1.41312277
+              ],
+              "size": [
+                0.0635,
+                0.210547686,
+                0.06350005
+              ],
+              "rotation": [
+                -0.009084303,
+                -0.958999038,
+                -0.0309403446,
+                -0.281568855
+              ],
+              "velocity": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "acceleration": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "instanceId": 287,
+              "labelId": 6,
+              "labelName": "seasoning_canesugar_candh(Clone)(Clone)",
+              "translation": [
+                0.686868548,
+                -0.421353,
+                1.35856771
+              ],
+              "size": [
+                0.09524998,
+                0.165100008,
+                0.04127507
+              ],
+              "rotation": [
+                -0.009084303,
+                -0.958999038,
+                -0.0309403446,
+                -0.281568855
+              ],
+              "velocity": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "acceleration": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "instanceId": 283,
+              "labelId": 6,
+              "labelName": "seasoning_canesugar_candh(Clone)(Clone)",
+              "translation": [
+                0.6067373,
+                -0.4180338,
+                1.3071816
+              ],
+              "size": [
+                0.09524998,
+                0.165100008,
+                0.04127507
+              ],
+              "rotation": [
+                0.0309403446,
+                -0.281568825,
+                -0.009084302,
+                0.958999038
+              ],
+              "velocity": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "acceleration": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "instanceId": 172,
+              "labelId": 19,
+              "labelName": "soup_chickenenchilada_progresso(Clone)(Clone)",
+              "translation": [
+                0.478783071,
+                -0.3253107,
+                1.26103
+              ],
+              "size": [
+                0.085725,
+                0.114736944,
+                0.0857250243
+              ],
+              "rotation": [
+                -0.009084303,
+                -0.958999038,
+                -0.0309403446,
+                -0.281568855
+              ],
+              "velocity": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "acceleration": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "instanceId": 170,
+              "labelId": 31,
+              "labelName": "cereal_cracklinoatbran_kelloggs(Clone)(Clone)",
+              "translation": [
+                0.124624304,
+                -0.3542386,
+                0.9659755
+              ],
+              "size": [
+                0.192221254,
+                0.248437345,
+                0.0492754281
+              ],
+              "rotation": [
+                -0.009084303,
+                -0.958999038,
+                -0.0309403446,
+                -0.281568855
+              ],
+              "velocity": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "acceleration": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "instanceId": 288,
+              "labelId": 6,
+              "labelName": "seasoning_canesugar_candh(Clone)(Clone)",
+              "translation": [
+                0.7091823,
+                -0.419114769,
+                1.32391632
+              ],
+              "size": [
+                0.09524998,
+                0.165100008,
+                0.04127507
+              ],
+              "rotation": [
+                0.0309403446,
+                -0.281568825,
+                -0.009084302,
+                0.958999038
+              ],
+              "velocity": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "acceleration": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "instanceId": 487,
+              "labelId": 39,
+              "labelName": "cereal_oatmealsquares_quaker(Clone)(Clone)",
+              "translation": [
+                -0.08120484,
+                -0.348102421,
+                0.8894992
+              ],
+              "size": [
+                0.190499991,
+                0.250825018,
+                0.0482600741
+              ],
+              "rotation": [
+                -0.009084303,
+                -0.958999038,
+                -0.0309403446,
+                -0.281568855
+              ],
+              "velocity": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "acceleration": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "instanceId": 488,
+              "labelId": 39,
+              "labelName": "cereal_oatmealsquares_quaker(Clone)(Clone)",
+              "translation": [
+                -0.0551457219,
+                -0.3454929,
+                0.849100232
+              ],
+              "size": [
+                0.190499991,
+                0.250825018,
+                0.0482600741
+              ],
+              "rotation": [
+                0.0309403446,
+                -0.281568825,
+                -0.009084302,
+                0.958999038
+              ],
+              "velocity": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "acceleration": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "instanceId": 174,
+              "labelId": 19,
+              "labelName": "soup_chickenenchilada_progresso(Clone)(Clone)",
+              "translation": [
+                0.525126934,
+                -0.320662022,
+                1.18906176
+              ],
+              "size": [
+                0.0857250243,
+                0.114736944,
+                0.08572505
+              ],
+              "rotation": [
+                0.0154545559,
+                -0.877214,
+                -0.0283017009,
+                0.4790155
+              ],
+              "velocity": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "acceleration": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "instanceId": 428,
+              "labelId": 47,
+              "labelName": "cereal_rice_krispies(Clone)(Clone)",
+              "translation": [
+                1.24055767,
+                -0.352184325,
+                1.6321485
+              ],
+              "size": [
+                0.192281142,
+                0.338419348,
+                0.05956813
+              ],
+              "rotation": [
+                -0.009084303,
+                -0.958999038,
+                -0.0309403446,
+                -0.281568855
+              ],
+              "velocity": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "acceleration": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "instanceId": 427,
+              "labelId": 47,
+              "labelName": "cereal_rice_krispies(Clone)(Clone)",
+              "translation": [
+                1.07879674,
+                -0.3454838,
+                1.52841544
+              ],
+              "size": [
+                0.192281142,
+                0.338419348,
+                0.05956813
+              ],
+              "rotation": [
+                0.0309403446,
+                -0.281568825,
+                -0.009084302,
+                0.958999038
+              ],
+              "velocity": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "acceleration": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "instanceId": 183,
+              "labelId": 32,
+              "labelName": "lotion_vanilla_nivea(Clone)(Clone)",
+              "translation": [
+                0.954447746,
+                -0.3885903,
+                1.43855751
+              ],
+              "size": [
+                0.0831307247,
+                0.240801334,
+                0.047816366
+              ],
+              "rotation": [
+                -0.009084303,
+                -0.958999038,
+                -0.0309403446,
+                -0.281568855
+              ],
+              "velocity": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "acceleration": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "instanceId": 162,
+              "labelId": 21,
+              "labelName": "pasta_lasagne_barilla(Clone)(Clone)",
+              "translation": [
+                -0.545495749,
+                -0.310931325,
+                0.806597948
+              ],
+              "size": [
+                0.27305,
+                0.104775019,
+                0.06667502
+              ],
+              "rotation": [
+                -0.009084303,
+                -0.958999038,
+                -0.0309403446,
+                -0.281568855
+              ],
+              "velocity": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "acceleration": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "instanceId": 181,
+              "labelId": 24,
+              "labelName": "drink_greentea_itoen(Clone)(Clone)",
+              "translation": [
+                0.8720897,
+                -0.4008751,
+                1.39407039
+              ],
+              "size": [
+                0.0635,
+                0.210547686,
+                0.06350005
+              ],
+              "rotation": [
+                -0.009084303,
+                -0.958999038,
+                -0.0309403446,
+                -0.281568855
+              ],
+              "velocity": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "acceleration": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "instanceId": 177,
+              "labelId": 24,
+              "labelName": "drink_greentea_itoen(Clone)(Clone)",
+              "translation": [
+                0.8186689,
+                -0.398662269,
+                1.359813
+              ],
+              "size": [
+                0.06350002,
+                0.210547686,
+                0.06350006
+              ],
+              "rotation": [
+                0.0154545559,
+                -0.877214,
+                -0.0283017009,
+                0.4790155
+              ],
+              "velocity": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "acceleration": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "instanceId": 289,
+              "labelId": 6,
+              "labelName": "seasoning_canesugar_candh(Clone)(Clone)",
+              "translation": [
+                0.731496036,
+                -0.4168765,
+                1.28926492
+              ],
+              "size": [
+                0.09524998,
+                0.165100008,
+                0.04127507
+              ],
+              "rotation": [
+                0.0309403446,
+                -0.281568825,
+                -0.009084302,
+                0.958999038
+              ],
+              "velocity": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "acceleration": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "instanceId": 284,
+              "labelId": 6,
+              "labelName": "seasoning_canesugar_candh(Clone)(Clone)",
+              "translation": [
+                0.629051,
+                -0.415795565,
+                1.2725302
+              ],
+              "size": [
+                0.09524998,
+                0.165100008,
+                0.04127507
+              ],
+              "rotation": [
+                -0.009084303,
+                -0.958999038,
+                -0.0309403446,
+                -0.281568855
+              ],
+              "velocity": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "acceleration": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "instanceId": 285,
+              "labelId": 6,
+              "labelName": "seasoning_canesugar_candh(Clone)(Clone)",
+              "translation": [
+                0.6513648,
+                -0.4135573,
+                1.2378788
+              ],
+              "size": [
+                0.09524998,
+                0.165100008,
+                0.04127507
+              ],
+              "rotation": [
+                0.0309403446,
+                -0.281568825,
+                -0.009084302,
+                0.958999038
+              ],
+              "velocity": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "acceleration": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "instanceId": 175,
+              "labelId": 19,
+              "labelName": "soup_chickenenchilada_progresso(Clone)(Clone)",
+              "translation": [
+                0.525126934,
+                -0.435160339,
+                1.1816659
+              ],
+              "size": [
+                0.085725,
+                0.114736944,
+                0.0857250243
+              ],
+              "rotation": [
+                0.0309403446,
+                -0.281568825,
+                -0.009084302,
+                0.958999038
+              ],
+              "velocity": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "acceleration": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "instanceId": 324,
+              "labelId": 30,
+              "labelName": "cracker_triscuit_avocado(Clone)(Clone)",
+              "translation": [
+                0.422939152,
+                -0.3881981,
+                1.10683131
+              ],
+              "size": [
+                0.12956132,
+                0.19881852,
+                0.0654685348
+              ],
+              "rotation": [
+                -0.009084303,
+                -0.958999038,
+                -0.0309403446,
+                -0.281568855
+              ],
+              "velocity": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "acceleration": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "instanceId": 431,
+              "labelId": 52,
+              "labelName": "snack_cookie_quadratini(Clone)(Clone)",
+              "translation": [
+                0.3029548,
+                -0.388066471,
+                1.0288223
+              ],
+              "size": [
+                0.13109827,
+                0.189024433,
+                0.0642030761
+              ],
+              "rotation": [
+                -0.009084303,
+                -0.958999038,
+                -0.0309403446,
+                -0.281568855
+              ],
+              "velocity": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "acceleration": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "instanceId": 247,
+              "labelId": 39,
+              "labelName": "cereal_oatmealsquares_quaker(Clone)(Clone)",
+              "translation": [
+                -0.293677956,
+                -0.3467056,
+                0.8678744
+              ],
+              "size": [
+                0.190499991,
+                0.250825018,
+                0.0482600741
+              ],
+              "rotation": [
+                0.0309403446,
+                -0.281568825,
+                -0.009084302,
+                0.958999038
+              ],
+              "velocity": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "acceleration": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "instanceId": 248,
+              "labelId": 39,
+              "labelName": "cereal_oatmealsquares_quaker(Clone)(Clone)",
+              "translation": [
+                -0.267588049,
+                -0.344088554,
+                0.827358961
+              ],
+              "size": [
+                0.190499991,
+                0.250825018,
+                0.0482600741
+              ],
+              "rotation": [
+                0.0309403446,
+                -0.281568825,
+                -0.009084302,
+                0.958999038
+              ],
+              "velocity": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "acceleration": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "instanceId": 165,
+              "labelId": 21,
+              "labelName": "pasta_lasagne_barilla(Clone)(Clone)",
+              "translation": [
+                -0.4734053,
+                -0.30370006,
+                0.6946475
+              ],
+              "size": [
+                0.27305,
+                0.104775019,
+                0.06667502
+              ],
+              "rotation": [
+                0.0309403446,
+                -0.281568825,
+                -0.009084302,
+                0.958999038
+              ],
+              "velocity": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "acceleration": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "instanceId": 238,
+              "labelId": 21,
+              "labelName": "pasta_lasagne_barilla(Clone)(Clone)",
+              "translation": [
+                -0.4734053,
+                -0.408257157,
+                0.6878938
+              ],
+              "size": [
+                0.27305,
+                0.104775019,
+                0.06667502
+              ],
+              "rotation": [
+                0.0309403446,
+                -0.281568825,
+                -0.009084302,
+                0.958999038
+              ],
+              "velocity": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "acceleration": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "instanceId": 249,
+              "labelId": 39,
+              "labelName": "cereal_oatmealsquares_quaker(Clone)(Clone)",
+              "translation": [
+                -0.241467357,
+                -0.341463983,
+                0.786727
+              ],
+              "size": [
+                0.190499991,
+                0.250825018,
+                0.0482600741
+              ],
+              "rotation": [
+                -0.009084303,
+                -0.958999038,
+                -0.0309403446,
+                -0.281568855
+              ],
+              "velocity": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "acceleration": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "instanceId": 171,
+              "labelId": 31,
+              "labelName": "cereal_cracklinoatbran_kelloggs(Clone)(Clone)",
+              "translation": [
+                0.151263148,
+                -0.3515665,
+                0.924607635
+              ],
+              "size": [
+                0.192221254,
+                0.248437345,
+                0.0492754281
+              ],
+              "rotation": [
+                -0.009084303,
+                -0.958999038,
+                -0.0309403446,
+                -0.281568855
+              ],
+              "velocity": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "acceleration": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "instanceId": 489,
+              "labelId": 39,
+              "labelName": "cereal_oatmealsquares_quaker(Clone)(Clone)",
+              "translation": [
+                -0.02902503,
+                -0.342868328,
+                0.8084683
+              ],
+              "size": [
+                0.190499991,
+                0.250825018,
+                0.0482600741
+              ],
+              "rotation": [
+                -0.009084303,
+                -0.958999038,
+                -0.0309403446,
+                -0.281568855
+              ],
+              "velocity": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "acceleration": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "instanceId": 486,
+              "labelId": 39,
+              "labelName": "cereal_oatmealsquares_quaker(Clone)(Clone)",
+              "translation": [
+                -0.189287543,
+                -0.33622992,
+                0.7056961
+              ],
+              "size": [
+                0.190499991,
+                0.250825018,
+                0.0482600741
+              ],
+              "rotation": [
+                -0.009084303,
+                -0.958999038,
+                -0.0309403446,
+                -0.281568855
+              ],
+              "velocity": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "acceleration": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "instanceId": 485,
+              "labelId": 39,
+              "labelName": "cereal_oatmealsquares_quaker(Clone)(Clone)",
+              "translation": [
+                -0.215408236,
+                -0.338854462,
+                0.746328056
+              ],
+              "size": [
+                0.190499991,
+                0.250825018,
+                0.0482600741
+              ],
+              "rotation": [
+                0.0309403446,
+                -0.281568825,
+                -0.009084302,
+                0.958999038
+              ],
+              "velocity": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "acceleration": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "instanceId": 304,
+              "labelId": 21,
+              "labelName": "pasta_lasagne_barilla(Clone)(Clone)",
+              "translation": [
+                -0.401314884,
+                -0.4010259,
+                0.575943351
+              ],
+              "size": [
+                0.27305,
+                0.104775019,
+                0.06667502
+              ],
+              "rotation": [
+                -0.009084303,
+                -0.958999038,
+                -0.0309403446,
+                -0.281568855
+              ],
+              "velocity": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "acceleration": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "instanceId": 239,
+              "labelId": 21,
+              "labelName": "pasta_lasagne_barilla(Clone)(Clone)",
+              "translation": [
+                -0.437360078,
+                -0.404641539,
+                0.63191855
+              ],
+              "size": [
+                0.27305,
+                0.104775019,
+                0.06667502
+              ],
+              "rotation": [
+                0.0309403446,
+                -0.281568825,
+                -0.009084302,
+                0.958999038
+              ],
+              "velocity": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "acceleration": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            }
+          ]
+        },
+        {
+          "@type": "type.unity.com/unity.solo.PixelPositionAnnotation",
+          "id": "PixelPosition",
+          "sensorId": "camera",
+          "description": "Generates a pixelized position image where RGB channels denote the XYZ components of the vector from the camera to the object at a pixel respectively.",
+          "imageFormat": "Exr",
+          "dimension": [
+            1024.0,
+            768.0
+          ],
+          "filename": "step0.camera.PixelPosition.exr"
+        },
+        {
+          "@type": "type.unity.com/unity.solo.DepthAnnotation",
+          "id": "Depth",
+          "sensorId": "camera",
+          "description": "Generates a 32-bit depth image in EXR format where each pixel contains the actual distance in Unity units (usually meters) from the camera to the object in the scene.",
+          "imageFormat": "Exr",
+          "dimension": [
+            1024.0,
+            768.0
+          ],
+          "filename": "step0.camera.Depth.exr"
+        },
+        {
+          "@type": "type.unity.com/unity.solo.NormalAnnotation",
+          "id": "Normal",
+          "sensorId": "camera",
+          "description": "Produces an image capturing the vertex normals of objects within the frame.",
+          "imageFormat": "Exr",
+          "dimension": [
+            1024.0,
+            768.0
+          ],
+          "filename": "step0.camera.Normal.exr"
+        },
+        {
+          "@type": "type.unity.com/unity.solo.InstanceSegmentationAnnotation",
+          "id": "InstanceSegmentation",
+          "sensorId": "camera",
+          "description": "Produces an instance segmentation image for each frame. The image will render the pixels of each labeled object in a distinct color.",
+          "imageFormat": "Png",
+          "dimension": [
+            1024.0,
+            768.0
+          ],
+          "filename": "step0.camera.InstanceSegmentation.png",
+          "instances": [
+            {
+              "instanceId": 346,
+              "labelId": 48,
+              "labelName": "cereal_cheerios_honeynut(Clone)(Clone)",
+              "color": [
+                0,
+                180,
+                127,
+                255
+              ]
+            },
+            {
+              "instanceId": 93,
+              "labelId": 19,
+              "labelName": "soup_chickenenchilada_progresso(Clone)(Clone)",
+              "color": [
+                41,
+                240,
+                0,
+                255
+              ]
+            },
+            {
+              "instanceId": 366,
+              "labelId": 36,
+              "labelName": "snack_granolabar_quaker(Clone)(Clone)",
+              "color": [
+                156,
+                0,
+                180,
+                255
+              ]
+            },
+            {
+              "instanceId": 96,
+              "labelId": 19,
+              "labelName": "soup_chickenenchilada_progresso(Clone)(Clone)",
+              "color": [
+                240,
+                229,
+                0,
+                255
+              ]
+            },
+            {
+              "instanceId": 348,
+              "labelId": 48,
+              "labelName": "cereal_cheerios_honeynut(Clone)(Clone)",
+              "color": [
+                22,
+                0,
+                180,
+                255
+              ]
+            },
+            {
+              "instanceId": 97,
+              "labelId": 19,
+              "labelName": "soup_chickenenchilada_progresso(Clone)(Clone)",
+              "color": [
+                159,
+                0,
+                240,
+                255
+              ]
+            },
+            {
+              "instanceId": 102,
+              "labelId": 19,
+              "labelName": "soup_chickenenchilada_progresso(Clone)(Clone)",
+              "color": [
+                240,
+                0,
+                191,
+                255
+              ]
+            },
+            {
+              "instanceId": 231,
+              "labelId": 13,
+              "labelName": "craft_yarn_caron_01(Clone)(Clone)",
+              "color": [
+                0,
+                210,
+                191,
+                255
+              ]
+            },
+            {
+              "instanceId": 28,
+              "labelId": 13,
+              "labelName": "craft_yarn_caron_01(Clone)(Clone)",
+              "color": [
+                31,
+                0,
+                255,
+                255
+              ]
+            },
+            {
+              "instanceId": 106,
+              "labelId": 25,
+              "labelName": "cracker_zwieback_brandt(Clone)(Clone)",
+              "color": [
+                0,
+                240,
+                9,
+                255
+              ]
+            },
+            {
+              "instanceId": 114,
+              "labelId": 6,
+              "labelName": "seasoning_canesugar_candh(Clone)(Clone)",
+              "color": [
+                72,
+                240,
+                0,
+                255
+              ]
+            },
+            {
+              "instanceId": 461,
+              "labelId": 35,
+              "labelName": "snack_cookie_waffeletten(Clone)(Clone)",
+              "color": [
+                0,
+                150,
+                75,
+                255
+              ]
+            },
+            {
+              "instanceId": 127,
+              "labelId": 26,
+              "labelName": "cleaning_snuggle_henkel(Clone)(Clone)",
+              "color": [
+                22,
+                240,
+                0,
+                255
+              ]
+            },
+            {
+              "instanceId": 115,
+              "labelId": 6,
+              "labelName": "seasoning_canesugar_candh(Clone)(Clone)",
+              "color": [
+                240,
+                0,
+                142,
+                255
+              ]
+            },
+            {
+              "instanceId": 124,
+              "labelId": 6,
+              "labelName": "seasoning_canesugar_candh(Clone)(Clone)",
+              "color": [
+                0,
+                240,
+                188,
+                255
+              ]
+            },
+            {
+              "instanceId": 464,
+              "labelId": 35,
+              "labelName": "snack_cookie_waffeletten(Clone)(Clone)",
+              "color": [
+                57,
+                150,
+                0,
+                255
+              ]
+            },
+            {
+              "instanceId": 146,
+              "labelId": 27,
+              "labelName": "snack_breadsticks_nutella(Clone)(Clone)",
+              "color": [
+                0,
+                216,
+                225,
+                255
+              ]
+            },
+            {
+              "instanceId": 147,
+              "labelId": 27,
+              "labelName": "snack_breadsticks_nutella(Clone)(Clone)",
+              "color": [
+                225,
+                168,
+                0,
+                255
+              ]
+            },
+            {
+              "instanceId": 125,
+              "labelId": 12,
+              "labelName": "hygiene_poise_pads_02(Clone)(Clone)",
+              "color": [
+                240,
+                118,
+                0,
+                255
+              ]
+            },
+            {
+              "instanceId": 476,
+              "labelId": 20,
+              "labelName": "utensil_trashbag_valuecorner(Clone)(Clone)",
+              "color": [
+                18,
+                0,
+                150,
+                255
+              ]
+            },
+            {
+              "instanceId": 477,
+              "labelId": 20,
+              "labelName": "utensil_trashbag_valuecorner(Clone)(Clone)",
+              "color": [
+                26,
+                150,
+                0,
+                255
+              ]
+            },
+            {
+              "instanceId": 132,
+              "labelId": 27,
+              "labelName": "snack_breadsticks_nutella(Clone)(Clone)",
+              "color": [
+                225,
+                0,
+                197,
+                255
+              ]
+            },
+            {
+              "instanceId": 250,
+              "labelId": 26,
+              "labelName": "cleaning_snuggle_henkel(Clone)(Clone)",
+              "color": [
+                133,
+                210,
+                0,
+                255
+              ]
+            },
+            {
+              "instanceId": 129,
+              "labelId": 7,
+              "labelName": "utensil_candle_decorators(Clone)(Clone)",
+              "color": [
+                225,
+                0,
+                0,
+                255
+              ]
+            },
+            {
+              "instanceId": 133,
+              "labelId": 27,
+              "labelName": "snack_breadsticks_nutella(Clone)(Clone)",
+              "color": [
+                0,
+                225,
+                187,
+                255
+              ]
+            },
+            {
+              "instanceId": 48,
+              "labelId": 17,
+              "labelName": "storage_ziploc_sandwich(Clone)(Clone)",
+              "color": [
+                255,
+                73,
+                0,
+                255
+              ]
+            },
+            {
+              "instanceId": 482,
+              "labelId": 17,
+              "labelName": "storage_ziploc_sandwich(Clone)(Clone)",
+              "color": [
+                0,
+                150,
+                56,
+                255
+              ]
+            },
+            {
+              "instanceId": 52,
+              "labelId": 18,
+              "labelName": "snack_granolabar_naturevalley(Clone)(Clone)",
+              "color": [
+                0,
+                225,
+                255,
+                255
+              ]
+            },
+            {
+              "instanceId": 440,
+              "labelId": 53,
+              "labelName": "utensil_papertowels_valuecorner_01(Clone)(Clone)",
+              "color": [
+                165,
+                0,
+                8,
+                255
+              ]
+            },
+            {
+              "instanceId": 76,
+              "labelId": 22,
+              "labelName": "pest_antbaits_terro(Clone)(Clone)",
+              "color": [
+                190,
+                0,
+                240,
+                255
+              ]
+            },
+            {
+              "instanceId": 72,
+              "labelId": 21,
+              "labelName": "pasta_lasagne_barilla(Clone)(Clone)",
+              "color": [
+                10,
+                240,
+                0,
+                255
+              ]
+            },
+            {
+              "instanceId": 74,
+              "labelId": 21,
+              "labelName": "pasta_lasagne_barilla(Clone)(Clone)",
+              "color": [
+                0,
+                150,
+                240,
+                255
+              ]
+            },
+            {
+              "instanceId": 479,
+              "labelId": 17,
+              "labelName": "storage_ziploc_sandwich(Clone)(Clone)",
+              "color": [
+                0,
+                113,
+                150,
+                255
+              ]
+            },
+            {
+              "instanceId": 54,
+              "labelId": 18,
+              "labelName": "snack_granolabar_naturevalley(Clone)(Clone)",
+              "color": [
+                136,
+                0,
+                255,
+                255
+              ]
+            },
+            {
+              "instanceId": 53,
+              "labelId": 18,
+              "labelName": "snack_granolabar_naturevalley(Clone)(Clone)",
+              "color": [
+                255,
+                211,
+                0,
+                255
+              ]
+            },
+            {
+              "instanceId": 484,
+              "labelId": 17,
+              "labelName": "storage_ziploc_sandwich(Clone)(Clone)",
+              "color": [
+                0,
+                32,
+                150,
+                255
+              ]
+            },
+            {
+              "instanceId": 55,
+              "labelId": 18,
+              "labelName": "snack_granolabar_naturevalley(Clone)(Clone)",
+              "color": [
+                0,
+                255,
+                62,
+                255
+              ]
+            },
+            {
+              "instanceId": 62,
+              "labelId": 18,
+              "labelName": "snack_granolabar_naturevalley(Clone)(Clone)",
+              "color": [
+                51,
+                0,
+                255,
+                255
+              ]
+            },
+            {
+              "instanceId": 65,
+              "labelId": 19,
+              "labelName": "soup_chickenenchilada_progresso(Clone)(Clone)",
+              "color": [
+                240,
+                0,
+                0,
+                255
+              ]
+            },
+            {
+              "instanceId": 441,
+              "labelId": 53,
+              "labelName": "utensil_papertowels_valuecorner_01(Clone)(Clone)",
+              "color": [
+                0,
+                56,
+                165,
+                255
+              ]
+            },
+            {
+              "instanceId": 66,
+              "labelId": 19,
+              "labelName": "soup_chickenenchilada_progresso(Clone)(Clone)",
+              "color": [
+                0,
+                70,
+                240,
+                255
+              ]
+            },
+            {
+              "instanceId": 442,
+              "labelId": 53,
+              "labelName": "utensil_papertowels_valuecorner_01(Clone)(Clone)",
+              "color": [
+                104,
+                165,
+                0,
+                255
+              ]
+            },
+            {
+              "instanceId": 229,
+              "labelId": 16,
+              "labelName": "snack_chips_pringles(Clone)(Clone)",
+              "color": [
+                106,
+                210,
+                0,
+                255
+              ]
+            },
+            {
+              "instanceId": 68,
+              "labelId": 20,
+              "labelName": "utensil_trashbag_valuecorner(Clone)(Clone)",
+              "color": [
+                240,
+                0,
+                210,
+                255
+              ]
+            },
+            {
+              "instanceId": 230,
+              "labelId": 16,
+              "labelName": "snack_chips_pringles(Clone)(Clone)",
+              "color": [
+                210,
+                0,
+                167,
+                255
+              ]
+            },
+            {
+              "instanceId": 69,
+              "labelId": 21,
+              "labelName": "pasta_lasagne_barilla(Clone)(Clone)",
+              "color": [
+                0,
+                240,
+                200,
+                255
+              ]
+            },
+            {
+              "instanceId": 75,
+              "labelId": 21,
+              "labelName": "pasta_lasagne_barilla(Clone)(Clone)",
+              "color": [
+                220,
+                240,
+                0,
+                255
+              ]
+            },
+            {
+              "instanceId": 343,
+              "labelId": 38,
+              "labelName": "cereal_corn_flakes(Clone)(Clone)",
+              "color": [
+                0,
+                76,
+                180,
+                255
+              ]
+            },
+            {
+              "instanceId": 342,
+              "labelId": 38,
+              "labelName": "cereal_corn_flakes(Clone)(Clone)",
+              "color": [
+                180,
+                0,
+                23,
+                255
+              ]
+            },
+            {
+              "instanceId": 426,
+              "labelId": 47,
+              "labelName": "cereal_rice_krispies(Clone)(Clone)",
+              "color": [
+                0,
+                165,
+                6,
+                255
+              ]
+            },
+            {
+              "instanceId": 182,
+              "labelId": 32,
+              "labelName": "lotion_vanilla_nivea(Clone)(Clone)",
+              "color": [
+                120,
+                0,
+                225,
+                255
+              ]
+            },
+            {
+              "instanceId": 167,
+              "labelId": 31,
+              "labelName": "cereal_cracklinoatbran_kelloggs(Clone)(Clone)",
+              "color": [
+                0,
+                225,
+                205,
+                255
+              ]
+            },
+            {
+              "instanceId": 168,
+              "labelId": 31,
+              "labelName": "cereal_cracklinoatbran_kelloggs(Clone)(Clone)",
+              "color": [
+                225,
+                139,
+                0,
+                255
+              ]
+            },
+            {
+              "instanceId": 166,
+              "labelId": 31,
+              "labelName": "cereal_cracklinoatbran_kelloggs(Clone)(Clone)",
+              "color": [
+                225,
+                0,
+                179,
+                255
+              ]
+            },
+            {
+              "instanceId": 178,
+              "labelId": 24,
+              "labelName": "drink_greentea_itoen(Clone)(Clone)",
+              "color": [
+                67,
+                225,
+                0,
+                255
+              ]
+            },
+            {
+              "instanceId": 180,
+              "labelId": 24,
+              "labelName": "drink_greentea_itoen(Clone)(Clone)",
+              "color": [
+                0,
+                198,
+                225,
+                255
+              ]
+            },
+            {
+              "instanceId": 179,
+              "labelId": 24,
+              "labelName": "drink_greentea_itoen(Clone)(Clone)",
+              "color": [
+                225,
+                0,
+                133,
+                255
+              ]
+            },
+            {
+              "instanceId": 286,
+              "labelId": 6,
+              "labelName": "seasoning_canesugar_candh(Clone)(Clone)",
+              "color": [
+                195,
+                0,
+                90,
+                255
+              ]
+            },
+            {
+              "instanceId": 169,
+              "labelId": 31,
+              "labelName": "cereal_cracklinoatbran_kelloggs(Clone)(Clone)",
+              "color": [
+                74,
+                0,
+                225,
+                255
+              ]
+            },
+            {
+              "instanceId": 176,
+              "labelId": 24,
+              "labelName": "drink_greentea_itoen(Clone)(Clone)",
+              "color": [
+                225,
+                64,
+                0,
+                255
+              ]
+            },
+            {
+              "instanceId": 287,
+              "labelId": 6,
+              "labelName": "seasoning_canesugar_candh(Clone)(Clone)",
+              "color": [
+                0,
+                147,
+                195,
+                255
+              ]
+            },
+            {
+              "instanceId": 283,
+              "labelId": 6,
+              "labelName": "seasoning_canesugar_candh(Clone)(Clone)",
+              "color": [
+                195,
+                81,
+                0,
+                255
+              ]
+            },
+            {
+              "instanceId": 172,
+              "labelId": 19,
+              "labelName": "soup_chickenenchilada_progresso(Clone)(Clone)",
+              "color": [
+                0,
+                123,
+                225,
+                255
+              ]
+            },
+            {
+              "instanceId": 170,
+              "labelId": 31,
+              "labelName": "cereal_cracklinoatbran_kelloggs(Clone)(Clone)",
+              "color": [
+                0,
+                225,
+                8,
+                255
+              ]
+            },
+            {
+              "instanceId": 288,
+              "labelId": 6,
+              "labelName": "seasoning_canesugar_candh(Clone)(Clone)",
+              "color": [
+                195,
+                186,
+                0,
+                255
+              ]
+            },
+            {
+              "instanceId": 487,
+              "labelId": 39,
+              "labelName": "cereal_oatmealsquares_quaker(Clone)(Clone)",
+              "color": [
+                0,
+                150,
+                137,
+                255
+              ]
+            },
+            {
+              "instanceId": 488,
+              "labelId": 39,
+              "labelName": "cereal_oatmealsquares_quaker(Clone)(Clone)",
+              "color": [
+                150,
+                93,
+                0,
+                255
+              ]
+            },
+            {
+              "instanceId": 174,
+              "labelId": 19,
+              "labelName": "soup_chickenenchilada_progresso(Clone)(Clone)",
+              "color": [
+                196,
+                0,
+                225,
+                255
+              ]
+            },
+            {
+              "instanceId": 428,
+              "labelId": 47,
+              "labelName": "cereal_rice_krispies(Clone)(Clone)",
+              "color": [
+                0,
+                90,
+                165,
+                255
+              ]
+            },
+            {
+              "instanceId": 427,
+              "labelId": 47,
+              "labelName": "cereal_rice_krispies(Clone)(Clone)",
+              "color": [
+                165,
+                0,
+                42,
+                255
+              ]
+            },
+            {
+              "instanceId": 183,
+              "labelId": 32,
+              "labelName": "lotion_vanilla_nivea(Clone)(Clone)",
+              "color": [
+                0,
+                225,
+                55,
+                255
+              ]
+            },
+            {
+              "instanceId": 162,
+              "labelId": 21,
+              "labelName": "pasta_lasagne_barilla(Clone)(Clone)",
+              "color": [
+                0,
+                225,
+                83,
+                255
+              ]
+            },
+            {
+              "instanceId": 181,
+              "labelId": 24,
+              "labelName": "drink_greentea_itoen(Clone)(Clone)",
+              "color": [
+                225,
+                186,
+                0,
+                255
+              ]
+            },
+            {
+              "instanceId": 177,
+              "labelId": 24,
+              "labelName": "drink_greentea_itoen(Clone)(Clone)",
+              "color": [
+                0,
+                1,
+                225,
+                255
+              ]
+            },
+            {
+              "instanceId": 289,
+              "labelId": 6,
+              "labelName": "seasoning_canesugar_candh(Clone)(Clone)",
+              "color": [
+                129,
+                0,
+                195,
+                255
+              ]
+            },
+            {
+              "instanceId": 284,
+              "labelId": 6,
+              "labelName": "seasoning_canesugar_candh(Clone)(Clone)",
+              "color": [
+                24,
+                0,
+                195,
+                255
+              ]
+            },
+            {
+              "instanceId": 285,
+              "labelId": 6,
+              "labelName": "seasoning_canesugar_candh(Clone)(Clone)",
+              "color": [
+                33,
+                195,
+                0,
+                255
+              ]
+            },
+            {
+              "instanceId": 175,
+              "labelId": 19,
+              "labelName": "soup_chickenenchilada_progresso(Clone)(Clone)",
+              "color": [
+                0,
+                225,
+                130,
+                255
+              ]
+            },
+            {
+              "instanceId": 324,
+              "labelId": 30,
+              "labelName": "cracker_triscuit_avocado(Clone)(Clone)",
+              "color": [
+                180,
+                0,
+                158,
+                255
+              ]
+            },
+            {
+              "instanceId": 431,
+              "labelId": 52,
+              "labelName": "snack_cookie_quadratini(Clone)(Clone)",
+              "color": [
+                0,
+                165,
+                95,
+                255
+              ]
+            },
+            {
+              "instanceId": 247,
+              "labelId": 39,
+              "labelName": "cereal_oatmealsquares_quaker(Clone)(Clone)",
+              "color": [
+                0,
+                210,
+                51,
+                255
+              ]
+            },
+            {
+              "instanceId": 248,
+              "labelId": 39,
+              "labelName": "cereal_oatmealsquares_quaker(Clone)(Clone)",
+              "color": [
+                210,
+                0,
+                10,
+                255
+              ]
+            },
+            {
+              "instanceId": 165,
+              "labelId": 21,
+              "labelName": "pasta_lasagne_barilla(Clone)(Clone)",
+              "color": [
+                114,
+                225,
+                0,
+                255
+              ]
+            },
+            {
+              "instanceId": 238,
+              "labelId": 21,
+              "labelName": "pasta_lasagne_barilla(Clone)(Clone)",
+              "color": [
+                183,
+                0,
+                210,
+                255
+              ]
+            },
+            {
+              "instanceId": 249,
+              "labelId": 39,
+              "labelName": "cereal_oatmealsquares_quaker(Clone)(Clone)",
+              "color": [
+                0,
+                72,
+                210,
+                255
+              ]
+            },
+            {
+              "instanceId": 171,
+              "labelId": 31,
+              "labelName": "cereal_cracklinoatbran_kelloggs(Clone)(Clone)",
+              "color": [
+                225,
+                0,
+                57,
+                255
+              ]
+            },
+            {
+              "instanceId": 489,
+              "labelId": 39,
+              "labelName": "cereal_oatmealsquares_quaker(Clone)(Clone)",
+              "color": [
+                49,
+                0,
+                150,
+                255
+              ]
+            },
+            {
+              "instanceId": 486,
+              "labelId": 39,
+              "labelName": "cereal_oatmealsquares_quaker(Clone)(Clone)",
+              "color": [
+                150,
+                0,
+                119,
+                255
+              ]
+            },
+            {
+              "instanceId": 485,
+              "labelId": 39,
+              "labelName": "cereal_oatmealsquares_quaker(Clone)(Clone)",
+              "color": [
+                76,
+                150,
+                0,
+                255
+              ]
+            },
+            {
+              "instanceId": 304,
+              "labelId": 21,
+              "labelName": "pasta_lasagne_barilla(Clone)(Clone)",
+              "color": [
+                195,
+                56,
+                0,
+                255
+              ]
+            },
+            {
+              "instanceId": 239,
+              "labelId": 21,
+              "labelName": "pasta_lasagne_barilla(Clone)(Clone)",
+              "color": [
+                0,
+                210,
+                121,
+                255
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "metrics": [
+    {
+      "@type": "type.unity.com/unity.solo.GenericMetric",
+      "id": "scenario_iteration",
+      "sensorId": "",
+      "annotationId": "",
+      "description": "Iteration information for dataset sequences",
+      "value": 748
+    },
+    {
+      "@type": "type.unity.com/unity.solo.RenderedObjectInfoMetric",
+      "id": "RenderedObjectInfo",
+      "sensorId": "camera",
+      "annotationId": "",
+      "description": "Produces label id, instance id, and visible pixel count in a single metric each frame for each object which takes up one or more pixels in the camera's frame, based on this labeler's associated label configuration.",
+      "values": [
+        {
+          "labelId": 48,
+          "instanceId": 346,
+          "color": [
+            0,
+            180,
+            127,
+            255
+          ],
+          "visiblePixels": 186
+        },
+        {
+          "labelId": 19,
+          "instanceId": 93,
+          "color": [
+            41,
+            240,
+            0,
+            255
+          ],
+          "visiblePixels": 142
+        },
+        {
+          "labelId": 36,
+          "instanceId": 366,
+          "color": [
+            156,
+            0,
+            180,
+            255
+          ],
+          "visiblePixels": 1003
+        },
+        {
+          "labelId": 19,
+          "instanceId": 96,
+          "color": [
+            240,
+            229,
+            0,
+            255
+          ],
+          "visiblePixels": 547
+        },
+        {
+          "labelId": 48,
+          "instanceId": 348,
+          "color": [
+            22,
+            0,
+            180,
+            255
+          ],
+          "visiblePixels": 1635
+        },
+        {
+          "labelId": 19,
+          "instanceId": 97,
+          "color": [
+            159,
+            0,
+            240,
+            255
+          ],
+          "visiblePixels": 3196
+        },
+        {
+          "labelId": 19,
+          "instanceId": 102,
+          "color": [
+            240,
+            0,
+            191,
+            255
+          ],
+          "visiblePixels": 3955
+        },
+        {
+          "labelId": 13,
+          "instanceId": 231,
+          "color": [
+            0,
+            210,
+            191,
+            255
+          ],
+          "visiblePixels": 3
+        },
+        {
+          "labelId": 13,
+          "instanceId": 28,
+          "color": [
+            31,
+            0,
+            255,
+            255
+          ],
+          "visiblePixels": 1052
+        },
+        {
+          "labelId": 25,
+          "instanceId": 106,
+          "color": [
+            0,
+            240,
+            9,
+            255
+          ],
+          "visiblePixels": 9539
+        },
+        {
+          "labelId": 6,
+          "instanceId": 114,
+          "color": [
+            72,
+            240,
+            0,
+            255
+          ],
+          "visiblePixels": 790
+        },
+        {
+          "labelId": 35,
+          "instanceId": 461,
+          "color": [
+            0,
+            150,
+            75,
+            255
+          ],
+          "visiblePixels": 1947
+        },
+        {
+          "labelId": 26,
+          "instanceId": 127,
+          "color": [
+            22,
+            240,
+            0,
+            255
+          ],
+          "visiblePixels": 2
+        },
+        {
+          "labelId": 6,
+          "instanceId": 115,
+          "color": [
+            240,
+            0,
+            142,
+            255
+          ],
+          "visiblePixels": 6092
+        },
+        {
+          "labelId": 6,
+          "instanceId": 124,
+          "color": [
+            0,
+            240,
+            188,
+            255
+          ],
+          "visiblePixels": 3774
+        },
+        {
+          "labelId": 35,
+          "instanceId": 464,
+          "color": [
+            57,
+            150,
+            0,
+            255
+          ],
+          "visiblePixels": 4546
+        },
+        {
+          "labelId": 27,
+          "instanceId": 146,
+          "color": [
+            0,
+            216,
+            225,
+            255
+          ],
+          "visiblePixels": 423
+        },
+        {
+          "labelId": 27,
+          "instanceId": 147,
+          "color": [
+            225,
+            168,
+            0,
+            255
+          ],
+          "visiblePixels": 2
+        },
+        {
+          "labelId": 12,
+          "instanceId": 125,
+          "color": [
+            240,
+            118,
+            0,
+            255
+          ],
+          "visiblePixels": 10433
+        },
+        {
+          "labelId": 20,
+          "instanceId": 476,
+          "color": [
+            18,
+            0,
+            150,
+            255
+          ],
+          "visiblePixels": 1918
+        },
+        {
+          "labelId": 20,
+          "instanceId": 477,
+          "color": [
+            26,
+            150,
+            0,
+            255
+          ],
+          "visiblePixels": 1401
+        },
+        {
+          "labelId": 27,
+          "instanceId": 132,
+          "color": [
+            225,
+            0,
+            197,
+            255
+          ],
+          "visiblePixels": 635
+        },
+        {
+          "labelId": 26,
+          "instanceId": 250,
+          "color": [
+            133,
+            210,
+            0,
+            255
+          ],
+          "visiblePixels": 3828
+        },
+        {
+          "labelId": 7,
+          "instanceId": 129,
+          "color": [
+            225,
+            0,
+            0,
+            255
+          ],
+          "visiblePixels": 1890
+        },
+        {
+          "labelId": 27,
+          "instanceId": 133,
+          "color": [
+            0,
+            225,
+            187,
+            255
+          ],
+          "visiblePixels": 480
+        },
+        {
+          "labelId": 17,
+          "instanceId": 48,
+          "color": [
+            255,
+            73,
+            0,
+            255
+          ],
+          "visiblePixels": 16688
+        },
+        {
+          "labelId": 17,
+          "instanceId": 482,
+          "color": [
+            0,
+            150,
+            56,
+            255
+          ],
+          "visiblePixels": 13969
+        },
+        {
+          "labelId": 18,
+          "instanceId": 52,
+          "color": [
+            0,
+            225,
+            255,
+            255
+          ],
+          "visiblePixels": 90
+        },
+        {
+          "labelId": 53,
+          "instanceId": 440,
+          "color": [
+            165,
+            0,
+            8,
+            255
+          ],
+          "visiblePixels": 3695
+        },
+        {
+          "labelId": 22,
+          "instanceId": 76,
+          "color": [
+            190,
+            0,
+            240,
+            255
+          ],
+          "visiblePixels": 65
+        },
+        {
+          "labelId": 21,
+          "instanceId": 72,
+          "color": [
+            10,
+            240,
+            0,
+            255
+          ],
+          "visiblePixels": 1060
+        },
+        {
+          "labelId": 21,
+          "instanceId": 74,
+          "color": [
+            0,
+            150,
+            240,
+            255
+          ],
+          "visiblePixels": 3003
+        },
+        {
+          "labelId": 17,
+          "instanceId": 479,
+          "color": [
+            0,
+            113,
+            150,
+            255
+          ],
+          "visiblePixels": 22384
+        },
+        {
+          "labelId": 18,
+          "instanceId": 54,
+          "color": [
+            136,
+            0,
+            255,
+            255
+          ],
+          "visiblePixels": 1879
+        },
+        {
+          "labelId": 18,
+          "instanceId": 53,
+          "color": [
+            255,
+            211,
+            0,
+            255
+          ],
+          "visiblePixels": 379
+        },
+        {
+          "labelId": 17,
+          "instanceId": 484,
+          "color": [
+            0,
+            32,
+            150,
+            255
+          ],
+          "visiblePixels": 19536
+        },
+        {
+          "labelId": 18,
+          "instanceId": 55,
+          "color": [
+            0,
+            255,
+            62,
+            255
+          ],
+          "visiblePixels": 15669
+        },
+        {
+          "labelId": 18,
+          "instanceId": 62,
+          "color": [
+            51,
+            0,
+            255,
+            255
+          ],
+          "visiblePixels": 10026
+        },
+        {
+          "labelId": 19,
+          "instanceId": 65,
+          "color": [
+            240,
+            0,
+            0,
+            255
+          ],
+          "visiblePixels": 3506
+        },
+        {
+          "labelId": 53,
+          "instanceId": 441,
+          "color": [
+            0,
+            56,
+            165,
+            255
+          ],
+          "visiblePixels": 10687
+        },
+        {
+          "labelId": 19,
+          "instanceId": 66,
+          "color": [
+            0,
+            70,
+            240,
+            255
+          ],
+          "visiblePixels": 2824
+        },
+        {
+          "labelId": 53,
+          "instanceId": 442,
+          "color": [
+            104,
+            165,
+            0,
+            255
+          ],
+          "visiblePixels": 6810
+        },
+        {
+          "labelId": 16,
+          "instanceId": 229,
+          "color": [
+            106,
+            210,
+            0,
+            255
+          ],
+          "visiblePixels": 660
+        },
+        {
+          "labelId": 20,
+          "instanceId": 68,
+          "color": [
+            240,
+            0,
+            210,
+            255
+          ],
+          "visiblePixels": 4152
+        },
+        {
+          "labelId": 16,
+          "instanceId": 230,
+          "color": [
+            210,
+            0,
+            167,
+            255
+          ],
+          "visiblePixels": 4617
+        },
+        {
+          "labelId": 21,
+          "instanceId": 69,
+          "color": [
+            0,
+            240,
+            200,
+            255
+          ],
+          "visiblePixels": 4351
+        },
+        {
+          "labelId": 21,
+          "instanceId": 75,
+          "color": [
+            220,
+            240,
+            0,
+            255
+          ],
+          "visiblePixels": 1588
+        },
+        {
+          "labelId": 38,
+          "instanceId": 343,
+          "color": [
+            0,
+            76,
+            180,
+            255
+          ],
+          "visiblePixels": 39
+        },
+        {
+          "labelId": 38,
+          "instanceId": 342,
+          "color": [
+            180,
+            0,
+            23,
+            255
+          ],
+          "visiblePixels": 241
+        },
+        {
+          "labelId": 47,
+          "instanceId": 426,
+          "color": [
+            0,
+            165,
+            6,
+            255
+          ],
+          "visiblePixels": 1457
+        },
+        {
+          "labelId": 32,
+          "instanceId": 182,
+          "color": [
+            120,
+            0,
+            225,
+            255
+          ],
+          "visiblePixels": 428
+        },
+        {
+          "labelId": 31,
+          "instanceId": 167,
+          "color": [
+            0,
+            225,
+            205,
+            255
+          ],
+          "visiblePixels": 649
+        },
+        {
+          "labelId": 31,
+          "instanceId": 168,
+          "color": [
+            225,
+            139,
+            0,
+            255
+          ],
+          "visiblePixels": 655
+        },
+        {
+          "labelId": 31,
+          "instanceId": 166,
+          "color": [
+            225,
+            0,
+            179,
+            255
+          ],
+          "visiblePixels": 673
+        },
+        {
+          "labelId": 24,
+          "instanceId": 178,
+          "color": [
+            67,
+            225,
+            0,
+            255
+          ],
+          "visiblePixels": 533
+        },
+        {
+          "labelId": 24,
+          "instanceId": 180,
+          "color": [
+            0,
+            198,
+            225,
+            255
+          ],
+          "visiblePixels": 350
+        },
+        {
+          "labelId": 24,
+          "instanceId": 179,
+          "color": [
+            225,
+            0,
+            133,
+            255
+          ],
+          "visiblePixels": 421
+        },
+        {
+          "labelId": 6,
+          "instanceId": 286,
+          "color": [
+            195,
+            0,
+            90,
+            255
+          ],
+          "visiblePixels": 56
+        },
+        {
+          "labelId": 31,
+          "instanceId": 169,
+          "color": [
+            74,
+            0,
+            225,
+            255
+          ],
+          "visiblePixels": 739
+        },
+        {
+          "labelId": 24,
+          "instanceId": 176,
+          "color": [
+            225,
+            64,
+            0,
+            255
+          ],
+          "visiblePixels": 576
+        },
+        {
+          "labelId": 6,
+          "instanceId": 287,
+          "color": [
+            0,
+            147,
+            195,
+            255
+          ],
+          "visiblePixels": 161
+        },
+        {
+          "labelId": 6,
+          "instanceId": 283,
+          "color": [
+            195,
+            81,
+            0,
+            255
+          ],
+          "visiblePixels": 22
+        },
+        {
+          "labelId": 19,
+          "instanceId": 172,
+          "color": [
+            0,
+            123,
+            225,
+            255
+          ],
+          "visiblePixels": 1218
+        },
+        {
+          "labelId": 31,
+          "instanceId": 170,
+          "color": [
+            0,
+            225,
+            8,
+            255
+          ],
+          "visiblePixels": 837
+        },
+        {
+          "labelId": 6,
+          "instanceId": 288,
+          "color": [
+            195,
+            186,
+            0,
+            255
+          ],
+          "visiblePixels": 187
+        },
+        {
+          "labelId": 39,
+          "instanceId": 487,
+          "color": [
+            0,
+            150,
+            137,
+            255
+          ],
+          "visiblePixels": 934
+        },
+        {
+          "labelId": 39,
+          "instanceId": 488,
+          "color": [
+            150,
+            93,
+            0,
+            255
+          ],
+          "visiblePixels": 1081
+        },
+        {
+          "labelId": 19,
+          "instanceId": 174,
+          "color": [
+            196,
+            0,
+            225,
+            255
+          ],
+          "visiblePixels": 2641
+        },
+        {
+          "labelId": 47,
+          "instanceId": 428,
+          "color": [
+            0,
+            90,
+            165,
+            255
+          ],
+          "visiblePixels": 1469
+        },
+        {
+          "labelId": 47,
+          "instanceId": 427,
+          "color": [
+            165,
+            0,
+            42,
+            255
+          ],
+          "visiblePixels": 8322
+        },
+        {
+          "labelId": 32,
+          "instanceId": 183,
+          "color": [
+            0,
+            225,
+            55,
+            255
+          ],
+          "visiblePixels": 2745
+        },
+        {
+          "labelId": 21,
+          "instanceId": 162,
+          "color": [
+            0,
+            225,
+            83,
+            255
+          ],
+          "visiblePixels": 4626
+        },
+        {
+          "labelId": 24,
+          "instanceId": 181,
+          "color": [
+            225,
+            186,
+            0,
+            255
+          ],
+          "visiblePixels": 1698
+        },
+        {
+          "labelId": 24,
+          "instanceId": 177,
+          "color": [
+            0,
+            1,
+            225,
+            255
+          ],
+          "visiblePixels": 2049
+        },
+        {
+          "labelId": 6,
+          "instanceId": 289,
+          "color": [
+            129,
+            0,
+            195,
+            255
+          ],
+          "visiblePixels": 2520
+        },
+        {
+          "labelId": 6,
+          "instanceId": 284,
+          "color": [
+            24,
+            0,
+            195,
+            255
+          ],
+          "visiblePixels": 458
+        },
+        {
+          "labelId": 6,
+          "instanceId": 285,
+          "color": [
+            33,
+            195,
+            0,
+            255
+          ],
+          "visiblePixels": 4800
+        },
+        {
+          "labelId": 19,
+          "instanceId": 175,
+          "color": [
+            0,
+            225,
+            130,
+            255
+          ],
+          "visiblePixels": 1850
+        },
+        {
+          "labelId": 30,
+          "instanceId": 324,
+          "color": [
+            180,
+            0,
+            158,
+            255
+          ],
+          "visiblePixels": 8528
+        },
+        {
+          "labelId": 52,
+          "instanceId": 431,
+          "color": [
+            0,
+            165,
+            95,
+            255
+          ],
+          "visiblePixels": 8332
+        },
+        {
+          "labelId": 39,
+          "instanceId": 247,
+          "color": [
+            0,
+            210,
+            51,
+            255
+          ],
+          "visiblePixels": 1867
+        },
+        {
+          "labelId": 39,
+          "instanceId": 248,
+          "color": [
+            210,
+            0,
+            10,
+            255
+          ],
+          "visiblePixels": 2304
+        },
+        {
+          "labelId": 21,
+          "instanceId": 165,
+          "color": [
+            114,
+            225,
+            0,
+            255
+          ],
+          "visiblePixels": 24257
+        },
+        {
+          "labelId": 21,
+          "instanceId": 238,
+          "color": [
+            183,
+            0,
+            210,
+            255
+          ],
+          "visiblePixels": 111
+        },
+        {
+          "labelId": 39,
+          "instanceId": 249,
+          "color": [
+            0,
+            72,
+            210,
+            255
+          ],
+          "visiblePixels": 2692
+        },
+        {
+          "labelId": 31,
+          "instanceId": 171,
+          "color": [
+            225,
+            0,
+            57,
+            255
+          ],
+          "visiblePixels": 23071
+        },
+        {
+          "labelId": 39,
+          "instanceId": 489,
+          "color": [
+            49,
+            0,
+            150,
+            255
+          ],
+          "visiblePixels": 28957
+        },
+        {
+          "labelId": 39,
+          "instanceId": 486,
+          "color": [
+            150,
+            0,
+            119,
+            255
+          ],
+          "visiblePixels": 36381
+        },
+        {
+          "labelId": 39,
+          "instanceId": 485,
+          "color": [
+            76,
+            150,
+            0,
+            255
+          ],
+          "visiblePixels": 3195
+        },
+        {
+          "labelId": 21,
+          "instanceId": 304,
+          "color": [
+            195,
+            56,
+            0,
+            255
+          ],
+          "visiblePixels": 3211
+        },
+        {
+          "labelId": 21,
+          "instanceId": 239,
+          "color": [
+            0,
+            210,
+            121,
+            255
+          ],
+          "visiblePixels": 5384
+        }
+      ]
+    },
+    {
+      "@type": "type.unity.com/unity.solo.GenericMetric",
+      "id": "random-seed",
+      "sensorId": "",
+      "annotationId": "",
+      "description": "The random seed used to initialize the random state of the simulation. Only triggered once per simulation.",
+      "value": 539662031
+    },
+    {
+      "@type": "type.unity.com/unity.solo.OcclusionMetric",
+      "id": "Occlusion",
+      "sensorId": "camera",
+      "annotationId": "",
+      "description": "Visibility metrics for labeled objects",
+      "values": [
+        {
+          "instanceId": 283,
+          "percentVisible": 0.005178843,
+          "percentInFrame": 1.0,
+          "visibilityInFrame": 0.005178843
+        },
+        {
+          "instanceId": 28,
+          "percentVisible": 0.210799262,
+          "percentInFrame": 1.0,
+          "visibilityInFrame": 0.210799262
+        },
+        {
+          "instanceId": 284,
+          "percentVisible": 0.102100737,
+          "percentInFrame": 1.0,
+          "visibilityInFrame": 0.102100737
+        },
+        {
+          "instanceId": 285,
+          "percentVisible": 0.999723136,
+          "percentInFrame": 1.0,
+          "visibilityInFrame": 0.999723136
+        },
+        {
+          "instanceId": 286,
+          "percentVisible": 0.015165926,
+          "percentInFrame": 1.0,
+          "visibilityInFrame": 0.015165926
+        },
+        {
+          "instanceId": 287,
+          "percentVisible": 0.04215207,
+          "percentInFrame": 1.0,
+          "visibilityInFrame": 0.04215207
+        },
+        {
+          "instanceId": 288,
+          "percentVisible": 0.04687156,
+          "percentInFrame": 1.0,
+          "visibilityInFrame": 0.04687156
+        },
+        {
+          "instanceId": 289,
+          "percentVisible": 0.566509664,
+          "percentInFrame": 1.0,
+          "visibilityInFrame": 0.566509664
+        },
+        {
+          "instanceId": 48,
+          "percentVisible": 0.6269879,
+          "percentInFrame": 0.802795947,
+          "visibilityInFrame": 0.781005263
+        },
+        {
+          "instanceId": 304,
+          "percentVisible": 0.06978892,
+          "percentInFrame": 0.0698080361,
+          "visibilityInFrame": 0.999726057
+        },
+        {
+          "instanceId": 52,
+          "percentVisible": 0.00715732668,
+          "percentInFrame": 1.0,
+          "visibilityInFrame": 0.00715732668
+        },
+        {
+          "instanceId": 53,
+          "percentVisible": 0.0280108359,
+          "percentInFrame": 1.0,
+          "visibilityInFrame": 0.0280108359
+        },
+        {
+          "instanceId": 54,
+          "percentVisible": 0.127627417,
+          "percentInFrame": 1.0,
+          "visibilityInFrame": 0.127627417
+        },
+        {
+          "instanceId": 55,
+          "percentVisible": 0.991984844,
+          "percentInFrame": 1.0,
+          "visibilityInFrame": 0.991984844
+        },
+        {
+          "instanceId": 62,
+          "percentVisible": 0.8134611,
+          "percentInFrame": 1.0,
+          "visibilityInFrame": 0.8134611
+        },
+        {
+          "instanceId": 65,
+          "percentVisible": 0.7692898,
+          "percentInFrame": 1.0,
+          "visibilityInFrame": 0.7692898
+        },
+        {
+          "instanceId": 66,
+          "percentVisible": 0.6657185,
+          "percentInFrame": 1.0,
+          "visibilityInFrame": 0.6657185
+        },
+        {
+          "instanceId": 324,
+          "percentVisible": 0.7939048,
+          "percentInFrame": 1.0,
+          "visibilityInFrame": 0.7939048
+        },
+        {
+          "instanceId": 68,
+          "percentVisible": 0.931654453,
+          "percentInFrame": 1.0,
+          "visibilityInFrame": 0.931654453
+        },
+        {
+          "instanceId": 69,
+          "percentVisible": 0.9439975,
+          "percentInFrame": 1.0,
+          "visibilityInFrame": 0.9439975
+        },
+        {
+          "instanceId": 72,
+          "percentVisible": 0.309775442,
+          "percentInFrame": 1.0,
+          "visibilityInFrame": 0.309775442
+        },
+        {
+          "instanceId": 74,
+          "percentVisible": 0.8017363,
+          "percentInFrame": 0.8827022,
+          "visibilityInFrame": 0.908274949
+        },
+        {
+          "instanceId": 75,
+          "percentVisible": 0.4283511,
+          "percentInFrame": 0.8568615,
+          "visibilityInFrame": 0.499907076
+        },
+        {
+          "instanceId": 76,
+          "percentVisible": 0.042023018,
+          "percentInFrame": 1.0,
+          "visibilityInFrame": 0.042023018
+        },
+        {
+          "instanceId": 342,
+          "percentVisible": 0.029729547,
+          "percentInFrame": 0.7379723,
+          "visibilityInFrame": 0.04028545
+        },
+        {
+          "instanceId": 343,
+          "percentVisible": 0.004654897,
+          "percentInFrame": 0.157251686,
+          "visibilityInFrame": 0.0296015721
+        },
+        {
+          "instanceId": 346,
+          "percentVisible": 0.012586562,
+          "percentInFrame": 0.17964749,
+          "visibilityInFrame": 0.0700625554
+        },
+        {
+          "instanceId": 348,
+          "percentVisible": 0.133865431,
+          "percentInFrame": 0.41360417,
+          "visibilityInFrame": 0.323655874
+        },
+        {
+          "instanceId": 93,
+          "percentVisible": 0.025506286,
+          "percentInFrame": 0.948384464,
+          "visibilityInFrame": 0.0268944576
+        },
+        {
+          "instanceId": 96,
+          "percentVisible": 0.0701591447,
+          "percentInFrame": 1.0,
+          "visibilityInFrame": 0.0701591447
+        },
+        {
+          "instanceId": 97,
+          "percentVisible": 0.37243697,
+          "percentInFrame": 0.7671066,
+          "visibilityInFrame": 0.48550877
+        },
+        {
+          "instanceId": 102,
+          "percentVisible": 0.5147351,
+          "percentInFrame": 0.9519245,
+          "visibilityInFrame": 0.540731
+        },
+        {
+          "instanceId": 106,
+          "percentVisible": 0.677059233,
+          "percentInFrame": 0.996525645,
+          "visibilityInFrame": 0.679419756
+        },
+        {
+          "instanceId": 366,
+          "percentVisible": 0.04538129,
+          "percentInFrame": 0.222238928,
+          "visibilityInFrame": 0.204200447
+        },
+        {
+          "instanceId": 114,
+          "percentVisible": 0.109687321,
+          "percentInFrame": 1.0,
+          "visibilityInFrame": 0.109687321
+        },
+        {
+          "instanceId": 115,
+          "percentVisible": 0.7986545,
+          "percentInFrame": 1.0,
+          "visibilityInFrame": 0.7986545
+        },
+        {
+          "instanceId": 124,
+          "percentVisible": 0.552448452,
+          "percentInFrame": 1.0,
+          "visibilityInFrame": 0.552448452
+        },
+        {
+          "instanceId": 125,
+          "percentVisible": 0.51052314,
+          "percentInFrame": 1.0,
+          "visibilityInFrame": 0.51052314
+        },
+        {
+          "instanceId": 127,
+          "percentVisible": 0.000287397153,
+          "percentInFrame": 1.0,
+          "visibilityInFrame": 0.000287397153
+        },
+        {
+          "instanceId": 129,
+          "percentVisible": 0.580412,
+          "percentInFrame": 1.0,
+          "visibilityInFrame": 0.580412
+        },
+        {
+          "instanceId": 132,
+          "percentVisible": 0.684876442,
+          "percentInFrame": 1.0,
+          "visibilityInFrame": 0.684876442
+        },
+        {
+          "instanceId": 133,
+          "percentVisible": 0.5059819,
+          "percentInFrame": 0.9160809,
+          "visibilityInFrame": 0.552333236
+        },
+        {
+          "instanceId": 146,
+          "percentVisible": 0.4678471,
+          "percentInFrame": 0.6925796,
+          "visibilityInFrame": 0.6755138
+        },
+        {
+          "instanceId": 147,
+          "percentVisible": 0.00222374,
+          "percentInFrame": 0.637069762,
+          "visibilityInFrame": 0.00349057536
+        },
+        {
+          "instanceId": 162,
+          "percentVisible": 0.181367278,
+          "percentInFrame": 0.714312553,
+          "visibilityInFrame": 0.253904641
+        },
+        {
+          "instanceId": 165,
+          "percentVisible": 0.674053967,
+          "percentInFrame": 0.6742614,
+          "visibilityInFrame": 0.9996924
+        },
+        {
+          "instanceId": 166,
+          "percentVisible": 0.0437741056,
+          "percentInFrame": 1.0,
+          "visibilityInFrame": 0.0437741056
+        },
+        {
+          "instanceId": 167,
+          "percentVisible": 0.0397283,
+          "percentInFrame": 1.0,
+          "visibilityInFrame": 0.0397283
+        },
+        {
+          "instanceId": 168,
+          "percentVisible": 0.0377001,
+          "percentInFrame": 1.0,
+          "visibilityInFrame": 0.0377001
+        },
+        {
+          "instanceId": 169,
+          "percentVisible": 0.0397088379,
+          "percentInFrame": 1.0,
+          "visibilityInFrame": 0.0397088379
+        },
+        {
+          "instanceId": 170,
+          "percentVisible": 0.04197056,
+          "percentInFrame": 1.0,
+          "visibilityInFrame": 0.04197056
+        },
+        {
+          "instanceId": 426,
+          "percentVisible": 0.15883556,
+          "percentInFrame": 1.0,
+          "visibilityInFrame": 0.15883556
+        },
+        {
+          "instanceId": 427,
+          "percentVisible": 0.7974453,
+          "percentInFrame": 1.0,
+          "visibilityInFrame": 0.7974453
+        },
+        {
+          "instanceId": 171,
+          "percentVisible": 0.950694442,
+          "percentInFrame": 1.0,
+          "visibilityInFrame": 0.950694442
+        },
+        {
+          "instanceId": 172,
+          "percentVisible": 0.3836002,
+          "percentInFrame": 1.0,
+          "visibilityInFrame": 0.3836002
+        },
+        {
+          "instanceId": 428,
+          "percentVisible": 0.16492933,
+          "percentInFrame": 0.632535756,
+          "visibilityInFrame": 0.260743082
+        },
+        {
+          "instanceId": 174,
+          "percentVisible": 0.69872123,
+          "percentInFrame": 1.0,
+          "visibilityInFrame": 0.69872123
+        },
+        {
+          "instanceId": 431,
+          "percentVisible": 0.8485366,
+          "percentInFrame": 1.0,
+          "visibilityInFrame": 0.8485366
+        },
+        {
+          "instanceId": 175,
+          "percentVisible": 0.450562447,
+          "percentInFrame": 1.0,
+          "visibilityInFrame": 0.450562447
+        },
+        {
+          "instanceId": 176,
+          "percentVisible": 0.191374019,
+          "percentInFrame": 1.0,
+          "visibilityInFrame": 0.191374019
+        },
+        {
+          "instanceId": 177,
+          "percentVisible": 0.5990944,
+          "percentInFrame": 1.0,
+          "visibilityInFrame": 0.5990944
+        },
+        {
+          "instanceId": 178,
+          "percentVisible": 0.21944353,
+          "percentInFrame": 1.0,
+          "visibilityInFrame": 0.21944353
+        },
+        {
+          "instanceId": 179,
+          "percentVisible": 0.160305738,
+          "percentInFrame": 1.0,
+          "visibilityInFrame": 0.160305738
+        },
+        {
+          "instanceId": 180,
+          "percentVisible": 0.123589069,
+          "percentInFrame": 1.0,
+          "visibilityInFrame": 0.123589069
+        },
+        {
+          "instanceId": 181,
+          "percentVisible": 0.5088676,
+          "percentInFrame": 1.0,
+          "visibilityInFrame": 0.5088676
+        },
+        {
+          "instanceId": 182,
+          "percentVisible": 0.143353045,
+          "percentInFrame": 1.0,
+          "visibilityInFrame": 0.143353045
+        },
+        {
+          "instanceId": 183,
+          "percentVisible": 0.832511365,
+          "percentInFrame": 1.0,
+          "visibilityInFrame": 0.832511365
+        },
+        {
+          "instanceId": 440,
+          "percentVisible": 0.359176666,
+          "percentInFrame": 1.0,
+          "visibilityInFrame": 0.359176666
+        },
+        {
+          "instanceId": 441,
+          "percentVisible": 0.851495445,
+          "percentInFrame": 1.0,
+          "visibilityInFrame": 0.851495445
+        },
+        {
+          "instanceId": 442,
+          "percentVisible": 0.5862526,
+          "percentInFrame": 1.0,
+          "visibilityInFrame": 0.5862526
+        },
+        {
+          "instanceId": 461,
+          "percentVisible": 0.302459836,
+          "percentInFrame": 1.0,
+          "visibilityInFrame": 0.302459836
+        },
+        {
+          "instanceId": 464,
+          "percentVisible": 0.6848602,
+          "percentInFrame": 1.0,
+          "visibilityInFrame": 0.6848602
+        },
+        {
+          "instanceId": 476,
+          "percentVisible": 0.472375363,
+          "percentInFrame": 1.0,
+          "visibilityInFrame": 0.472375363
+        },
+        {
+          "instanceId": 477,
+          "percentVisible": 0.359033555,
+          "percentInFrame": 1.0,
+          "visibilityInFrame": 0.359033555
+        },
+        {
+          "instanceId": 479,
+          "percentVisible": 0.7319813,
+          "percentInFrame": 0.7488828,
+          "visibilityInFrame": 0.9774311
+        },
+        {
+          "instanceId": 482,
+          "percentVisible": 0.7583598,
+          "percentInFrame": 1.0,
+          "visibilityInFrame": 0.7583598
+        },
+        {
+          "instanceId": 484,
+          "percentVisible": 0.9436365,
+          "percentInFrame": 1.0,
+          "visibilityInFrame": 0.9436365
+        },
+        {
+          "instanceId": 485,
+          "percentVisible": 0.0756277,
+          "percentInFrame": 0.8432003,
+          "visibilityInFrame": 0.08969126
+        },
+        {
+          "instanceId": 229,
+          "percentVisible": 0.142810225,
+          "percentInFrame": 1.0,
+          "visibilityInFrame": 0.142810225
+        },
+        {
+          "instanceId": 486,
+          "percentVisible": 0.7754849,
+          "percentInFrame": 0.7755576,
+          "visibilityInFrame": 0.9999063
+        },
+        {
+          "instanceId": 230,
+          "percentVisible": 0.8907493,
+          "percentInFrame": 1.0,
+          "visibilityInFrame": 0.8907493
+        },
+        {
+          "instanceId": 231,
+          "percentVisible": 0.0007820539,
+          "percentInFrame": 0.424708784,
+          "visibilityInFrame": 0.00184138864
+        },
+        {
+          "instanceId": 487,
+          "percentVisible": 0.0366227143,
+          "percentInFrame": 1.0,
+          "visibilityInFrame": 0.0366227143
+        },
+        {
+          "instanceId": 488,
+          "percentVisible": 0.039202854,
+          "percentInFrame": 0.983396769,
+          "visibilityInFrame": 0.0398647375
+        },
+        {
+          "instanceId": 489,
+          "percentVisible": 0.843029141,
+          "percentInFrame": 0.9388875,
+          "visibilityInFrame": 0.8979022
+        },
+        {
+          "instanceId": 238,
+          "percentVisible": 0.00301380572,
+          "percentInFrame": 0.341990441,
+          "visibilityInFrame": 0.008812544
+        },
+        {
+          "instanceId": 239,
+          "percentVisible": 0.126872182,
+          "percentInFrame": 0.2000806,
+          "visibilityInFrame": 0.6341054
+        },
+        {
+          "instanceId": 247,
+          "percentVisible": 0.0588812456,
+          "percentInFrame": 0.9957482,
+          "visibilityInFrame": 0.05913266
+        },
+        {
+          "instanceId": 248,
+          "percentVisible": 0.0659720153,
+          "percentInFrame": 0.965701938,
+          "visibilityInFrame": 0.0683150962
+        },
+        {
+          "instanceId": 249,
+          "percentVisible": 0.070259355,
+          "percentInFrame": 0.910225451,
+          "visibilityInFrame": 0.07718896
+        },
+        {
+          "instanceId": 250,
+          "percentVisible": 0.5053561,
+          "percentInFrame": 1.0,
+          "visibilityInFrame": 0.5053561
+        }
+      ]
+    }
+  ]
+}
