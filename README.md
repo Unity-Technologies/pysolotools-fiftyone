@@ -124,6 +124,10 @@ of a 32bit per channel file format, so some accuracy is lost in the display.
     <br><i>Pixel Position in Voxel51</i><br>
 </p>
 
+## Sample SOLO Datasets
+Inside the `examples` directory there are two sample datasets
+- groceries: A dataset of grocery items that have all supported labels except keypoints
+- keypoints: A simple dataset that has keypoint annotations
 
 ## Additional Resources
 
