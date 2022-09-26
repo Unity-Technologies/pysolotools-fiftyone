@@ -78,10 +78,10 @@ Each pixel of the image is labeled with the ID of the object that it represents.
 </p>
 
 ### Keypoints
-
+Display keypoint (generally, but not limited to, a human skeleton) information.
 <p align="center">
-<img src="docs/images/instance_51.png"/>
-    <br><i>Instance segmentation in Voxel51</i><br>
+<img src="docs/images/keypoints_51.png"/>
+    <br><i>Keypoints in Voxel51</i><br>
 </p>
 
 ### 3D Bounding Boxes

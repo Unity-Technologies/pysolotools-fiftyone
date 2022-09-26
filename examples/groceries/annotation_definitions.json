@@ -1,0 +1,705 @@
+{
+  "annotationDefinitions": [
+    {
+      "@type": "type.unity.com/unity.solo.BoundingBox2DAnnotation",
+      "id": "BoundingBox",
+      "description": "Produces 2D bounding box annotations for all visible objects that bear a label defined in this labeler's associated label configuration.",
+      "spec": [
+        {
+          "label_id": 1,
+          "label_name": "Crate"
+        },
+        {
+          "label_id": 2,
+          "label_name": "Cube"
+        },
+        {
+          "label_id": 3,
+          "label_name": "Box"
+        },
+        {
+          "label_id": 4,
+          "label_name": "Terrain"
+        },
+        {
+          "label_id": 5,
+          "label_name": "Character"
+        },
+        {
+          "label_id": 6,
+          "label_name": "seasoning_canesugar_candh(Clone)(Clone)"
+        },
+        {
+          "label_id": 7,
+          "label_name": "utensil_candle_decorators(Clone)(Clone)"
+        },
+        {
+          "label_id": 8,
+          "label_name": "utensil_cottonovals_signaturecare_01(Clone)(Clone)"
+        },
+        {
+          "label_id": 9,
+          "label_name": "drink_whippingcream_lucerne(Clone)(Clone)"
+        },
+        {
+          "label_id": 10,
+          "label_name": "lotion_essentially_nivea(Clone)(Clone)"
+        },
+        {
+          "label_id": 11,
+          "label_name": "snack_coffeecakes_hostess(Clone)(Clone)"
+        },
+        {
+          "label_id": 12,
+          "label_name": "hygiene_poise_pads_02(Clone)(Clone)"
+        },
+        {
+          "label_id": 13,
+          "label_name": "craft_yarn_caron_01(Clone)(Clone)"
+        },
+        {
+          "label_id": 14,
+          "label_name": "cleaning_freegentle_tide(Clone)(Clone)"
+        },
+        {
+          "label_id": 15,
+          "label_name": "toiletry_tissue_softly(Clone)(Clone)"
+        },
+        {
+          "label_id": 16,
+          "label_name": "snack_chips_pringles(Clone)(Clone)"
+        },
+        {
+          "label_id": 17,
+          "label_name": "storage_ziploc_sandwich(Clone)(Clone)"
+        },
+        {
+          "label_id": 18,
+          "label_name": "snack_granolabar_naturevalley(Clone)(Clone)"
+        },
+        {
+          "label_id": 19,
+          "label_name": "soup_chickenenchilada_progresso(Clone)(Clone)"
+        },
+        {
+          "label_id": 20,
+          "label_name": "utensil_trashbag_valuecorner(Clone)(Clone)"
+        },
+        {
+          "label_id": 21,
+          "label_name": "pasta_lasagne_barilla(Clone)(Clone)"
+        },
+        {
+          "label_id": 22,
+          "label_name": "pest_antbaits_terro(Clone)(Clone)"
+        },
+        {
+          "label_id": 23,
+          "label_name": "utensil_coffee_filters(Clone)(Clone)"
+        },
+        {
+          "label_id": 24,
+          "label_name": "drink_greentea_itoen(Clone)(Clone)"
+        },
+        {
+          "label_id": 25,
+          "label_name": "cracker_zwieback_brandt(Clone)(Clone)"
+        },
+        {
+          "label_id": 26,
+          "label_name": "cleaning_snuggle_henkel(Clone)(Clone)"
+        },
+        {
+          "label_id": 27,
+          "label_name": "snack_breadsticks_nutella(Clone)(Clone)"
+        },
+        {
+          "label_id": 28,
+          "label_name": "porridge_grits_quaker(Clone)(Clone)"
+        },
+        {
+          "label_id": 29,
+          "label_name": "cracker_honeymaid_nabisco(Clone)(Clone)"
+        },
+        {
+          "label_id": 30,
+          "label_name": "cracker_triscuit_avocado(Clone)(Clone)"
+        },
+        {
+          "label_id": 31,
+          "label_name": "cereal_cracklinoatbran_kelloggs(Clone)(Clone)"
+        },
+        {
+          "label_id": 32,
+          "label_name": "lotion_vanilla_nivea(Clone)(Clone)"
+        },
+        {
+          "label_id": 33,
+          "label_name": "drink_coffeebeans_kickinghorse(Clone)(Clone)"
+        },
+        {
+          "label_id": 34,
+          "label_name": "drink_orangejuice_minutemaid_01(Clone)(Clone)"
+        },
+        {
+          "label_id": 35,
+          "label_name": "snack_cookie_waffeletten(Clone)(Clone)"
+        },
+        {
+          "label_id": 36,
+          "label_name": "snack_granolabar_quaker(Clone)(Clone)"
+        },
+        {
+          "label_id": 37,
+          "label_name": "cracker_lightrye_wasa(Clone)(Clone)"
+        },
+        {
+          "label_id": 38,
+          "label_name": "cereal_corn_flakes(Clone)(Clone)"
+        },
+        {
+          "label_id": 39,
+          "label_name": "cereal_oatmealsquares_quaker(Clone)(Clone)"
+        },
+        {
+          "label_id": 40,
+          "label_name": "utensil_toiletpaper_scott(Clone)(Clone)"
+        },
+        {
+          "label_id": 41,
+          "label_name": "snack_cookie_walkers_02(Clone)(Clone)"
+        },
+        {
+          "label_id": 42,
+          "label_name": "chips_gardensalsa_sunchips(Clone)(Clone)"
+        },
+        {
+          "label_id": 43,
+          "label_name": "toiletry_toothpaste_colgate(Clone)(Clone)"
+        },
+        {
+          "label_id": 44,
+          "label_name": "vitamin_centrumsilver_adults(Clone)(Clone)"
+        },
+        {
+          "label_id": 45,
+          "label_name": "cereal_raisin_bran(Clone)(Clone)"
+        },
+        {
+          "label_id": 46,
+          "label_name": "drink_adrenaline_shock(Clone)(Clone)"
+        },
+        {
+          "label_id": 47,
+          "label_name": "cereal_rice_krispies(Clone)(Clone)"
+        },
+        {
+          "label_id": 48,
+          "label_name": "cereal_cheerios_honeynut(Clone)(Clone)"
+        },
+        {
+          "label_id": 49,
+          "label_name": "cereal_puffins_barbaras(Clone)(Clone)"
+        },
+        {
+          "label_id": 50,
+          "label_name": "snack_granolabar_kashi_02(Clone)(Clone)"
+        },
+        {
+          "label_id": 51,
+          "label_name": "snack_granolabar_kind(Clone)(Clone)"
+        },
+        {
+          "label_id": 52,
+          "label_name": "snack_cookie_quadratini(Clone)(Clone)"
+        },
+        {
+          "label_id": 53,
+          "label_name": "utensil_papertowels_valuecorner_01(Clone)(Clone)"
+        },
+        {
+          "label_id": 54,
+          "label_name": "snack_cookies_fourre(Clone)(Clone)"
+        },
+        {
+          "label_id": 55,
+          "label_name": "snack_salame_hillshire(Clone)(Clone)"
+        }
+      ]
+    },
+    {
+      "@type": "type.unity.com/unity.solo.InstanceSegmentationAnnotation",
+      "id": "InstanceSegmentation",
+      "description": "Produces an instance segmentation image for each frame. The image will render the pixels of each labeled object in a distinct color.",
+      "spec": [
+        {
+          "label_id": 1,
+          "label_name": "Crate"
+        },
+        {
+          "label_id": 2,
+          "label_name": "Cube"
+        },
+        {
+          "label_id": 3,
+          "label_name": "Box"
+        },
+        {
+          "label_id": 4,
+          "label_name": "Terrain"
+        },
+        {
+          "label_id": 5,
+          "label_name": "Character"
+        },
+        {
+          "label_id": 6,
+          "label_name": "seasoning_canesugar_candh(Clone)(Clone)"
+        },
+        {
+          "label_id": 7,
+          "label_name": "utensil_candle_decorators(Clone)(Clone)"
+        },
+        {
+          "label_id": 8,
+          "label_name": "utensil_cottonovals_signaturecare_01(Clone)(Clone)"
+        },
+        {
+          "label_id": 9,
+          "label_name": "drink_whippingcream_lucerne(Clone)(Clone)"
+        },
+        {
+          "label_id": 10,
+          "label_name": "lotion_essentially_nivea(Clone)(Clone)"
+        },
+        {
+          "label_id": 11,
+          "label_name": "snack_coffeecakes_hostess(Clone)(Clone)"
+        },
+        {
+          "label_id": 12,
+          "label_name": "hygiene_poise_pads_02(Clone)(Clone)"
+        },
+        {
+          "label_id": 13,
+          "label_name": "craft_yarn_caron_01(Clone)(Clone)"
+        },
+        {
+          "label_id": 14,
+          "label_name": "cleaning_freegentle_tide(Clone)(Clone)"
+        },
+        {
+          "label_id": 15,
+          "label_name": "toiletry_tissue_softly(Clone)(Clone)"
+        },
+        {
+          "label_id": 16,
+          "label_name": "snack_chips_pringles(Clone)(Clone)"
+        },
+        {
+          "label_id": 17,
+          "label_name": "storage_ziploc_sandwich(Clone)(Clone)"
+        },
+        {
+          "label_id": 18,
+          "label_name": "snack_granolabar_naturevalley(Clone)(Clone)"
+        },
+        {
+          "label_id": 19,
+          "label_name": "soup_chickenenchilada_progresso(Clone)(Clone)"
+        },
+        {
+          "label_id": 20,
+          "label_name": "utensil_trashbag_valuecorner(Clone)(Clone)"
+        },
+        {
+          "label_id": 21,
+          "label_name": "pasta_lasagne_barilla(Clone)(Clone)"
+        },
+        {
+          "label_id": 22,
+          "label_name": "pest_antbaits_terro(Clone)(Clone)"
+        },
+        {
+          "label_id": 23,
+          "label_name": "utensil_coffee_filters(Clone)(Clone)"
+        },
+        {
+          "label_id": 24,
+          "label_name": "drink_greentea_itoen(Clone)(Clone)"
+        },
+        {
+          "label_id": 25,
+          "label_name": "cracker_zwieback_brandt(Clone)(Clone)"
+        },
+        {
+          "label_id": 26,
+          "label_name": "cleaning_snuggle_henkel(Clone)(Clone)"
+        },
+        {
+          "label_id": 27,
+          "label_name": "snack_breadsticks_nutella(Clone)(Clone)"
+        },
+        {
+          "label_id": 28,
+          "label_name": "porridge_grits_quaker(Clone)(Clone)"
+        },
+        {
+          "label_id": 29,
+          "label_name": "cracker_honeymaid_nabisco(Clone)(Clone)"
+        },
+        {
+          "label_id": 30,
+          "label_name": "cracker_triscuit_avocado(Clone)(Clone)"
+        },
+        {
+          "label_id": 31,
+          "label_name": "cereal_cracklinoatbran_kelloggs(Clone)(Clone)"
+        },
+        {
+          "label_id": 32,
+          "label_name": "lotion_vanilla_nivea(Clone)(Clone)"
+        },
+        {
+          "label_id": 33,
+          "label_name": "drink_coffeebeans_kickinghorse(Clone)(Clone)"
+        },
+        {
+          "label_id": 34,
+          "label_name": "drink_orangejuice_minutemaid_01(Clone)(Clone)"
+        },
+        {
+          "label_id": 35,
+          "label_name": "snack_cookie_waffeletten(Clone)(Clone)"
+        },
+        {
+          "label_id": 36,
+          "label_name": "snack_granolabar_quaker(Clone)(Clone)"
+        },
+        {
+          "label_id": 37,
+          "label_name": "cracker_lightrye_wasa(Clone)(Clone)"
+        },
+        {
+          "label_id": 38,
+          "label_name": "cereal_corn_flakes(Clone)(Clone)"
+        },
+        {
+          "label_id": 39,
+          "label_name": "cereal_oatmealsquares_quaker(Clone)(Clone)"
+        },
+        {
+          "label_id": 40,
+          "label_name": "utensil_toiletpaper_scott(Clone)(Clone)"
+        },
+        {
+          "label_id": 41,
+          "label_name": "snack_cookie_walkers_02(Clone)(Clone)"
+        },
+        {
+          "label_id": 42,
+          "label_name": "chips_gardensalsa_sunchips(Clone)(Clone)"
+        },
+        {
+          "label_id": 43,
+          "label_name": "toiletry_toothpaste_colgate(Clone)(Clone)"
+        },
+        {
+          "label_id": 44,
+          "label_name": "vitamin_centrumsilver_adults(Clone)(Clone)"
+        },
+        {
+          "label_id": 45,
+          "label_name": "cereal_raisin_bran(Clone)(Clone)"
+        },
+        {
+          "label_id": 46,
+          "label_name": "drink_adrenaline_shock(Clone)(Clone)"
+        },
+        {
+          "label_id": 47,
+          "label_name": "cereal_rice_krispies(Clone)(Clone)"
+        },
+        {
+          "label_id": 48,
+          "label_name": "cereal_cheerios_honeynut(Clone)(Clone)"
+        },
+        {
+          "label_id": 49,
+          "label_name": "cereal_puffins_barbaras(Clone)(Clone)"
+        },
+        {
+          "label_id": 50,
+          "label_name": "snack_granolabar_kashi_02(Clone)(Clone)"
+        },
+        {
+          "label_id": 51,
+          "label_name": "snack_granolabar_kind(Clone)(Clone)"
+        },
+        {
+          "label_id": 52,
+          "label_name": "snack_cookie_quadratini(Clone)(Clone)"
+        },
+        {
+          "label_id": 53,
+          "label_name": "utensil_papertowels_valuecorner_01(Clone)(Clone)"
+        },
+        {
+          "label_id": 54,
+          "label_name": "snack_cookies_fourre(Clone)(Clone)"
+        },
+        {
+          "label_id": 55,
+          "label_name": "snack_salame_hillshire(Clone)(Clone)"
+        }
+      ]
+    },
+    {
+      "@type": "type.unity.com/unity.solo.BoundingBox3DAnnotation",
+      "id": "BoundingBox3D",
+      "description": "Produces 3D bounding box ground truth data for all visible objects that bear a label defined in this labeler's associated label configuration.",
+      "spec": [
+        {
+          "label_id": 1,
+          "label_name": "Crate"
+        },
+        {
+          "label_id": 2,
+          "label_name": "Cube"
+        },
+        {
+          "label_id": 3,
+          "label_name": "Box"
+        },
+        {
+          "label_id": 4,
+          "label_name": "Terrain"
+        },
+        {
+          "label_id": 5,
+          "label_name": "Character"
+        },
+        {
+          "label_id": 6,
+          "label_name": "seasoning_canesugar_candh(Clone)(Clone)"
+        },
+        {
+          "label_id": 7,
+          "label_name": "utensil_candle_decorators(Clone)(Clone)"
+        },
+        {
+          "label_id": 8,
+          "label_name": "utensil_cottonovals_signaturecare_01(Clone)(Clone)"
+        },
+        {
+          "label_id": 9,
+          "label_name": "drink_whippingcream_lucerne(Clone)(Clone)"
+        },
+        {
+          "label_id": 10,
+          "label_name": "lotion_essentially_nivea(Clone)(Clone)"
+        },
+        {
+          "label_id": 11,
+          "label_name": "snack_coffeecakes_hostess(Clone)(Clone)"
+        },
+        {
+          "label_id": 12,
+          "label_name": "hygiene_poise_pads_02(Clone)(Clone)"
+        },
+        {
+          "label_id": 13,
+          "label_name": "craft_yarn_caron_01(Clone)(Clone)"
+        },
+        {
+          "label_id": 14,
+          "label_name": "cleaning_freegentle_tide(Clone)(Clone)"
+        },
+        {
+          "label_id": 15,
+          "label_name": "toiletry_tissue_softly(Clone)(Clone)"
+        },
+        {
+          "label_id": 16,
+          "label_name": "snack_chips_pringles(Clone)(Clone)"
+        },
+        {
+          "label_id": 17,
+          "label_name": "storage_ziploc_sandwich(Clone)(Clone)"
+        },
+        {
+          "label_id": 18,
+          "label_name": "snack_granolabar_naturevalley(Clone)(Clone)"
+        },
+        {
+          "label_id": 19,
+          "label_name": "soup_chickenenchilada_progresso(Clone)(Clone)"
+        },
+        {
+          "label_id": 20,
+          "label_name": "utensil_trashbag_valuecorner(Clone)(Clone)"
+        },
+        {
+          "label_id": 21,
+          "label_name": "pasta_lasagne_barilla(Clone)(Clone)"
+        },
+        {
+          "label_id": 22,
+          "label_name": "pest_antbaits_terro(Clone)(Clone)"
+        },
+        {
+          "label_id": 23,
+          "label_name": "utensil_coffee_filters(Clone)(Clone)"
+        },
+        {
+          "label_id": 24,
+          "label_name": "drink_greentea_itoen(Clone)(Clone)"
+        },
+        {
+          "label_id": 25,
+          "label_name": "cracker_zwieback_brandt(Clone)(Clone)"
+        },
+        {
+          "label_id": 26,
+          "label_name": "cleaning_snuggle_henkel(Clone)(Clone)"
+        },
+        {
+          "label_id": 27,
+          "label_name": "snack_breadsticks_nutella(Clone)(Clone)"
+        },
+        {
+          "label_id": 28,
+          "label_name": "porridge_grits_quaker(Clone)(Clone)"
+        },
+        {
+          "label_id": 29,
+          "label_name": "cracker_honeymaid_nabisco(Clone)(Clone)"
+        },
+        {
+          "label_id": 30,
+          "label_name": "cracker_triscuit_avocado(Clone)(Clone)"
+        },
+        {
+          "label_id": 31,
+          "label_name": "cereal_cracklinoatbran_kelloggs(Clone)(Clone)"
+        },
+        {
+          "label_id": 32,
+          "label_name": "lotion_vanilla_nivea(Clone)(Clone)"
+        },
+        {
+          "label_id": 33,
+          "label_name": "drink_coffeebeans_kickinghorse(Clone)(Clone)"
+        },
+        {
+          "label_id": 34,
+          "label_name": "drink_orangejuice_minutemaid_01(Clone)(Clone)"
+        },
+        {
+          "label_id": 35,
+          "label_name": "snack_cookie_waffeletten(Clone)(Clone)"
+        },
+        {
+          "label_id": 36,
+          "label_name": "snack_granolabar_quaker(Clone)(Clone)"
+        },
+        {
+          "label_id": 37,
+          "label_name": "cracker_lightrye_wasa(Clone)(Clone)"
+        },
+        {
+          "label_id": 38,
+          "label_name": "cereal_corn_flakes(Clone)(Clone)"
+        },
+        {
+          "label_id": 39,
+          "label_name": "cereal_oatmealsquares_quaker(Clone)(Clone)"
+        },
+        {
+          "label_id": 40,
+          "label_name": "utensil_toiletpaper_scott(Clone)(Clone)"
+        },
+        {
+          "label_id": 41,
+          "label_name": "snack_cookie_walkers_02(Clone)(Clone)"
+        },
+        {
+          "label_id": 42,
+          "label_name": "chips_gardensalsa_sunchips(Clone)(Clone)"
+        },
+        {
+          "label_id": 43,
+          "label_name": "toiletry_toothpaste_colgate(Clone)(Clone)"
+        },
+        {
+          "label_id": 44,
+          "label_name": "vitamin_centrumsilver_adults(Clone)(Clone)"
+        },
+        {
+          "label_id": 45,
+          "label_name": "cereal_raisin_bran(Clone)(Clone)"
+        },
+        {
+          "label_id": 46,
+          "label_name": "drink_adrenaline_shock(Clone)(Clone)"
+        },
+        {
+          "label_id": 47,
+          "label_name": "cereal_rice_krispies(Clone)(Clone)"
+        },
+        {
+          "label_id": 48,
+          "label_name": "cereal_cheerios_honeynut(Clone)(Clone)"
+        },
+        {
+          "label_id": 49,
+          "label_name": "cereal_puffins_barbaras(Clone)(Clone)"
+        },
+        {
+          "label_id": 50,
+          "label_name": "snack_granolabar_kashi_02(Clone)(Clone)"
+        },
+        {
+          "label_id": 51,
+          "label_name": "snack_granolabar_kind(Clone)(Clone)"
+        },
+        {
+          "label_id": 52,
+          "label_name": "snack_cookie_quadratini(Clone)(Clone)"
+        },
+        {
+          "label_id": 53,
+          "label_name": "utensil_papertowels_valuecorner_01(Clone)(Clone)"
+        },
+        {
+          "label_id": 54,
+          "label_name": "snack_cookies_fourre(Clone)(Clone)"
+        },
+        {
+          "label_id": 55,
+          "label_name": "snack_salame_hillshire(Clone)(Clone)"
+        }
+      ]
+    },
+    {
+      "@type": "type.unity.com/unity.solo.DepthAnnotation",
+      "id": "Depth",
+      "description": "Generates a 32-bit depth image in EXR format where each pixel contains the actual distance in Unity units (usually meters) from the camera to the object in the scene."
+    },
+    {
+      "@type": "type.unity.com/unity.solo.NormalAnnotation",
+      "id": "Normal",
+      "description": "Produces an image capturing the vertex normals of objects within the frame."
+    },
+    {
+      "@type": "type.unity.com/unity.solo.PixelPositionAnnotation",
+      "id": "PixelPosition",
+      "description": "Generates a pixelized position image where RGB channels denote the XYZ components of the vector from the camera to the object at a pixel respectively."
+    },
+    {
+      "@type": "type.unity.com/unity.solo.SemanticSegmentationAnnotation",
+      "id": "SemanticSegmentation",
+      "description": "Generates a semantic segmentation image for each captured frame. Each object is rendered to the semantic segmentation image using the color associated with it based on this labeler's associated semantic segmentation label configuration. Semantic segmentation images are saved to the dataset in PNG format. Please note that only one SemanticSegmentationLabeler can render at once across all cameras."
+    }
+  ]
+}
