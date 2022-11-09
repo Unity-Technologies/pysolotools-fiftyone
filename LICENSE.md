@@ -1,5 +1,5 @@
 
-com.unity.perception copyright © 2021 Unity Technologies ApS
+pysolotools-fiftyone copyright © 2022 Unity Technologies ApS
 
                                  Apache License
                            Version 2.0, January 2004
@@ -189,7 +189,7 @@ com.unity.perception copyright © 2021 Unity Technologies ApS
       same "printed page" as the copyright notice for easier
       identification within third-party archives.
 
-   Copyright 2017 Unity Technologies
+   Copyright 2022 Unity Technologies
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
