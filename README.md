@@ -170,7 +170,7 @@ and [code of conduct](CODE_OF_CONDUCT.md).
 # Support
 
 For feature requests, bugs, or other issues, please file a
-[GitHub issue](https://github.com/Unity-Technologies/Unity-Vision-Hub/issues)
+[GitHub issue](https://github.com/Unity-Technologies/pysolotools-fiftyone/issues)
 using the provided templates we will investigate as soon as possible.
 
 # License
