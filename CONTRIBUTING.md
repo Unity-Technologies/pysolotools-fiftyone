@@ -1,6 +1,6 @@
 # Contribution Guidelines
 
-Thank you for your interest in contributing to pysolotools! We are incredibly excited to see how members of our community will use and extend the tools. To facilitate your contributions, we've outlined a brief set of guidelines to ensure that your extensions can be easily integrated.
+Thank you for your interest in contributing to pysolotools-fiftyone! We are incredibly excited to see how members of our community will use and extend the tools. To facilitate your contributions, we've outlined a brief set of guidelines to ensure that your extensions can be easily integrated.
 
 ## Communication
 
@@ -8,7 +8,7 @@ First, please read through our
 [code of conduct](CODE_OF_CONDUCT.md),
 as we expect all our contributors to follow it.
 
-Second, before starting on a project that you intend to contribute to the Perception package we **strongly** recommend posting on our [Issues page](https://github.com/Unity-Technologies/pysolotools/issues) and briefly outlining the changes you plan to make. This will enable us to provide
+Second, before starting on a project that you intend to contribute to the Perception package we **strongly** recommend posting on our [Issues page](https://github.com/Unity-Technologies/pysolotools-fiftyone/issues) and briefly outlining the changes you plan to make. This will enable us to provide
 some context that may be helpful for you, including advice on how to optimally perform your changes or even reasons for not doing it.
 
 Lastly, if you're looking for input on what to contribute, feel free to browse the [Unity Computer Vision forums](https://forum.unity.com/forums/computer-vision.626/) and GitHub issues with the `Requests` or `Bug` label.
@@ -35,5 +35,5 @@ When you open a pull request, one GitHub check will require you to acknolwedge o
 License Agreement. We allow both individual contributions and contributions made
 on behalf of companies. We use an open source tool called CLA assistant. If you
 have any questions on our CLA, please
-[submit an issue](https://github.com/Unity-Technologies/pysolotools/issues) or
+[submit an issue](https://github.com/Unity-Technologies/pysolotools-fiftyone/issues) or
 email us at [computer-vision@unity3d.com](mailto:computer-vision@unity3d.com).
