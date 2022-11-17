@@ -8,7 +8,7 @@ import json
 import os
 from os.path import dirname, realpath
 
-from setuptools import setup, find_packages
+from setuptools import find_packages, setup
 
 # Package meta-data.
 NAME = "pysolotools-fiftyone"
@@ -17,7 +17,7 @@ URL = "https://https://github.com/Unity-Technologies/pysolotools-fiftyone"
 EMAIL = "computer-vision@unity3d.com"
 AUTHOR = "Unity Technologies"
 REQUIRES_PYTHON = ">=3.8"
-VERSION = "0.3.21"
+VERSION = "0.3.22"
 
 
 here = os.path.abspath(os.path.dirname(__file__))
