@@ -33,7 +33,7 @@ It supports the displaying of the following annotations:
 - Pixel Position
 
 # Pre-Requisites
-- Install [Anaconda](https://docs.anaconda.com/anaconda/install/) or [Miniconda](https://docs.conda.io/en/latest/miniconda.html) (recommended). 
+- Install [Anaconda](https://docs.anaconda.com/anaconda/install/) or [Miniconda](https://docs.conda.io/en/latest/miniconda.html) (recommended).
 - Install [pre-commit](https://pre-commit.com/).
 - Install [OpenEXR](https://www.openexr.com/).
 - Make sure `pip` is installed
@@ -41,10 +41,8 @@ It supports the displaying of the following annotations:
 # Installation
 
 ```shell
-pip install pysolotools-fiftyone --index-url=https://artifactory.prd.it.unity3d.com/artifactory/api/pypi/pypi/simple
+pip install pysolotools-fiftyone
 ```
-
-** The package lives in the internal Unity PyPi repo for now.
 
 # Execution
 
@@ -88,7 +86,7 @@ of the image.
 # Annotation Types
 ## Bounding Boxes
 2D bounding boxes and label type for each visible labeled object in the image. Detailed information includes the amount
-of visible pixels of the object. 
+of visible pixels of the object.
 <p align="center">
 <img src="docs/images/bb_51.png"/>
     <br><i>Bounding boxes in Voxel51</i><br>
@@ -102,7 +100,7 @@ Semantic segmentation labels each pixel of an image with a label type.
 </p>
 
 ## Instance Segmentation
-Each pixel of the image is labeled with the ID of the object that it represents.  
+Each pixel of the image is labeled with the ID of the object that it represents.
 <p align="center">
 <img src="docs/images/instance_51.png"/>
     <br><i>Instance segmentation in Voxel51</i><br>
@@ -123,7 +121,7 @@ Display keypoint (generally, but not limited to, a human skeleton) information.
 </p>
 
 ## Depth
-Pixel distance from the camera in the scene displayed in [Plotly's virdis scale](https://plotly.com/python/builtin-colorscales/). The color scale goes from purple to 
+Pixel distance from the camera in the scene displayed in [Plotly's virdis scale](https://plotly.com/python/builtin-colorscales/). The color scale goes from purple to
 yellow, with purple representing objects closer to the camera.
 <p align="center">
 <img src="docs/images/depth_51.png"/>
@@ -131,7 +129,7 @@ yellow, with purple representing objects closer to the camera.
 </p>
 
 ## Occlusion
-Object occlusion, or the amount of the object you can see, displayed in [Plotly's virdis scale](https://plotly.com/python/builtin-colorscales/). The scale goes from yellow (fully visible) to purple (fully occluded). 
+Object occlusion, or the amount of the object you can see, displayed in [Plotly's virdis scale](https://plotly.com/python/builtin-colorscales/). The scale goes from yellow (fully visible) to purple (fully occluded).
 Hovering over a pixel will give you the exact occlusion value.
 <p align="center">
 <img src="docs/images/occlusion_51.png"/>
