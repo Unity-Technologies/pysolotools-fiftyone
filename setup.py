@@ -4,7 +4,6 @@ Installs pysolotools-fiftyone
 """
 
 import io
-import json
 import os
 from os.path import dirname, realpath
 
@@ -22,6 +21,10 @@ VERSION = "0.3.22"
 
 here = os.path.abspath(os.path.dirname(__file__))
 
+with io.open(os.path.join(here, "README.md"), encoding="utf-8") as f:
+    long_description = "\n" + f.read()
+
+
 def _read_requirements():
     requirements = f"{dirname(realpath(__file__))}/requirements.txt"
     with open(requirements) as f:
@@ -37,7 +40,8 @@ setup(
     name=NAME,
     version=VERSION,
     description=DESCRIPTION,
-    long_description=DESCRIPTION,
+    long_description=long_description,
+    long_description_content_type="text/markdown",
     author=AUTHOR,
     author_email=EMAIL,
     python_requires=REQUIRES_PYTHON,
