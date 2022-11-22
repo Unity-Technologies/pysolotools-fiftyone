@@ -16,7 +16,7 @@ URL = "https://https://github.com/Unity-Technologies/pysolotools-fiftyone"
 EMAIL = "computer-vision@unity3d.com"
 AUTHOR = "Unity Technologies"
 REQUIRES_PYTHON = ">=3.8"
-VERSION = "0.3.23"
+VERSION = "0.3.25"
 
 
 here = os.path.abspath(os.path.dirname(__file__))
