@@ -4,7 +4,6 @@ Installs pysolotools-fiftyone
 """
 
 import io
-import json
 import os
 from os.path import dirname, realpath
 
@@ -17,10 +16,14 @@ URL = "https://https://github.com/Unity-Technologies/pysolotools-fiftyone"
 EMAIL = "computer-vision@unity3d.com"
 AUTHOR = "Unity Technologies"
 REQUIRES_PYTHON = ">=3.8"
-VERSION = "0.3.22"
+VERSION = "0.3.23"
 
 
 here = os.path.abspath(os.path.dirname(__file__))
+
+with io.open(os.path.join(here, "README.md"), encoding="utf-8") as f:
+    long_description = "\n" + f.read()
+
 
 def _read_requirements():
     requirements = f"{dirname(realpath(__file__))}/requirements.txt"
@@ -37,7 +40,8 @@ setup(
     name=NAME,
     version=VERSION,
     description=DESCRIPTION,
-    long_description=DESCRIPTION,
+    long_description=long_description,
+    long_description_content_type="text/markdown",
     author=AUTHOR,
     author_email=EMAIL,
     python_requires=REQUIRES_PYTHON,
