@@ -19,9 +19,9 @@ jobs:
       - name: Install pypa/build
         run: python -m pip install build --user
       - name: Build a binary wheel and a source tarball
-        run: python -m build --sdist --wheel --outdir dist/
-      - name: Check Branch
-        run: echo $GITHUB_REF_NAME
+        run: |
+          echo $GITHUB_REF_NAME
+          python -m build --sdist --wheel --outdir dist/
       - name: Publish distribution to PyPI
         if: {{ $GITHUB_REF_NAME }} == 'main'
         uses: pypa/gh-action-pypi-publish@release/v1
